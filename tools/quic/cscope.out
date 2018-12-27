@@ -1,0 +1,25023 @@
+cscope 15 $HOME/chromium/src/net/tools/quic               0000156751
+	@crypto_message_printer_bin.cc
+
+10 
+	~<io¡»am
+>
+
+12 
+	~"ba£/commªd_lše.h
+"
+
+13 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/üy±o_äam”.h
+"
+
+14 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_‹xt_uts.h
+"
+
+16 
+usšg
+ 
+	gquic
+::
+P”¥eùive
+;
+
+17 
+usšg
+ 
+	g¡d
+::
+û¼
+;
+
+18 
+usšg
+ 
+	g¡d
+::
+cout
+;
+
+19 
+usšg
+ 
+	g¡d
+::
+’dl
+;
+
+21 
+Çme¥aû
+ 
+	gÃt
+ {
+
+23 şas 
+	cCry±oMes§gePrš‹r
+ : 
+public
+ 
+quic
+::
+Cry±oF¿m”Vis™ÜIÁ”çû
+ {
+
+24 
+public
+:
+
+25 
+ex¶ic™
+ 
+Cry±oMes§gePrš‹r
+() {}
+
+27 
+OnHªdshakeMes§ge
+(
+
+28 cÚ¡ 
+quic
+::
+Cry±oHªdshakeMes§ge
+& 
+mes§ge
+è
+ov”ride
+ {
+
+29 
+cout
+ << 
+mes§ge
+.
+DebugSŒšg
+(è<< 
+’dl
+;
+
+32 
+OnE¼Ü
+(
+quic
+::
+Cry±oF¿m”
+* 
+äam”
+è
+ov”ride
+ {
+
+33 
+û¼
+ << "E¼Ü code: " << 
+äam”
+->
+”rÜ
+(è<< 
+’dl
+;
+
+34 
+	gû¼
+ << "E¼Ü d‘as: " << 
+	gäam”
+->
+”rÜ_d‘a
+(è<< 
+	g’dl
+;
+
+41 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[]) {
+
+42 
+ba£
+::
+CommªdLše
+::
+	`In™
+(
+¬gc
+, 
+¬gv
+);
+
+44 ià(
+¬gc
+ != 1) {
+
+45 
+û¼
+ << "U§ge: " << 
+¬gv
+[0] << " <hex of message>\n";
+
+49 
+Ãt
+::
+Cry±oMes§gePrš‹r
+ 
+´š‹r
+;
+
+50 
+quic
+::
+Cry±oF¿m”
+ 
+äam”
+;
+
+51 
+äam”
+.
+	`£t_vis™Ü
+(&
+´š‹r
+);
+
+52 
+äam”
+.
+	`£t_´oûss_Œunÿ‹d_mes§ges
+(
+Œue
+);
+
+53 
+¡d
+::
+¡ršg
+ 
+šput
+ = 
+quic
+::
+QuicTextUts
+::
+	`HexDecode
+(
+¬gv
+[1]);
+
+54 ià(!
+äam”
+.
+	`ProûssIÅut
+(
+šput
+)) {
+
+57 ià(
+äam”
+.
+	`IÅutBy‹sRemaššg
+() != 0) {
+
+58 
+û¼
+ << "IÅuˆ·¹ŸÎy cÚsumed. " << 
+äam”
+.
+	`IÅutBy‹sRemaššg
+()
+
+59 << " by‹ »maššg." << 
+’dl
+;
+
+63 
+	}
+}
+
+	@quic_client_message_loop_network_helper.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_ş›Á_mes§ge_loİ_ÃtwÜk_h–³r.h
+"
+
+7 
+	~<ut™y
+>
+
+9 
+	~"ba£/loggšg.h
+"
+
+10 
+	~"ba£/run_loİ.h
+"
+
+11 
+	~"ba£/th»adšg/th»ad_sk_ruÂ”_hªdË.h
+"
+
+12 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+13 
+	~"Ãt/h‰p/h‰p_»que¡_šfo.h
+"
+
+14 
+	~"Ãt/h‰p/h‰p_»¥Ú£_šfo.h
+"
+
+15 
+	~"Ãt/log/Ãt_log_sourû.h
+"
+
+16 
+	~"Ãt/log/Ãt_log_w™h_sourû.h
+"
+
+17 
+	~"Ãt/quic/quic_chromium_®¬m_çùÜy.h
+"
+
+18 
+	~"Ãt/quic/quic_chromium_cÚÃùiÚ_h–³r.h
+"
+
+19 
+	~"Ãt/quic/quic_chromium_·ck‘_»ad”.h
+"
+
+20 
+	~"Ãt/quic/quic_chromium_·ck‘_wr™”.h
+"
+
+21 
+	~"Ãt/sock‘/udp_ş›Á_sock‘.h
+"
+
+22 
+	~"Ãt/¥dy/¥dy_h‰p_uts.h
+"
+
+23 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_¿ndom.h
+"
+
+24 
+	~"Ãt/thœd_·¹y/quic/cÜe/h‰p/¥dy_uts.h
+"
+
+25 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ.h
+"
+
+26 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+27 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_£rv”_id.h
+"
+
+28 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_æags.h
+"
+
+29 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_±r_ut.h
+"
+
+30 
+	~"Ãt/thœd_·¹y/¥dy/cÜe/¥dy_h—d”_block.h
+"
+
+32 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+34 
+Çme¥aû
+ 
+	gÃt
+ {
+
+36 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+(
+
+37 
+quic
+::
+QuicChromiumClock
+* 
+şock
+,
+
+38 
+quic
+::
+QuicCl›ÁBa£
+* 
+ş›Á
+)
+
+39 : 
+·ck‘_»ad”_¡¬‹d_
+(
+çl£
+), 
+şock_
+(
+şock
+), 
+ş›Á_
+(
+ş›Á
+) {}
+
+41 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::~
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+() =
+
+44 
+boŞ
+ 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+C»©eUDPSock‘AndBšd
+(
+
+45 
+quic
+::
+QuicSock‘Add»ss
+ 
+£rv”_add»ss
+,
+
+46 
+quic
+::
+QuicIpAdd»ss
+ 
+bšd_to_add»ss
+,
+
+47 
+bšd_to_pÜt
+) {
+
+48 autØ
+	gsock‘
+ = 
+¡d
+::
+make_unique
+<
+UDPCl›ÁSock‘
+>(
+D©ag¿mSock‘
+::
+DEFAULT_BIND
+,
+
+49 &
+	gÃt_log_
+, 
+N‘LogSourû
+());
+
+51 ià(
+	gbšd_to_add»ss
+.
+IsIn™Ÿlized
+()) {
+
+52 
+	gş›Á_add»ss_
+ =
+
+53 
+quic
+::
+QuicSock‘Add»ss
+(
+bšd_to_add»ss
+, 
+ş›Á_
+->
+loÿl_pÜt
+());
+
+54 } ià(
+	g£rv”_add»ss
+.
+ho¡
+().
+add»ss_çmy
+() ==
+
+55 
+quic
+::
+IpAdd»ssFamy
+::
+IP_V4
+) {
+
+56 
+ş›Á_add»ss_
+ =
+
+57 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicIpAdd»ss
+::
+Any4
+(), 
+bšd_to_pÜt
+);
+
+59 
+	gş›Á_add»ss_
+ =
+
+60 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicIpAdd»ss
+::
+Any6
+(), 
+bšd_to_pÜt
+);
+
+63 
+	grc
+ = 
+sock‘
+->
+CÚÃù
+(
+£rv”_add»ss
+.
+im¶
+().
+sock‘_add»ss
+());
+
+64 ià(
+	grc
+ !ğ
+OK
+) {
+
+65 
+LOG
+(
+ERROR
+è<< "CÚÃù faed: " << 
+E¼ÜToShÜtSŒšg
+(
+rc
+);
+
+66  
+	gçl£
+;
+
+69 
+	grc
+ = 
+sock‘
+->
+S‘ReûiveBufãrSize
+(
+quic
+::
+kDeçuÉSock‘ReûiveBufãr
+);
+
+70 ià(
+	grc
+ !ğ
+OK
+) {
+
+71 
+LOG
+(
+ERROR
+è<< "S‘ReûiveBufãrSize(èçed: " << 
+E¼ÜToShÜtSŒšg
+(
+rc
+);
+
+72  
+	gçl£
+;
+
+75 
+	grc
+ = 
+sock‘
+->
+S‘S’dBufãrSize
+(
+quic
+::
+kDeçuÉSock‘ReûiveBufãr
+);
+
+76 ià(
+	grc
+ !ğ
+OK
+) {
+
+77 
+LOG
+(
+ERROR
+è<< "S‘S’dBufãrSize(èçed: " << 
+E¼ÜToShÜtSŒšg
+(
+rc
+);
+
+78  
+	gçl£
+;
+
+81 
+IPEndPošt
+ 
+	gadd»ss
+;
+
+82 
+	grc
+ = 
+sock‘
+->
+G‘LoÿlAdd»ss
+(&
+add»ss
+);
+
+83 ià(
+	grc
+ !ğ
+OK
+) {
+
+84 
+LOG
+(
+ERROR
+è<< "G‘LoÿlAdd»s çed: " << 
+E¼ÜToShÜtSŒšg
+(
+rc
+);
+
+85  
+	gçl£
+;
+
+87 
+	gş›Á_add»ss_
+ =
+
+88 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicSock‘Add»ssIm¶
+(
+add»ss
+));
+
+90 
+	gsock‘_
+.
+sw­
+(
+sock‘
+);
+
+91 
+	g·ck‘_»ad”_
+.
+»£t
+(
+Ãw
+ 
+QuicChromiumPack‘R—d”
+(
+
+92 
+sock‘_
+.
+g‘
+(), 
+şock_
+, 
+this
+, 
+kQuicY›ldAá”Pack‘sR—d
+,
+
+93 
+quic
+::
+QuicTime
+::
+D–
+::
+FromMli£cÚds
+(
+
+94 
+kQuicY›ldAá”Du¿tiÚMli£cÚds
+),
+
+95 
+N‘LogW™hSourû
+()));
+
+97 ià(
+	gsock‘
+ !ğ
+nuÎ±r
+) {
+
+98 
+sock‘
+->
+Clo£
+();
+
+101  
+	gŒue
+;
+
+104 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+CËªUpAÎUDPSock‘s
+() {
+
+105 
+ş›Á_
+->
+»£t_wr™”
+();
+
+106 
+	g·ck‘_»ad”_
+.
+»£t
+();
+
+107 
+	g·ck‘_»ad”_¡¬‹d_
+ = 
+çl£
+;
+
+110 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+S¹Pack‘R—d”IfNÙS¹ed
+() {
+
+111 ià(!
+·ck‘_»ad”_¡¬‹d_
+) {
+
+112 
+·ck‘_»ad”_
+->
+S¹R—dšg
+();
+
+113 
+	g·ck‘_»ad”_¡¬‹d_
+ = 
+Œue
+;
+
+117 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+RunEv’tLoİ
+() {
+
+118 
+S¹Pack‘R—d”IfNÙS¹ed
+();
+
+119 
+	gba£
+::
+RunLoİ
+().
+RunUÁIdË
+();
+
+122 
+	gquic
+::
+QuicPack‘Wr™”
+*
+
+123 
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+C»©eQuicPack‘Wr™”
+() {
+
+124  
+Ãw
+ 
+QuicChromiumPack‘Wr™”
+(
+
+125 
+sock‘_
+.
+g‘
+(), 
+ba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+().get());
+
+128 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+OnR—dE¼Ü
+(
+
+129 
+»suÉ
+,
+
+130 cÚ¡ 
+D©ag¿mCl›ÁSock‘
+* 
+sock‘
+) {
+
+131 
+LOG
+(
+ERROR
+è<< "QuicSim¶eCl›Á„—d faed: " << 
+E¼ÜToShÜtSŒšg
+(
+»suÉ
+);
+
+132 
+	gş›Á_
+->
+DiscÚÃù
+();
+
+135 
+	gquic
+::
+QuicSock‘Add»ss
+
+
+136 
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+G‘L©e¡Cl›ÁAdd»ss
+() const {
+
+137  
+ş›Á_add»ss_
+;
+
+140 
+boŞ
+ 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+::
+OnPack‘
+(
+
+141 cÚ¡ 
+quic
+::
+QuicReûivedPack‘
+& 
+·ck‘
+,
+
+142 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+loÿl_add»ss
+,
+
+143 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+) {
+
+144 
+ş›Á_
+->
+£ssiÚ
+()->
+cÚÃùiÚ
+()->
+ProûssUdpPack‘
+(
+loÿl_add»ss
+,
+
+145 
+³”_add»ss
+, 
+·ck‘
+);
+
+146 ià(!
+	gş›Á_
+->
+£ssiÚ
+()->
+cÚÃùiÚ
+()->
+cÚÃùed
+()) {
+
+147  
+	gçl£
+;
+
+150  
+	gŒue
+;
+
+	@quic_client_message_loop_network_helper.h
+
+8 #iâdeà
+NET_TOOLS_QUIC_QUIC_CLIENT_MESSAGE_LOOP_NETWORK_HELPER_H_
+
+
+9 
+	#NET_TOOLS_QUIC_QUIC_CLIENT_MESSAGE_LOOP_NETWORK_HELPER_H_
+
+
+	)
+
+11 
+	~<¡ddef.h
+>
+
+13 
+	~<memÜy
+>
+
+14 
+	~<¡ršg
+>
+
+16 
+	~"ba£/commªd_lše.h
+"
+
+17 
+	~"ba£/maüos.h
+"
+
+18 
+	~"Ãt/ba£/_add»ss.h
+"
+
+19 
+	~"Ãt/ba£/_’dpošt.h
+"
+
+20 
+	~"Ãt/h‰p/h‰p_»¥Ú£_h—d”s.h
+"
+
+21 
+	~"Ãt/log/Ãt_log.h
+"
+
+22 
+	~"Ãt/quic/quic_chromium_·ck‘_»ad”.h
+"
+
+23 
+	~"Ãt/thœd_·¹y/quic/cÜe/h‰p/quic_¥dy_¡»am.h
+"
+
+24 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚfig.h
+"
+
+25 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/im¶/quic_chromium_şock.h
+"
+
+26 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_¥dy_ş›Á_ba£.h
+"
+
+28 
+Çme¥aû
+ 
+	gÃt
+ {
+
+30 
+şass
+ 
+	gUDPCl›ÁSock‘
+;
+
+34 
+şass
+ 
+	gQuicCl›ÁMes§geLoİlN‘wÜkH–³r
+
+
+35 : 
+public
+ 
+quic
+::
+QuicCl›ÁBa£
+::
+N‘wÜkH–³r
+,
+
+36 
+public
+ 
+	gQuicChromiumPack‘R—d”
+::
+Vis™Ü
+ {
+
+37 
+public
+:
+
+40 
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+(
+quic
+::
+QuicChromiumClock
+* 
+şock
+,
+
+41 
+quic
+::
+QuicCl›ÁBa£
+* 
+ş›Á
+);
+
+43 ~
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+(è
+	gov”ride
+;
+
+46 
+OnR—dE¼Ü
+(
+»suÉ
+, cÚ¡ 
+D©ag¿mCl›ÁSock‘
+* 
+sock‘
+è
+	gov”ride
+;
+
+47 
+boŞ
+ 
+OnPack‘
+(cÚ¡ 
+quic
+::
+QuicReûivedPack‘
+& 
+·ck‘
+,
+
+48 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+loÿl_add»ss
+,
+
+49 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+è
+ov”ride
+;
+
+52 
+RunEv’tLoİ
+(è
+	gov”ride
+;
+
+53 
+boŞ
+ 
+C»©eUDPSock‘AndBšd
+(
+quic
+::
+QuicSock‘Add»ss
+ 
+£rv”_add»ss
+,
+
+54 
+quic
+::
+QuicIpAdd»ss
+ 
+bšd_to_add»ss
+,
+
+55 
+bšd_to_pÜt
+è
+	gov”ride
+;
+
+56 
+CËªUpAÎUDPSock‘s
+(è
+	gov”ride
+;
+
+57 
+	gquic
+::
+QuicSock‘Add»ss
+ 
+G‘L©e¡Cl›ÁAdd»ss
+(ècÚ¡ 
+ov”ride
+;
+
+58 
+	gquic
+::
+QuicPack‘Wr™”
+* 
+C»©eQuicPack‘Wr™”
+(è
+ov”ride
+;
+
+60 
+	g´iv©e
+:
+
+61 
+S¹Pack‘R—d”IfNÙS¹ed
+();
+
+64 
+	gquic
+::
+QuicSock‘Add»ss
+ 
+ş›Á_add»ss_
+;
+
+67 
+	g¡d
+::
+unique_±r
+<
+UDPCl›ÁSock‘
+> 
+sock‘_
+;
+
+70 
+N‘Log
+ 
+	gÃt_log_
+;
+
+72 
+	g¡d
+::
+unique_±r
+<
+QuicChromiumPack‘R—d”
+> 
+·ck‘_»ad”_
+;
+
+74 
+boŞ
+ 
+	g·ck‘_»ad”_¡¬‹d_
+;
+
+76 
+	gquic
+::
+QuicChromiumClock
+* 
+şock_
+;
+
+77 
+	gquic
+::
+QuicCl›ÁBa£
+* 
+ş›Á_
+;
+
+79 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+);
+
+	@quic_http_proxy_backend.cc
+
+5 
+	~<lim™s.h
+>
+
+6 
+	~<¡ddef.h
+>
+
+7 
+	~<¡dšt.h
+>
+
+9 
+	~<io¡»am
+>
+
+10 
+	~<lim™s
+>
+
+11 
+	~<m­
+>
+
+12 
+	~<£t
+>
+
+13 
+	~<ut™y
+>
+
+14 
+	~<veùÜ
+>
+
+16 
+	~"bud/bud_cÚfig.h
+"
+
+17 
+	~"Ãt/ba£/lßd_æags.h
+"
+
+18 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+19 
+	~"Ãt/ba£/u¾_ut.h
+"
+
+20 
+	~"Ãt/û¹/û¹_v”if›r.h
+"
+
+21 
+	~"Ãt/cook›s/cook›_mÚ¡”.h
+"
+
+22 
+	~"Ãt/h‰p/h‰p_auth_hªdËr_çùÜy.h
+"
+
+23 
+	~"Ãt/´oxy_»sŞutiÚ/´oxy_cÚfig_£rviû_fixed.h
+"
+
+24 
+	~"Ãt/s¦/chªÃl_id_£rviû.h
+"
+
+25 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d.h
+"
+
+26 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d_¡»am.h
+"
+
+27 
+	~"Ãt/u¾_»que¡/u¾_»que¡_cÚ‹xt.h
+"
+
+28 
+	~"Ãt/u¾_»que¡/u¾_»que¡_cÚ‹xt_bud”.h
+"
+
+29 
+	~"Ãt/u¾_»que¡/u¾_»que¡_š‹rû±Ü.h
+"
+
+31 
+Çme¥aû
+ 
+	gÃt
+ {
+
+33 
+	gQuicH‰pProxyBack’d
+::
+QuicH‰pProxyBack’d
+()
+
+34 : 
+cÚ‹xt_
+(
+nuÎ±r
+), 
+th»ad_š™Ÿlized_
+(
+çl£
+), 
+´oxy_th»ad_
+(nullptr) {}
+
+36 
+	gQuicH‰pProxyBack’d
+::~
+QuicH‰pProxyBack’d
+() {
+
+37 
+back’d_¡»am_m­_
+.
+ş—r
+();
+
+38 
+	gth»ad_š™Ÿlized_
+ = 
+çl£
+;
+
+39 
+	g´oxy_sk_ruÂ”_
+->
+D–‘eSoÚ
+(
+FROM_HERE
+, 
+cÚ‹xt_
+.
+»Ëa£
+());
+
+40 ià(
+	g´oxy_th»ad_
+ !ğ
+nuÎ±r
+) {
+
+41 
+LOG
+(
+INFO
+è<< "QUIC Proxyh»ad: " << 
+´oxy_th»ad_
+->
+th»ad_Çme
+()
+
+43 
+	g´oxy_th»ad_
+.
+»£t
+();
+
+47 
+boŞ
+ 
+	gQuicH‰pProxyBack’d
+::
+In™ŸlizeBack’d
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+back’d_u¾
+) {
+
+48 ià(!
+V®id©eBack’dU¾
+(
+back’d_u¾
+)) {
+
+49  
+çl£
+;
+
+51 ià(
+	g´oxy_th»ad_
+ =ğ
+nuÎ±r
+) {
+
+52 
+´oxy_th»ad_
+ = 
+¡d
+::
+make_unique
+<
+ba£
+::
+Th»ad
+>("quic…roxyhread");
+
+53 
+	gba£
+::
+Th»ad
+::
+O±iÚs
+ 
+İtiÚs
+;
+
+54 
+	gİtiÚs
+.
+	gmes§ge_loİ_ty³
+ = 
+ba£
+::
+Mes§geLoİ
+::
+TYPE_IO
+;
+
+55 
+boŞ
+ 
+	g»suÉ
+ = 
+´oxy_th»ad_
+->
+S¹W™hO±iÚs
+(
+İtiÚs
+);
+
+56 
+	g´oxy_sk_ruÂ”_
+ = 
+´oxy_th»ad_
+->
+sk_ruÂ”
+();
+
+57 
+CHECK
+(
+»suÉ
+);
+
+59 
+	gth»ad_š™Ÿlized_
+ = 
+Œue
+;
+
+60  
+	gŒue
+;
+
+63 
+boŞ
+ 
+	gQuicH‰pProxyBack’d
+::
+V®id©eBack’dU¾
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+back’d_u¾
+) {
+
+64 
+back’d_u¾_
+ = 
+GURL
+(
+back’d_u¾
+);
+
+66 ià(!
+	gback’d_u¾_
+.
+is_v®id
+(è|| !back’d_u¾_.
+SchemeIsHTTPOrHTTPS
+()) {
+
+67 
+LOG
+(
+ERROR
+è<< "QUIC Proxy Back’d URL '" << 
+	gback’d_u¾
+
+
+69  
+	gçl£
+;
+
+72 
+LOG
+(
+INFO
+)
+
+74 << 
+	gback’d_u¾_
+.
+¥ec
+();
+
+75  
+	gŒue
+;
+
+78 
+boŞ
+ 
+	gQuicH‰pProxyBack’d
+::
+IsBack’dIn™Ÿlized
+() const {
+
+79  
+th»ad_š™Ÿlized_
+;
+
+82 
+	gQuicH‰pProxyBack’d
+::
+F‘chRe¥Ú£FromBack’d
+(
+
+83 cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+& 
+»que¡_h—d”s
+,
+
+84 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+šcomšg_body
+,
+
+85 
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_£rv”_¡»am
+) {
+
+86 
+QuicH‰pProxyBack’dSŒ—m
+* 
+´oxy_back’d_¡»am
+ =
+
+87 
+In™ŸlizeQuicProxyBack’dSŒ—m
+(
+quic_£rv”_¡»am
+);
+
+89 
+LOG
+(
+INFO
+) << " Forwarding QUIC„equestohe Backend Thread Asynchronously.";
+
+90 ià(
+	g´oxy_back’d_¡»am
+ =ğ
+nuÎ±r
+ ||
+
+91 
+´oxy_back’d_¡»am
+->
+S’dReque¡ToBack’d
+(&
+»que¡_h—d”s
+,
+
+92 
+šcomšg_body
+è!ğ
+Œue
+) {
+
+93 
+¡d
+::
+li¡
+<
+quic
+::
+QuicBack’dRe¥Ú£
+::
+S”v”PushInfo
+> 
+em±y_»sourûs
+;
+
+94 
+	gquic_£rv”_¡»am
+->
+OnRe¥Ú£Back’dCom¶‘e
+(
+nuÎ±r
+, 
+em±y_»sourûs
+);
+
+98 
+QuicH‰pProxyBack’dSŒ—m
+*
+
+99 
+	gQuicH‰pProxyBack’d
+::
+In™ŸlizeQuicProxyBack’dSŒ—m
+(
+
+100 
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_£rv”_¡»am
+) {
+
+101 ià(!
+th»ad_š™Ÿlized_
+) {
+
+102  
+nuÎ±r
+;
+
+104 
+QuicH‰pProxyBack’dSŒ—m
+* 
+	g´oxy_back’d_¡»am
+ =
+
+105 
+Ãw
+ 
+QuicH‰pProxyBack’dSŒ—m
+(
+this
+);
+
+106 
+	g´oxy_back’d_¡»am
+->
+£t_d–eg©e
+(
+quic_£rv”_¡»am
+);
+
+107 
+	g´oxy_back’d_¡»am
+->
+In™Ÿlize
+(
+quic_£rv”_¡»am
+->
+cÚÃùiÚ_id
+(),
+
+108 
+quic_£rv”_¡»am
+->
+¡»am_id
+(),
+
+109 
+quic_£rv”_¡»am
+->
+³”_ho¡
+());
+
+112 
+	gba£
+::
+AutoLock
+ 
+lock
+(
+back’d_¡»am_mu‹x_
+);
+
+114 autØ
+	gš£¹ed
+ = 
+back’d_¡»am_m­_
+.
+š£¹
+(
+¡d
+::
+make_·œ
+(
+
+115 
+quic_£rv”_¡»am
+, 
+ba£
+::
+W¿pUnique
+(
+´oxy_back’d_¡»am
+)));
+
+116 
+DCHECK
+(
+š£¹ed
+.
+£cÚd
+);
+
+118  
+	g´oxy_back’d_¡»am
+;
+
+121 
+	gQuicH‰pProxyBack’d
+::
+Clo£Back’dRe¥Ú£SŒ—m
+(
+
+122 
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_£rv”_¡»am
+) {
+
+124 ià(
+quic_£rv”_¡»am
+ =ğ
+nuÎ±r
+) {
+
+128 ià(!
+	g´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+()) {
+
+129 
+	g´oxy_sk_ruÂ”_
+->
+Po¡Task
+(
+
+130 
+FROM_HERE
+,
+
+131 
+ba£
+::
+BšdOnû
+(&
+QuicH‰pProxyBack’d
+::
+Clo£Back’dRe¥Ú£SŒ—m
+,
+
+132 
+ba£
+::
+UÄ‘ašed
+(
+this
+), 
+quic_£rv”_¡»am
+));
+
+136 
+	gba£
+::
+AutoLock
+ 
+lock
+(
+back’d_¡»am_mu‹x_
+);
+
+137 
+QuicH‰pProxyBack’dSŒ—m
+* 
+	g´oxy_back’d_¡»am
+ = 
+nuÎ±r
+;
+
+139 autØ
+	g™
+ = 
+back’d_¡»am_m­_
+.
+fšd
+(
+quic_£rv”_¡»am
+);
+
+140 ià(
+	g™
+ !ğ
+back’d_¡»am_m­_
+.
+’d
+()) {
+
+141 
+´oxy_back’d_¡»am
+ = 
+™
+->
+£cÚd
+.
+g‘
+();
+
+142 
+	g´oxy_back’d_¡»am
+->
+CªûlReque¡
+();
+
+143 
+	g´oxy_back’d_¡»am
+->
+»£t_d–eg©e
+();
+
+144 
+LOG
+(
+INFO
+) << " Quic Proxy cleaned-up backend handler on context/main "
+
+146 << 
+	g´oxy_back’d_¡»am
+->
+quic_cÚÃùiÚ_id
+()
+
+148 << 
+	g´oxy_back’d_¡»am
+->
+quic_¡»am_id
+();
+
+149 
+size_t
+ 
+	g”a£d
+ = 
+back’d_¡»am_m­_
+.
+”a£
+(
+quic_£rv”_¡»am
+);
+
+150 
+DCHECK_EQ
+(1u, 
+”a£d
+);
+
+155 
+	gQuicH‰pProxyBack’d
+::
+In™ŸlizeURLReque¡CÚ‹xt
+() {
+
+156 
+DCHECK
+(
+cÚ‹xt_
+ =ğ
+nuÎ±r
+);
+
+157 
+	gÃt
+::
+URLReque¡CÚ‹xtBud”
+ 
+cÚ‹xt_bud”
+;
+
+159 
+	gcÚ‹xt_bud”
+.
+Di§bËH‰pCache
+();
+
+161 
+	gcÚ‹xt_bud”
+.
+S‘SpdyAndQuicEÇbËd
+(
+Œue
+ , 
+çl£
+ );
+
+163 #ià
+defšed
+(
+OS_LINUX
+)
+
+166 
+	gcÚ‹xt_bud”
+.
+£t_´oxy_cÚfig_£rviû
+(
+
+167 
+¡d
+::
+make_unique
+<
+ProxyCÚfigS”viûFixed
+>(
+
+168 
+ProxyCÚfigW™hAÂÙ©iÚ
+::
+C»©eDœeù
+()));
+
+172 
+	gcÚ‹xt_bud”
+.
+S‘Cook›StÜe
+(
+nuÎ±r
+);
+
+173 
+	gcÚ‹xt_
+ = 
+cÚ‹xt_bud”
+.
+Bud
+();
+
+176 
+	gÃt
+::
+URLReque¡CÚ‹xt
+* 
+QuicH‰pProxyBack’d
+::
+G‘URLReque¡CÚ‹xt
+() {
+
+178 
+DCHECK
+(
+´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+179 ià(
+	gcÚ‹xt_
+ =ğ
+nuÎ±r
+) {
+
+180 
+In™ŸlizeURLReque¡CÚ‹xt
+();
+
+182  
+	gcÚ‹xt_
+.
+g‘
+();
+
+185 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+>
+
+186 
+QuicH‰pProxyBack’d
+::
+G‘ProxyTaskRuÂ”
+() const {
+
+187  
+´oxy_sk_ruÂ”_
+;
+
+	@quic_http_proxy_backend.h
+
+19 #iâdeà
+NET_TOOLS_QUIC_QUIC_HTTP_PROXY_BACKEND_H_
+
+
+20 
+	#NET_TOOLS_QUIC_QUIC_HTTP_PROXY_BACKEND_H_
+
+
+	)
+
+22 
+	~<¡dšt.h
+>
+
+24 
+	~<memÜy
+>
+
+25 
+	~<queue
+>
+
+27 
+	~"ba£/ba£64.h
+"
+
+28 
+	~"ba£/ÿÎback.h
+"
+
+29 
+	~"ba£/loggšg.h
+"
+
+30 
+	~"ba£/maüos.h
+"
+
+31 
+	~"ba£/sšgË_th»ad_sk_ruÂ”.h
+"
+
+32 
+	~"ba£/th»adšg/th»ad.h
+"
+
+33 
+	~"ba£/th»adšg/th»ad_sk_ruÂ”_hªdË.h
+"
+
+34 
+	~"ba£/v®ues.h
+"
+
+35 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_£rv”_back’d.h
+"
+
+36 
+	~"Ãt/u¾_»que¡/u¾_»que¡_cÚ‹xt.h
+"
+
+37 
+	~"Ãt/u¾_»que¡/u¾_»que¡_cÚ‹xt_bud”.h
+"
+
+38 
+	~"u¾/gu¾.h
+"
+
+40 
+Çme¥aû
+ 
+	gba£
+ {
+
+41 
+şass
+ 
+	gSšgËTh»adTaskRuÂ”
+;
+
+44 
+Çme¥aû
+ 
+	gquic
+ {
+
+45 
+şass
+ 
+	gQuicSim¶eS”v”Back’d
+;
+
+48 
+Çme¥aû
+ 
+	gÃt
+ {
+
+49 
+şass
+ 
+	gQuicH‰pProxyBack’dSŒ—m
+;
+
+53 şas 
+	cQuicH‰pProxyBack’d
+ : 
+public
+ 
+quic
+::
+QuicSim¶eS”v”Back’d
+ {
+
+54 
+public
+:
+
+55 
+ex¶ic™
+ 
+QuicH‰pProxyBack’d
+();
+
+56 ~
+QuicH‰pProxyBack’d
+(è
+	gov”ride
+;
+
+59 
+	gÃt
+::
+URLReque¡CÚ‹xt
+* 
+G‘URLReque¡CÚ‹xt
+();
+
+60 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+> 
+G‘ProxyTaskRuÂ”
+() const;
+
+62 
+usšg
+ 
+	gProxyBack’dSŒ—mM­
+ =
+
+63 
+¡d
+::
+unÜd”ed_m­
+<
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+*,
+
+64 
+	g¡d
+::
+unique_±r
+<
+QuicH‰pProxyBack’dSŒ—m
+>>;
+
+65 cÚ¡ 
+ProxyBack’dSŒ—mM­
+* 
+´oxy_back’d_¡»ams_m­
+() const {
+
+66  &
+	gback’d_¡»am_m­_
+;
+
+69 
+GURL
+ 
+back’d_u¾
+(ècÚ¡ {  
+	gback’d_u¾_
+; }
+
+72 
+boŞ
+ 
+In™ŸlizeBack’d
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+back’d_u¾
+è
+ov”ride
+;
+
+73 
+boŞ
+ 
+IsBack’dIn™Ÿlized
+(ècÚ¡ 
+	gov”ride
+;
+
+74 
+F‘chRe¥Ú£FromBack’d
+(
+
+75 cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+& 
+»que¡_h—d”s
+,
+
+76 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+šcomšg_body
+,
+
+77 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_¡»am
+è
+ov”ride
+;
+
+78 
+Clo£Back’dRe¥Ú£SŒ—m
+(
+
+79 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_¡»am
+è
+ov”ride
+;
+
+81 
+	g´iv©e
+:
+
+84 
+ProxyBack’dSŒ—mM­
+ 
+back’d_¡»am_m­_
+;
+
+86 
+boŞ
+ 
+V®id©eBack’dU¾
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+back’d_u¾
+);
+
+87 
+In™ŸlizeURLReque¡CÚ‹xt
+();
+
+88 
+QuicH‰pProxyBack’dSŒ—m
+* 
+In™ŸlizeQuicProxyBack’dSŒ—m
+(
+
+89 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+quic_£rv”_¡»am
+);
+
+92 
+	g¡d
+::
+unique_±r
+<
+Ãt
+::
+URLReque¡CÚ‹xt
+> 
+cÚ‹xt_
+;
+
+94 
+boŞ
+ 
+	gth»ad_š™Ÿlized_
+;
+
+96 
+GURL
+ 
+	gback’d_u¾_
+;
+
+99 
+	g¡d
+::
+unique_±r
+<
+ba£
+::
+Th»ad
+> 
+´oxy_th»ad_
+;
+
+100 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+> 
+´oxy_sk_ruÂ”_
+;
+
+104 
+	gba£
+::
+Lock
+ 
+back’d_¡»am_mu‹x_
+;
+
+106 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicH‰pProxyBack’d
+);
+
+	@quic_http_proxy_backend_stream.cc
+
+5 
+	~"ba£/¡ršgs/¡ršg_numb”_cÚv”siÚs.h
+"
+
+6 
+	~"Ãt/ba£/–em’ts_u¶ßd_d©a_¡»am.h
+"
+
+7 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+8 
+	~"Ãt/ba£/»que¡_´iÜ™y.h
+"
+
+9 
+	~"Ãt/ba£/u¶ßd_by‹s_–em’t_»ad”.h
+"
+
+10 
+	~"Ãt/û¹/û¹_¡©us_æags.h
+"
+
+11 
+	~"Ãt/h‰p/h‰p_»¥Ú£_h—d”s.h
+"
+
+12 
+	~"Ãt/h‰p/h‰p_¡©us_code.h
+"
+
+13 
+	~"Ãt/h‰p/h‰p_ut.h
+"
+
+14 
+	~"Ãt/s¦/s¦_šfo.h
+"
+
+15 
+	~"Ãt/u¾_»que¡/»dœeù_šfo.h
+"
+
+16 
+	~"Ãt/u¾_»que¡/u¾_»que¡_cÚ‹xt.h
+"
+
+18 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d_¡»am.h
+"
+
+20 
+Çme¥aû
+ 
+	gÃt
+ {
+
+25 cÚ¡ 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+kBufãrSize
+ = 64000;
+
+29 cÚ¡ 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+kProxyH‰pBack’dE¼Ü
+ = 502;
+
+34 cÚ¡ 
+	g¡d
+::
+£t
+<
+¡d
+::
+¡ršg
+> 
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+ = {
+
+44 cÚ¡ 
+	g¡d
+::
+¡ršg
+ 
+QuicH‰pProxyBack’dSŒ—m
+::
+kDeçuÉQuicP“rIP
+ = "Unknown";
+
+46 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+QuicH‰pProxyBack’dSŒ—m
+(
+
+47 
+QuicH‰pProxyBack’d
+* 
+´oxy_cÚ‹xt
+)
+
+48 : 
+´oxy_cÚ‹xt_
+(
+´oxy_cÚ‹xt
+),
+
+49 
+d–eg©e_
+(
+nuÎ±r
+),
+
+50 
+quic_³”__
+(
+kDeçuÉQuicP“rIP
+),
+
+51 
+u¾_»que¡_
+(
+nuÎ±r
+),
+
+52 
+buf_
+(
+ba£
+::
+MakeRefCouÁed
+<
+IOBufãr
+>(
+kBufãrSize
+)),
+
+53 
+»¥Ú£_com¶‘ed_
+(
+çl£
+),
+
+54 
+h—d”s_£t_
+(
+çl£
+),
+
+55 
+quic_»¥Ú£_
+(
+Ãw
+ 
+quic
+::
+QuicBack’dRe¥Ú£
+()),
+
+56 
+w—k_çùÜy_
+(
+this
+) {}
+
+58 
+	gQuicH‰pProxyBack’dSŒ—m
+::~
+QuicH‰pProxyBack’dSŒ—m
+() {}
+
+60 
+QuicH‰pProxyBack’dSŒ—m
+::
+In™Ÿlize
+(
+
+61 
+quic
+::
+QuicCÚÃùiÚId
+ 
+quic_cÚÃùiÚ_id
+,
+
+62 
+quic
+::
+QuicSŒ—mId
+ 
+quic_¡»am_id
+,
+
+63 
+¡d
+::
+¡ršg
+ 
+quic_³”_
+) {
+
+64 
+quic_cÚÃùiÚ_id_
+ = 
+quic_cÚÃùiÚ_id
+;
+
+65 
+	gquic_¡»am_id_
+ = 
+quic_¡»am_id
+;
+
+66 
+	gquic_³”__
+ = 
+quic_³”_
+;
+
+67 ià(!
+	gquic_´oxy_sk_ruÂ”_
+.
+g‘
+()) {
+
+68 
+	gquic_´oxy_sk_ruÂ”_
+ = 
+´oxy_cÚ‹xt_
+->
+G‘ProxyTaskRuÂ”
+();
+
+70 
+DCHECK_EQ
+(
+quic_´oxy_sk_ruÂ”_
+, 
+´oxy_cÚ‹xt_
+->
+G‘ProxyTaskRuÂ”
+());
+
+73 
+	gquic_»¥Ú£_
+->
+£t_»¥Ú£_ty³
+(
+
+74 
+quic
+::
+QuicBack’dRe¥Ú£
+::
+BACKEND_ERR_RESPONSE
+);
+
+77 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+£t_d–eg©e
+(
+
+78 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+d–eg©e
+) {
+
+79 
+d–eg©e_
+ = 
+d–eg©e
+;
+
+80 
+	gd–eg©e_sk_ruÂ”_
+ = 
+ba£
+::
+Sequ’ûdTaskRuÂ”HªdË
+::
+G‘
+();
+
+83 
+boŞ
+ 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+S’dReque¡ToBack’d
+(
+
+84 cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+* 
+šcomšg_»que¡_h—d”s
+,
+
+85 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+šcomšg_body
+) {
+
+86 
+DCHECK
+(
+´oxy_cÚ‹xt_
+->
+IsBack’dIn™Ÿlized
+())
+
+90 
+	g¥dy
+::
+SpdyH—d”Block
+::
+cÚ¡_™”©Ü
+ 
+™
+ =
+
+91 
+šcomšg_»que¡_h—d”s
+->
+fšd
+(":path");
+
+93 
+GURL
+ 
+	gu¾
+ = 
+´oxy_cÚ‹xt_
+->
+back’d_u¾
+();
+
+94 
+	g¡d
+::
+¡ršg
+ 
+back’d_¥ec
+ = 
+u¾
+.
+¥ec
+();
+
+95 ià(
+	g™
+ !ğ
+šcomšg_»que¡_h—d”s
+->
+’d
+()) {
+
+96 ià(
+u¾
+.
+·th
+().
+com·»
+("/") == 0) {
+
+97 
+back’d_¥ec
+.
+pİ_back
+();
+
+99 
+	gback’d_¥ec
+.
+­³nd
+(
+™
+->
+£cÚd
+.
+as_¡ršg
+());
+
+102 
+	gu¾_
+ = 
+GURL
+(
+back’d_¥ec
+.
+c_¡r
+());
+
+103 ià(!
+	gu¾_
+.
+is_v®id
+()) {
+
+104 
+LOG
+(
+ERROR
+è<< "Inv®id URL„eûived from QUIC cl›Á " << 
+	gback’d_¥ec
+;
+
+105  
+	gçl£
+;
+
+107 
+LOG
+(
+INFO
+è<< "QUIC Proxy Makšg‡„eque¡ØthBacked URL: " + 
+	gu¾_
+.
+¥ec
+();
+
+110 
+	g¡d
+::
+¡ršg
+ 
+m‘hod
+ = "";
+
+111 
+	g™
+ = 
+šcomšg_»que¡_h—d”s
+->
+fšd
+(":method");
+
+112 ià(
+	g™
+ !ğ
+šcomšg_»que¡_h—d”s
+->
+’d
+()) {
+
+113 
+m‘hod
+.
+­³nd
+(
+™
+->
+£cÚd
+.
+as_¡ršg
+());
+
+115 ià(
+V®id©eH‰pM‘hod
+(
+m‘hod
+è!ğ
+Œue
+) {
+
+116 
+LOG
+(
+INFO
+è<< "UnknowÀReque¡ Ty³„eûived from QUIC cl›Á " << 
+m‘hod
+;
+
+117  
+	gçl£
+;
+
+119 
+CİyH—d”s
+(
+šcomšg_»que¡_h—d”s
+);
+
+120 ià(
+	gm‘hod_ty³_
+ =ğ"POST" || 
+m‘hod_ty³_
+ == "PUT" ||
+
+121 
+m‘hod_ty³_
+ == "PATCH") {
+
+123 ià(!
+šcomšg_body
+.
+em±y
+()) {
+
+124 
+¡d
+::
+unique_±r
+<
+U¶ßdEËm’tR—d”
+> 
+»ad”
+(
+Ãw
+ 
+U¶ßdBy‹sEËm’tR—d”
+(
+
+125 
+šcomšg_body
+.
+d©a
+(), incomšg_body.
+size
+()));
+
+126 
+S‘U¶ßd
+(
+
+127 
+EËm’tsU¶ßdD©aSŒ—m
+::
+C»©eW™hR—d”
+(
+¡d
+::
+move
+(
+»ad”
+), 0));
+
+131 
+boŞ
+ 
+	gpo¡ed
+ = 
+quic_´oxy_sk_ruÂ”_
+->
+Po¡Task
+(
+
+132 
+FROM_HERE
+,
+
+133 
+ba£
+::
+BšdOnû
+(&
+QuicH‰pProxyBack’dSŒ—m
+::
+S’dReque¡OnBack’dTh»ad
+,
+
+134 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+()));
+
+135  
+	gpo¡ed
+;
+
+138 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+CİyH—d”s
+(
+
+139 cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+* 
+šcomšg_»que¡_h—d”s
+) {
+
+142 
+¥dy
+::
+SpdyH—d”Block
+::
+cÚ¡_™”©Ü
+ 
+™
+ =
+
+143 
+šcomšg_»que¡_h—d”s
+->
+begš
+();
+
+144 
+	g™
+ !ğ
+šcomšg_»que¡_h—d”s
+->
+’d
+(); ++it) {
+
+145 
+	g¡d
+::
+¡ršg
+ 
+key
+ = 
+™
+->
+fœ¡
+.
+as_¡ršg
+();
+
+146 
+	g¡d
+::
+¡ršg
+ 
+v®ue
+ = 
+™
+->
+£cÚd
+.
+as_¡ršg
+();
+
+148 ià(!
+	gkey
+.
+em±y
+() && key[0] != ':') {
+
+150 ià(
+ba£
+::
+CÚšsKey
+(
+kHİH—d”s
+, 
+key
+)) {
+
+151 
+LOG
+(
+INFO
+è<< "QUIC Proxy IgnÜšg Hİ-by-hİ Reque¡ H—d”: " << 
+key
+
+
+152 << ":" << 
+v®ue
+;
+
+154 
+LOG
+(
+INFO
+è<< "QUIC Proxy CİyšgØback’d Reque¡ H—d”: " << 
+	gkey
+
+
+155 << ":" << 
+	gv®ue
+;
+
+156 
+AddReque¡H—d”
+(
+key
+, 
+v®ue
+);
+
+161 
+AddReque¡H—d”
+("X-FÜw¬ded-FÜ", 
+quic_³”__
+);
+
+164 
+boŞ
+ 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+V®id©eH‰pM‘hod
+(
+¡d
+::
+¡ršg
+ 
+m‘hod
+) {
+
+166 ià(!
+Ãt
+::
+H‰pUt
+::
+IsV®idH—d”Name
+(
+m‘hod
+))
+
+167  
+çl£
+;
+
+168 
+	gm‘hod_ty³_
+ = 
+m‘hod
+;
+
+169  
+	gŒue
+;
+
+172 
+boŞ
+ 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+AddReque¡H—d”
+(
+¡d
+::
+¡ršg
+ 
+Çme
+,
+
+173 
+¡d
+::
+¡ršg
+ 
+v®ue
+) {
+
+174 ià(!
+Ãt
+::
+H‰pUt
+::
+IsV®idH—d”Name
+(
+Çme
+) ||
+
+175 !
+Ãt
+::
+H‰pUt
+::
+IsV®idH—d”V®ue
+(
+v®ue
+)) {
+
+176  
+çl£
+;
+
+178 
+	g»que¡_h—d”s_
+.
+S‘H—d”
+(
+Çme
+, 
+v®ue
+);
+
+179  
+	gŒue
+;
+
+182 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+S‘U¶ßd
+(
+
+183 
+¡d
+::
+unique_±r
+<
+Ãt
+::
+U¶ßdD©aSŒ—m
+> 
+u¶ßd
+) {
+
+184 
+DCHECK
+(!
+u¶ßd_
+);
+
+185 
+	gu¶ßd_
+ = 
+¡d
+::
+move
+(
+u¶ßd
+);
+
+188 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+S’dReque¡OnBack’dTh»ad
+() {
+
+189 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+190 
+	gu¾_»que¡_
+ = 
+´oxy_cÚ‹xt_
+->
+G‘URLReque¡CÚ‹xt
+()->
+C»©eReque¡
+(
+
+191 
+u¾_
+, 
+Ãt
+::
+DEFAULT_PRIORITY
+, 
+this
+);
+
+192 
+	gu¾_»que¡_
+->
+£t_m‘hod
+(
+m‘hod_ty³_
+);
+
+193 
+	gu¾_»que¡_
+->
+S‘ExŒaReque¡H—d”s
+(
+»que¡_h—d”s_
+);
+
+194 ià(
+	gu¶ßd_
+) {
+
+195 
+	gu¾_»que¡_
+->
+£t_u¶ßd
+(
+¡d
+::
+move
+(
+u¶ßd_
+));
+
+197 
+	gu¾_»que¡_
+->
+S¹
+();
+
+198 
+VLOG
+(1) << "Quic Proxy Sending Requesto Backend for quic_conn_id: "
+
+199 << 
+	gquic_cÚÃùiÚ_id_
+ << " quic_¡»am_id: " << 
+	gquic_¡»am_id_
+
+
+200 << " back’d_»q_id: " << 
+	gu¾_»que¡_
+->
+id’tif›r
+()
+
+201 << " u¾: " << 
+	gu¾_
+;
+
+204 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnReûivedRedœeù
+(
+
+205 
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+206 cÚ¡ 
+Ãt
+::
+RedœeùInfo
+& 
+»dœeù_šfo
+,
+
+207 
+boŞ
+* 
+deãr_»dœeù
+) {
+
+208 
+DCHECK_EQ
+(
+»que¡
+, 
+u¾_»que¡_
+.
+g‘
+());
+
+209 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+211 *
+	gdeãr_»dœeù
+ = 
+çl£
+;
+
+212 
+LOG
+(
+ERROR
+) << "Received Redirect from Backend "
+
+213 << " Back’dReqId: " << 
+	g»que¡
+->
+id’tif›r
+() << "„edirectUrl: "
+
+214 << 
+	g»dœeù_šfo
+.
+	gÃw_u¾
+.
+possibly_šv®id_¥ec
+().
+c_¡r
+()
+
+215 << " Re¥Cod" << 
+	g»que¡
+->
+G‘Re¥Ú£Code
+();
+
+218 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnC”tifiÿ‹Reque¡ed
+(
+
+219 
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+220 
+Ãt
+::
+SSLC”tReque¡Info
+* 
+û¹_»que¡_šfo
+) {
+
+221 
+DCHECK_EQ
+(
+»que¡
+, 
+u¾_»que¡_
+.
+g‘
+());
+
+222 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+224 
+	g»que¡
+->
+CÚtšueW™hC”tifiÿ‹
+(
+nuÎ±r
+,‚ullptr);
+
+227 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnSSLC”tifiÿ‹E¼Ü
+(
+
+228 
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+229 cÚ¡ 
+Ãt
+::
+SSLInfo
+& 
+s¦_šfo
+,
+
+230 
+boŞ
+ 
+çl
+) {
+
+231 
+	g»que¡
+->
+Cªûl
+();
+
+232 
+OnRe¥Ú£Com¶‘ed
+();
+
+235 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnRe¥Ú£S¹ed
+(
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+236 
+Ãt_”rÜ
+) {
+
+237 
+DCHECK_EQ
+(
+»que¡
+, 
+u¾_»que¡_
+.
+g‘
+());
+
+238 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+240 
+DCHECK_NE
+(
+Ãt
+::
+ERR_IO_PENDING
+, 
+Ãt_”rÜ
+);
+
+241 ià(
+	gÃt_”rÜ
+ !ğ
+Ãt
+::
+OK
+) {
+
+242 
+LOG
+(
+ERROR
+) << "OnResponseStarted Error from Backend "
+
+243 << 
+u¾_»que¡_
+->
+id’tif›r
+() << " url: "
+
+244 << 
+u¾_»que¡_
+->
+u¾
+().
+possibly_šv®id_¥ec
+().
+c_¡r
+()
+
+245 << " Re¥E¼Ü " << 
+Ãt
+::
+E¼ÜToSŒšg
+(
+Ãt_”rÜ
+);
+
+246 
+OnRe¥Ú£Com¶‘ed
+();
+
+250 
+R—dOnûTask
+();
+
+253 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+R—dOnûTask
+() {
+
+257 
+by‹s_»ad
+ = 
+u¾_»que¡_
+->
+R—d
+(
+buf_
+.
+g‘
+(), 
+kBufãrSize
+);
+
+258 
+OnR—dCom¶‘ed
+(
+u¾_»que¡_
+.
+g‘
+(), 
+by‹s_»ad
+);
+
+263 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnR—dCom¶‘ed
+(
+Ãt
+::
+URLReque¡
+* 
+unu£d
+,
+
+264 
+by‹s_»ad
+) {
+
+265 
+DCHECK_EQ
+(
+u¾_»que¡_
+.
+g‘
+(), 
+unu£d
+);
+
+266 
+LOG
+(
+INFO
+) << "OnReadCompleted Backend with"
+
+267 << " ReqId: " << 
+	gu¾_»que¡_
+->
+id’tif›r
+() << " RespCode "
+
+268 << 
+	gu¾_»que¡_
+->
+G‘Re¥Ú£Code
+() << " RcvdBytesCount "
+
+269 << 
+	gby‹s_»ad
+ << " RcvdTÙ®By‹ " << 
+	gd©a_»ûived_
+.
+size
+();
+
+271 ià(
+	gby‹s_»ad
+ > 0) {
+
+272 
+	gd©a_»ûived_
+.
+­³nd
+(
+buf_
+->
+d©a
+(), 
+by‹s_»ad
+);
+
+274 
+	gquic_´oxy_sk_ruÂ”_
+->
+Po¡Task
+(
+
+275 
+FROM_HERE
+, 
+ba£
+::
+BšdOnû
+(&
+QuicH‰pProxyBack’dSŒ—m
+::
+R—dOnûTask
+,
+
+276 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+()));
+
+277 } ià(
+	gby‹s_»ad
+ !ğ
+Ãt
+::
+ERR_IO_PENDING
+) {
+
+278 
+quic_»¥Ú£_
+->
+£t_»¥Ú£_ty³
+(
+
+279 
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+);
+
+280 
+OnRe¥Ú£Com¶‘ed
+();
+
+286 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+OnRe¥Ú£Com¶‘ed
+() {
+
+287 
+DCHECK
+(!
+»¥Ú£_com¶‘ed_
+);
+
+288 
+LOG
+(
+INFO
+) << "Quic Proxy Received Response from Backend for quic_conn_id: "
+
+289 << 
+	gquic_cÚÃùiÚ_id_
+ << " quic_¡»am_id: " << 
+	gquic_¡»am_id_
+
+
+290 << " back’d_»q_id: " << 
+	gu¾_»que¡_
+->
+id’tif›r
+()
+
+291 << " u¾: " << 
+	gu¾_
+;
+
+294 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»¥Ú£_h—d”s
+;
+
+295 ià(
+	gquic_»¥Ú£_
+->
+»¥Ú£_ty³
+() !=
+
+296 
+quic
+::
+QuicBack’dRe¥Ú£
+::
+BACKEND_ERR_RESPONSE
+) {
+
+297 
+»¥Ú£_h—d”s
+ = 
+g‘AsQuicH—d”s
+(
+u¾_»que¡_
+->response_headers(),
+
+298 
+u¾_»que¡_
+->
+G‘Re¥Ú£Code
+(),
+
+299 
+d©a_»ûived_
+.
+size
+());
+
+300 
+	gquic_»¥Ú£_
+->
+£t_h—d”s
+(
+¡d
+::
+move
+(
+»¥Ú£_h—d”s
+));
+
+301 
+	gquic_»¥Ú£_
+->
+£t_body
+(
+¡d
+::
+move
+(
+d©a_»ûived_
+));
+
+303 
+	g»¥Ú£_h—d”s
+ =
+
+304 
+g‘AsQuicH—d”s
+(
+u¾_»que¡_
+->
+»¥Ú£_h—d”s
+(),
+
+305 
+kProxyH‰pBack’dE¼Ü
+, 
+d©a_»ûived_
+.
+size
+());
+
+306 
+	gquic_»¥Ú£_
+->
+£t_h—d”s
+(
+¡d
+::
+move
+(
+»¥Ú£_h—d”s
+));
+
+308 
+	g»¥Ú£_com¶‘ed_
+ = 
+Œue
+;
+
+309 
+R–—£Reque¡
+();
+
+312 ià(
+	gd–eg©e_
+ !ğ
+nuÎ±r
+) {
+
+313 
+d–eg©e_sk_ruÂ”_
+->
+Po¡Task
+(
+
+314 
+FROM_HERE
+,
+
+315 
+ba£
+::
+BšdOnû
+(
+
+316 &
+QuicH‰pProxyBack’dSŒ—m
+::
+S’dRe¥Ú£OnD–eg©eTh»ad
+,
+
+317 
+ba£
+::
+UÄ‘ašed
+(
+this
+)));
+
+321 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+S’dRe¥Ú£OnD–eg©eTh»ad
+() {
+
+322 
+DCHECK
+(
+d–eg©e_
+ !ğ
+nuÎ±r
+);
+
+324 
+	g¡d
+::
+li¡
+<
+quic
+::
+QuicBack’dRe¥Ú£
+::
+S”v”PushInfo
+> 
+em±y_»sourûs
+;
+
+325 
+	gd–eg©e_
+->
+OnRe¥Ú£Back’dCom¶‘e
+(
+quic_»¥Ú£_
+.
+g‘
+(), 
+em±y_»sourûs
+);
+
+328 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+CªûlReque¡
+() {
+
+329 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+330 ià(
+	gquic_´oxy_sk_ruÂ”_
+.
+g‘
+())
+
+331 
+DCHECK
+(
+quic_´oxy_sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+332 
+	gd–eg©e_
+ = 
+nuÎ±r
+;
+
+333 ià(
+	gu¾_»que¡_
+.
+g‘
+()) {
+
+334 
+	gu¾_»que¡_
+->
+CªûlW™hE¼Ü
+(
+ERR_ABORTED
+);
+
+335 
+R–—£Reque¡
+();
+
+339 
+	gQuicH‰pProxyBack’dSŒ—m
+::
+R–—£Reque¡
+() {
+
+340 
+u¾_»que¡_
+.
+»£t
+();
+
+341 
+	gbuf_
+ = 
+nuÎ±r
+;
+
+344 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+QuicH‰pProxyBack’dSŒ—m
+::
+G‘Back’dRe¥Ú£
+()
+
+346  
+quic_»¥Ú£_
+.
+g‘
+();
+
+350 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+QuicH‰pProxyBack’dSŒ—m
+::
+g‘AsQuicH—d”s
+(
+
+351 
+Ãt
+::
+H‰pRe¥Ú£H—d”s
+* 
+»¥_h—d”s
+,
+
+352 
+»¥Ú£_code
+,
+
+353 
+ušt64_t
+ 
+»¥Ú£_decoded_body_size
+) {
+
+354 
+DCHECK
+(!
+h—d”s_£t_
+);
+
+355 
+boŞ
+ 
+	g»¥Ú£_body_’coded
+ = 
+çl£
+;
+
+356 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+quic_»¥Ú£_h—d”s
+;
+
+358 
+	gquic_»¥Ú£_h—d”s
+[":¡©us"] = 
+ba£
+::
+Numb”ToSŒšg
+(
+»¥Ú£_code
+);
+
+359 
+	gh—d”s_£t_
+ = 
+Œue
+;
+
+361 ià(
+	g»¥_h—d”s
+ !ğ
+nuÎ±r
+) {
+
+362 
+size_t
+ 
+™”
+ = 0;
+
+363 
+	g¡d
+::
+¡ršg
+ 
+h—d”_Çme
+;
+
+364 
+	g¡d
+::
+¡ršg
+ 
+h—d”_v®ue
+;
+
+365 
+	g»¥_h—d”s
+->
+Enum”©eH—d”Lšes
+(&
+™”
+, &
+h—d”_Çme
+,
+
+366 &
+h—d”_v®ue
+)) {
+
+367 
+	gh—d”_Çme
+ = 
+ba£
+::
+ToLow”ASCII
+(
+h—d”_Çme
+);
+
+370 ià(
+	gh—d”_Çme
+.
+com·»
+("status") != 0) {
+
+371 ià(
+h—d”_Çme
+.
+com·»
+("content-encoding") != 0) {
+
+373 ià(
+ba£
+::
+CÚšsKey
+(
+kHİH—d”s
+, 
+h—d”_Çme
+)) {
+
+374 
+LOG
+(
+INFO
+) << "Quic Proxy Ignoring Hop-by-hop Response Header: "
+
+375 << 
+h—d”_Çme
+ << ":" << 
+h—d”_v®ue
+;
+
+377 
+LOG
+(
+INFO
+è<< " QuiøProxy Cİyšg Re¥Ú£ H—d”: " << 
+	gh—d”_Çme
+
+
+378 << ":" << 
+	gh—d”_v®ue
+;
+
+379 
+	gquic_»¥Ú£_h—d”s
+.
+Aµ’dV®ueOrAddH—d”
+(
+h—d”_Çme
+,
+
+380 
+h—d”_v®ue
+);
+
+383 
+	g»¥Ú£_body_’coded
+ = 
+Œue
+;
+
+391 ià(
+	g»¥Ú£_body_’coded
+) {
+
+392 
+LOG
+(
+INFO
+) << " Quic Proxy Rewritinghe Content-Length Header since "
+
+394 << 
+	g»¥Ú£_decoded_body_size
+;
+
+395 
+	gquic_»¥Ú£_h—d”s
+["content-length"] =
+
+396 
+ba£
+::
+Numb”ToSŒšg
+(
+»¥Ú£_decoded_body_size
+);
+
+399  
+	gquic_»¥Ú£_h—d”s
+;
+
+	@quic_http_proxy_backend_stream.h
+
+19 #iâdeà
+NET_TOOLS_QUIC_QUIC_HTTP_PROXY_BACKEND_STREAM_H_
+
+
+20 
+	#NET_TOOLS_QUIC_QUIC_HTTP_PROXY_BACKEND_STREAM_H_
+
+
+	)
+
+22 
+	~<memÜy
+>
+
+24 
+	~"ba£/bšd.h
+"
+
+25 
+	~"ba£/ÿÎback.h
+"
+
+26 
+	~"ba£/loÿtiÚ.h
+"
+
+27 
+	~"ba£/loggšg.h
+"
+
+28 
+	~"ba£/maüos.h
+"
+
+29 
+	~"Ãt/ba£/»que¡_´iÜ™y.h
+"
+
+30 
+	~"Ãt/ba£/u¶ßd_d©a_¡»am.h
+"
+
+31 
+	~"Ãt/u¾_»que¡/u¾_»que¡.h
+"
+
+33 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_back’d_»¥Ú£.h
+"
+
+34 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_£rv”_back’d.h
+"
+
+35 
+	~"Ãt/thœd_·¹y/¥dy/cÜe/¥dy_h—d”_block.h
+"
+
+36 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d.h
+"
+
+38 
+Çme¥aû
+ 
+	gba£
+ {
+
+39 
+şass
+ 
+	gSequ’ûdTaskRuÂ”
+;
+
+40 
+şass
+ 
+	gSšgËTh»adTaskRuÂ”
+;
+
+43 
+Çme¥aû
+ 
+	gquic
+ {
+
+44 
+şass
+ 
+	gQuicBack’dRe¥Ú£
+;
+
+45 
+şass
+ 
+	gQuicSim¶eS”v”Back’d
+;
+
+48 
+Çme¥aû
+ 
+	gÃt
+ {
+
+50 
+şass
+ 
+	gH‰pReque¡H—d”s
+;
+
+51 
+şass
+ 
+	gSSLC”tReque¡Info
+;
+
+52 
+şass
+ 
+	gSSLInfo
+;
+
+53 
+şass
+ 
+	gU¶ßdD©aSŒ—m
+;
+
+55 
+şass
+ 
+	gQuicH‰pProxyBack’d
+;
+
+58 şas 
+	cQuicH‰pProxyBack’dSŒ—m
+ : 
+public
+ 
+Ãt
+::
+URLReque¡
+::
+D–eg©e
+ {
+
+59 
+public
+:
+
+60 
+QuicH‰pProxyBack’dSŒ—m
+(
+QuicH‰pProxyBack’d
+* 
+cÚ‹xt
+);
+
+61 ~
+QuicH‰pProxyBack’dSŒ—m
+(è
+	gov”ride
+;
+
+63 cÚ¡ 
+	g¡d
+::
+£t
+<
+¡d
+::
+¡ršg
+> 
+kHİH—d”s
+;
+
+64 cÚ¡ 
+	gkBufãrSize
+;
+
+65 cÚ¡ 
+	gkProxyH‰pBack’dE¼Ü
+;
+
+66 cÚ¡ 
+	g¡d
+::
+¡ršg
+ 
+kDeçuÉQuicP“rIP
+;
+
+72 
+£t_d–eg©e
+(
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+d–eg©e
+);
+
+73 
+»£t_d–eg©e
+(è{ 
+	gd–eg©e_
+ = 
+nuÎ±r
+; }
+
+75 
+In™Ÿlize
+(
+quic
+::
+QuicCÚÃùiÚId
+ 
+quic_cÚÃùiÚ_id
+,
+
+76 
+quic
+::
+QuicSŒ—mId
+ 
+quic_¡»am_id
+,
+
+77 
+¡d
+::
+¡ršg
+ 
+quic_³”_
+);
+
+79 
+vœtu®
+ 
+boŞ
+ 
+S’dReque¡ToBack’d
+(
+
+80 cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+* 
+šcomšg_»que¡_h—d”s
+,
+
+81 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+šcomšg_body
+);
+
+83 
+	gquic
+::
+QuicCÚÃùiÚId
+ 
+quic_cÚÃùiÚ_id
+() const {
+
+84  
+quic_cÚÃùiÚ_id_
+;
+
+86 
+	gquic
+::
+QuicSŒ—mId
+ 
+quic_¡»am_id
+(ècÚ¡ {  
+quic_¡»am_id_
+; }
+
+88 cÚ¡ 
+	gÃt
+::
+H‰pReque¡H—d”s
+& 
+»que¡_h—d”s
+() const {
+
+89  
+»que¡_h—d”s_
+;
+
+92 
+vœtu®
+ 
+CªûlReque¡
+();
+
+95 
+OnReûivedRedœeù
+(
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+96 cÚ¡ 
+Ãt
+::
+RedœeùInfo
+& 
+»dœeù_šfo
+,
+
+97 
+boŞ
+* 
+deãr_»dœeù
+è
+	gov”ride
+;
+
+98 
+OnC”tifiÿ‹Reque¡ed
+(
+
+99 
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+100 
+Ãt
+::
+SSLC”tReque¡Info
+* 
+û¹_»que¡_šfo
+è
+ov”ride
+;
+
+101 
+OnSSLC”tifiÿ‹E¼Ü
+(
+Ãt
+::
+URLReque¡
+* 
+»que¡
+,
+
+102 cÚ¡ 
+Ãt
+::
+SSLInfo
+& 
+s¦_šfo
+,
+
+103 
+boŞ
+ 
+çl
+è
+	gov”ride
+;
+
+104 
+OnRe¥Ú£S¹ed
+(
+Ãt
+::
+URLReque¡
+* 
+»que¡
+, 
+Ãt_”rÜ
+è
+	gov”ride
+;
+
+105 
+OnR—dCom¶‘ed
+(
+Ãt
+::
+URLReque¡
+* 
+»que¡
+, 
+by‹s_»ad
+è
+	gov”ride
+;
+
+107 
+boŞ
+ 
+Re¥Ú£IsCom¶‘ed
+(ècÚ¡ {  
+	g»¥Ú£_com¶‘ed_
+; }
+
+108 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+G‘Back’dRe¥Ú£
+() const;
+
+110 
+	g´iv©e
+:
+
+111 
+S¹OnBack’dTh»ad
+();
+
+112 
+S’dReque¡OnBack’dTh»ad
+();
+
+113 
+R—dOnûTask
+();
+
+114 
+OnRe¥Ú£Com¶‘ed
+();
+
+115 
+CİyH—d”s
+(cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+* 
+šcomšg_»que¡_h—d”s
+);
+
+116 
+boŞ
+ 
+V®id©eH‰pM‘hod
+(
+¡d
+::
+¡ršg
+ 
+m‘hod
+);
+
+117 
+boŞ
+ 
+AddReque¡H—d”
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, std::¡ršg 
+v®ue
+);
+
+119 
+S‘U¶ßd
+(
+¡d
+::
+unique_±r
+<
+Ãt
+::
+U¶ßdD©aSŒ—m
+> 
+u¶ßd
+);
+
+120 
+S’dRe¥Ú£OnD–eg©eTh»ad
+();
+
+121 
+R–—£Reque¡
+();
+
+122 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+g‘AsQuicH—d”s
+(
+Ãt
+::
+H‰pRe¥Ú£H—d”s
+* 
+»¥_h—d”s
+,
+
+123 
+»¥Ú£_code
+,
+
+124 
+ušt64_t
+ 
+»¥Ú£_decoded_body_size
+);
+
+127 
+QuicH‰pProxyBack’d
+* 
+	g´oxy_cÚ‹xt_
+;
+
+129 
+	gquic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+* 
+d–eg©e_
+;
+
+131 
+	gscİed_»åŒ
+<
+	gba£
+::
+Sequ’ûdTaskRuÂ”
+> 
+d–eg©e_sk_ruÂ”_
+;
+
+133 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+> 
+quic_´oxy_sk_ruÂ”_
+;
+
+136 
+	gquic
+::
+QuicCÚÃùiÚId
+ 
+quic_cÚÃùiÚ_id_
+;
+
+137 
+	gquic
+::
+QuicSŒ—mId
+ 
+quic_¡»am_id_
+;
+
+138 
+	g¡d
+::
+¡ršg
+ 
+quic_³”__
+;
+
+141 
+GURL
+ 
+	gu¾_
+;
+
+142 
+	g¡d
+::
+¡ršg
+ 
+m‘hod_ty³_
+;
+
+143 
+	gÃt
+::
+H‰pReque¡H—d”s
+ 
+»que¡_h—d”s_
+;
+
+144 
+	g¡d
+::
+unique_±r
+<
+Ãt
+::
+U¶ßdD©aSŒ—m
+> 
+u¶ßd_
+;
+
+145 
+	g¡d
+::
+unique_±r
+<
+Ãt
+::
+URLReque¡
+> 
+u¾_»que¡_
+;
+
+148 
+	gscİed_»åŒ
+<
+	gIOBufãr
+> 
+	gbuf_
+;
+
+149 
+	g¡d
+::
+¡ršg
+ 
+d©a_»ûived_
+;
+
+150 
+boŞ
+ 
+	g»¥Ú£_com¶‘ed_
+;
+
+152 
+boŞ
+ 
+	gh—d”s_£t_
+;
+
+153 
+	g¡d
+::
+unique_±r
+<
+quic
+::
+QuicBack’dRe¥Ú£
+> 
+quic_»¥Ú£_
+;
+
+155 
+	gba£
+::
+W—kPŒFaùÜy
+<
+QuicH‰pProxyBack’dSŒ—m
+> 
+w—k_çùÜy_
+;
+
+157 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicH‰pProxyBack’dSŒ—m
+);
+
+	@quic_http_proxy_backend_stream_test.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d_¡»am.h
+"
+
+6 
+	~"ba£/bšd.h
+"
+
+7 
+	~"ba£/fes/fe_·th.h
+"
+
+8 
+	~"ba£/fes/fe_ut.h
+"
+
+9 
+	~"ba£/·th_£rviû.h
+"
+
+10 
+	~"ba£/¡ršgs/¡ršg_numb”_cÚv”siÚs.h
+"
+
+11 
+	~"ba£/¡ršgs/¡ršg´štf.h
+"
+
+12 
+	~"ba£/‹¡/scİed_sk_’vœÚm’t.h
+"
+
+13 
+	~"Ãt/‹¡/embedded_‹¡_£rv”/embedded_‹¡_£rv”.h
+"
+
+14 
+	~"Ãt/‹¡/embedded_‹¡_£rv”/h‰p_»que¡.h
+"
+
+15 
+	~"Ãt/‹¡/embedded_‹¡_£rv”/h‰p_»¥Ú£.h
+"
+
+16 
+	~"Ãt/‹¡/embedded_‹¡_£rv”/»que¡_hªdËr_ut.h
+"
+
+17 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ_id.h
+"
+
+18 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_‹¡.h
+"
+
+19 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_back’d_»¥Ú£.h
+"
+
+20 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d.h
+"
+
+22 
+Çme¥aû
+ 
+	gÃt
+ {
+
+23 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+27 cÚ¡ 
+	gkDeçuÉRe¥Ú£P©h
+[] = "/defaultresponse";
+
+28 cÚ¡ 
+	gkDeçuÉRe¥Ú£Body
+[] =
+
+30 
+	g¡d
+::
+¡ršg
+ 
+kL¬geRe¥Ú£Body
+(
+
+32 cÚ¡ * cÚ¡ 
+	gkH‰p2StusH—d”
+ = ":status";
+
+35 
+	gba£
+::
+FeP©h
+ 
+G‘U¶ßdFeTe¡P©h
+() {
+
+36 
+ba£
+::
+FeP©h
+ 
+·th
+;
+
+37 
+	gba£
+::
+P©hS”viû
+::
+G‘
+(
+ba£
+::
+DIR_SOURCE_ROOT
+, &
+·th
+);
+
+38  
+	g·th
+.
+Aµ’d
+(
+
+39 
+FILE_PATH_LITERAL
+("net/data/url_request_unittest/BullRunSpeech.txt"));
+
+44 
+	g¡d
+::
+unique_±r
+<
+‹¡_£rv”
+::
+H‰pRe¥Ú£
+> 
+HªdËDeçuÉRe¥Ú£L¬ge
+(
+
+45 cÚ¡ 
+‹¡_£rv”
+::
+H‰pReque¡
+& 
+»que¡
+) {
+
+46 
+¡d
+::
+unique_±r
+<
+‹¡_£rv”
+::
+BasicH‰pRe¥Ú£
+> 
+h‰p_»¥Ú£
+(
+
+47 
+Ãw
+ 
+‹¡_£rv”
+::
+BasicH‰pRe¥Ú£
+);
+
+48 
+	gh‰p_»¥Ú£
+->
+£t_cÚ‹Á_ty³
+("text/html");
+
+50 
+	gi
+ = 0; i < 200000; ++i)
+
+51 
+	gkL¬geRe¥Ú£Body
+ += "01234567890123456789012345678901234567890123456789";
+
+52 
+	gh‰p_»¥Ú£
+->
+£t_cÚ‹Á
+(
+kL¬geRe¥Ú£Body
+);
+
+54  
+	g¡d
+::
+move
+(
+h‰p_»¥Ú£
+);
+
+57 
+P¬£H—d”StusCode
+(cÚ¡ 
+¥dy
+::
+SpdyH—d”Block
+& 
+h—d”
+) {
+
+58 
+¡©us_code
+;
+
+59 
+	g¥dy
+::
+SpdyH—d”Block
+::
+cÚ¡_™”©Ü
+ 
+™
+ = 
+h—d”
+.
+fšd
+(
+kH‰p2StusH—d”
+);
+
+60 ià(
+	g™
+ =ğ
+h—d”
+.
+’d
+()) {
+
+63 cÚ¡ 
+	gba£
+::
+SŒšgP›û
+ 
+¡©us
+(
+™
+->
+£cÚd
+);
+
+64 ià(
+	g¡©us
+.
+size
+() != 3) {
+
+68 ià(
+	g¡©us
+[0] < '1' || status[0] > '5') {
+
+72 ià(!
+isdig™
+(
+¡©us
+[1]) || !isdigit(status[2])) {
+
+75 ià(
+	gba£
+::
+SŒšgToIÁ
+(
+¡©us
+, &
+¡©us_code
+)) {
+
+76  
+	g¡©us_code
+;
+
+82 şas 
+	cTe¡QuicS”v”SŒ—mD–eg©e
+
+
+83 : 
+public
+ 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+ {
+
+84 
+public
+:
+
+85 
+Te¡QuicS”v”SŒ—mD–eg©e
+()
+
+86 : 
+£nd_sucûss_
+(
+çl£
+),
+
+87 
+did_com¶‘e_
+(
+çl£
+),
+
+88 
+quic_back’d_¡»am_
+(
+nuÎ±r
+) {}
+
+90 ~
+Te¡QuicS”v”SŒ—mD–eg©e
+(è
+	gov”ride
+ {}
+
+92 
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+
+93 
+QuicH‰pProxyBack’d
+* 
+´oxy_back’d
+) {
+
+94 
+	gquic_back’d_¡»am_
+ =
+
+95 
+¡d
+::
+make_unique
+<
+QuicH‰pProxyBack’dSŒ—m
+>(
+´oxy_back’d
+);
+
+96 
+	gquic_back’d_¡»am_
+->
+£t_d–eg©e
+(
+this
+);
+
+97 
+	gquic_back’d_¡»am_
+->
+In™Ÿlize
+(
+cÚÃùiÚ_id
+(), 
+¡»am_id
+(), 
+³”_ho¡
+());
+
+100 
+QuicH‰pProxyBack’dSŒ—m
+* 
+g‘_´oxy_back’d_¡»am
+() const {
+
+101  
+	gquic_back’d_¡»am_
+.
+g‘
+();
+
+104 cÚ¡ 
+	gÃt
+::
+H‰pReque¡H—d”s
+& 
+g‘_»que¡_h—d”s
+() const {
+
+105  
+quic_back’d_¡»am_
+->
+»que¡_h—d”s
+();
+
+108 
+S¹H‰pReque¡ToBack’dAndWa™
+(
+
+109 
+¥dy
+::
+SpdyH—d”Block
+* 
+šcomšg_»que¡_h—d”s
+,
+
+110 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+šcomšg_body
+) {
+
+111 
+£nd_sucûss_
+ = 
+quic_back’d_¡»am_
+->
+S’dReque¡ToBack’d
+(
+
+112 
+šcomšg_»que¡_h—d”s
+, 
+šcomšg_body
+);
+
+113 
+EXPECT_TRUE
+(
+£nd_sucûss_
+);
+
+114 
+Wa™FÜCom¶‘e
+();
+
+117 
+Wa™FÜCom¶‘e
+() {
+
+118 
+EXPECT_TRUE
+(
+sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+119 
+	grun_loİ_
+.
+Run
+();
+
+122 
+	gquic
+::
+QuicCÚÃùiÚId
+ 
+cÚÃùiÚ_id
+(ècÚ¡ 
+ov”ride
+ {
+
+123  
+quic
+::
+QuicCÚÃùiÚIdFromUIÁ64
+(123);
+
+125 
+	gquic
+::
+QuicSŒ—mId
+ 
+¡»am_id
+(ècÚ¡ 
+ov”ride
+ {  5; }
+
+126 
+	g¡d
+::
+¡ršg
+ 
+³”_ho¡
+(ècÚ¡ 
+ov”ride
+ {  "127.0.0.1"; }
+
+128 
+OnRe¥Ú£Back’dCom¶‘e
+(
+
+129 cÚ¡ 
+quic
+::
+QuicBack’dRe¥Ú£
+* 
+»¥Ú£
+,
+
+130 
+¡d
+::
+li¡
+<
+quic
+::
+QuicBack’dRe¥Ú£
+::
+S”v”PushInfo
+> 
+»sourûs
+è
+ov”ride
+ {
+
+131 
+EXPECT_TRUE
+(
+sk_ruÂ”_
+->
+B–ÚgsToCu¼’tTh»ad
+());
+
+132 
+EXPECT_FALSE
+(
+did_com¶‘e_
+);
+
+133 
+EXPECT_TRUE
+(
+quic_back’d_¡»am_
+);
+
+134 
+	gdid_com¶‘e_
+ = 
+Œue
+;
+
+135 
+	gsk_ruÂ”_
+->
+Po¡Task
+(
+FROM_HERE
+, 
+run_loİ_
+.
+Qu™Closu»
+());
+
+138 
+	g´iv©e
+:
+
+139 
+boŞ
+ 
+£nd_sucûss_
+;
+
+140 
+boŞ
+ 
+	gdid_com¶‘e_
+;
+
+141 
+	g¡d
+::
+unique_±r
+<
+QuicH‰pProxyBack’dSŒ—m
+> 
+quic_back’d_¡»am_
+;
+
+142 cÚ¡ 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+> 
+sk_ruÂ”_
+ =
+
+143 
+ba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+();
+
+144 
+	gba£
+::
+RunLoİ
+ 
+run_loİ_
+;
+
+147 şas 
+	cQuicH‰pProxyBack’dSŒ—mTe¡
+ : 
+public
+ 
+QuicTe¡
+ {
+
+148 
+public
+:
+
+149 
+QuicH‰pProxyBack’dSŒ—mTe¡
+() {}
+
+151 ~
+QuicH‰pProxyBack’dSŒ—mTe¡
+(è
+ov”ride
+ {}
+
+154 
+S‘Up
+(è
+ov”ride
+ {
+
+155 
+S‘UpS”v”
+();
+
+156 
+ASSERT_TRUE
+(
+‹¡_£rv”_
+->
+S¹
+());
+
+158 
+	gback’d_u¾_
+ = 
+ba£
+::
+SŒšgPrštf
+("http://127.0.0.1:%d",
+
+159 
+‹¡_£rv”_
+->
+ho¡_pÜt_·œ
+().
+pÜt
+());
+
+160 
+C»©eTe¡Back’dProxy
+();
+
+161 
+C»©eTe¡Back’dProxyToTe¡Fau»
+();
+
+164 
+C»©eTe¡Back’dProxy
+() {
+
+165 
+ASSERT_TRUE
+(
+GURL
+(
+back’d_u¾_
+).
+is_v®id
+());
+
+166 
+	g´oxy_back’d_
+ = 
+¡d
+::
+make_unique
+<
+QuicH‰pProxyBack’d
+>();
+
+167 
+	g´oxy_back’d_
+->
+In™ŸlizeBack’d
+(
+back’d_u¾_
+);
+
+170 
+C»©eTe¡Back’dProxyToTe¡Fau»
+() {
+
+172 
+	g¡d
+::
+¡ršg
+ 
+back’d_ç_u¾
+ =
+
+173 
+ba£
+::
+SŒšgPrštf
+("http://127.0.0.1:%d", 52);
+
+174 
+ASSERT_TRUE
+(
+GURL
+(
+back’d_ç_u¾
+).
+is_v®id
+());
+
+175 
+	g´oxy_back’d_ç_
+ = 
+¡d
+::
+make_unique
+<
+QuicH‰pProxyBack’d
+>();
+
+176 
+	g´oxy_back’d_ç_
+->
+In™ŸlizeBack’d
+(
+back’d_ç_u¾
+);
+
+181 
+S‘UpS”v”
+() {
+
+182 
+	g‹¡_£rv”_
+.
+»£t
+(
+Ãw
+ 
+EmbeddedTe¡S”v”
+);
+
+183 
+	g‹¡_£rv”_
+->
+AddDeçuÉHªdËrs
+(
+ba£
+::
+FeP©h
+());
+
+184 
+	g‹¡_£rv”_
+->
+Regi¡”DeçuÉHªdËr
+(
+ba£
+::
+BšdR•—tšg
+(
+
+185 &
+Ãt
+::
+‹¡_£rv”
+::
+HªdËP»fixedReque¡
+, "/defaultresponselarge",
+
+186 
+ba£
+::
+BšdR•—tšg
+(&
+HªdËDeçuÉRe¥Ú£L¬ge
+)));
+
+189 
+	g´Ùeùed
+:
+
+190 
+ba£
+::
+‹¡
+::
+ScİedTaskEnvœÚm’t
+ 
+scİed_sk_’vœÚm’t_
+;
+
+191 
+	g¡d
+::
+¡ršg
+ 
+back’d_u¾_
+;
+
+192 
+	g¡d
+::
+unique_±r
+<
+QuicH‰pProxyBack’d
+> 
+´oxy_back’d_
+;
+
+193 
+	g¡d
+::
+unique_±r
+<
+QuicH‰pProxyBack’d
+> 
+´oxy_back’d_ç_
+;
+
+194 
+	g¡d
+::
+unique_±r
+<
+EmbeddedTe¡S”v”
+> 
+‹¡_£rv”_
+;
+
+197 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dG‘DeçuÉ
+) {
+
+198 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+199 
+	g»que¡_h—d”s
+[":·th"] = 
+kDeçuÉRe¥Ú£P©h
+;
+
+200 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+201 
+	g»que¡_h—d”s
+[":version"] = "HTTP/1.1";
+
+202 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+204 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+205 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+206 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+208 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+209 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+210 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+211 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+212 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+213 
+EXPECT_EQ
+(
+kDeçuÉRe¥Ú£Body
+, 
+quic_»¥Ú£
+->
+body
+());
+
+216 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dG‘L¬ge
+) {
+
+217 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+218 
+	g»que¡_h—d”s
+[":path"] = "/defaultresponselarge";
+
+219 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+220 
+	g»que¡_h—d”s
+[":version"] = "HTTP/1.1";
+
+221 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+223 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+224 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+225 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+227 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+228 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+229 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+230 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+231 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+234 
+EXPECT_EQ
+(
+kL¬geRe¥Ú£Body
+, 
+quic_»¥Ú£
+->
+body
+());
+
+237 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dPo¡Body
+) {
+
+238 cÚ¡ 
+	gkU¶ßdD©a
+[] = "bobsyeruncle";
+
+239 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+240 
+	g»que¡_h—d”s
+[":path"] = "/echo";
+
+241 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+242 
+	g»que¡_h—d”s
+[":version"] = "HTTP/1.1";
+
+243 
+	g»que¡_h—d”s
+[":method"] = "POST";
+
+244 
+	g»que¡_h—d”s
+["content-length"] = "12";
+
+245 
+	g»que¡_h—d”s
+["content-type"] = "application/x-www-form-urlencoded";
+
+247 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+248 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+249 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, 
+kU¶ßdD©a
+);
+
+251 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+252 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+254 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+255 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+256 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+257 
+EXPECT_EQ
+(
+kU¶ßdD©a
+, 
+quic_»¥Ú£
+->
+body
+());
+
+260 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dPo¡Em±ySŒšg
+) {
+
+261 cÚ¡ 
+	gkU¶ßdD©a
+[] = "";
+
+262 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+263 
+	g»que¡_h—d”s
+[":path"] = "/echo";
+
+264 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+265 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+266 
+	g»que¡_h—d”s
+[":method"] = "POST";
+
+267 
+	g»que¡_h—d”s
+["content-length"] = "0";
+
+268 
+	g»que¡_h—d”s
+["content-type"] = "application/x-www-form-urlencoded";
+
+270 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+271 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+272 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, 
+kU¶ßdD©a
+);
+
+274 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+275 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+277 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+278 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+279 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+280 
+EXPECT_EQ
+(
+kU¶ßdD©a
+, 
+quic_»¥Ú£
+->
+body
+());
+
+283 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dPo¡Fe
+) {
+
+284 
+	g¡d
+::
+¡ršg
+ 
+kU¶ßdD©a
+;
+
+285 
+	gba£
+::
+FeP©h
+ 
+u¶ßd_·th
+ = 
+G‘U¶ßdFeTe¡P©h
+();
+
+286 
+ASSERT_TRUE
+(
+ba£
+::
+R—dFeToSŒšg
+(
+u¶ßd_·th
+, &
+kU¶ßdD©a
+));
+
+288 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+289 
+	g»que¡_h—d”s
+[":path"] = "/echo";
+
+290 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+291 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+292 
+	g»que¡_h—d”s
+[":method"] = "POST";
+
+293 
+	g»que¡_h—d”s
+["content-type"] = "application/x-www-form-urlencoded";
+
+295 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+296 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+297 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, 
+kU¶ßdD©a
+);
+
+299 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+300 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+302 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+303 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+304 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+305 
+EXPECT_EQ
+(
+kU¶ßdD©a
+, 
+quic_»¥Ú£
+->
+body
+());
+
+308 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dRe¥Ú£500
+) {
+
+309 cÚ¡ 
+	gkU¶ßdD©a
+[] = "bobsyeruncle";
+
+310 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+311 
+	g»que¡_h—d”s
+[":path"] = "/echo?status=500";
+
+312 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+313 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+314 
+	g»que¡_h—d”s
+[":method"] = "POST";
+
+316 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+317 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+318 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, 
+kU¶ßdD©a
+);
+
+320 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+321 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+323 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+324 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+325 
+EXPECT_EQ
+(500, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+328 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dFa
+) {
+
+329 cÚ¡ 
+	gkU¶ßdD©a
+[] = "bobsyeruncle";
+
+330 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+331 
+	g»que¡_h—d”s
+[":path"] = "/echo";
+
+332 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+333 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+334 
+	g»que¡_h—d”s
+[":method"] = "POST";
+
+336 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+337 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_ç_
+.
+g‘
+());
+
+338 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, 
+kU¶ßdD©a
+);
+
+340 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+341 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+343 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+BACKEND_ERR_RESPONSE
+,
+
+344 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+347 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dOnRedœeù
+) {
+
+348 cÚ¡ 
+	g¡d
+::
+¡ršg
+ 
+kRedœeùT¬g‘
+ = 
+back’d_u¾_
+.
+­³nd
+("/echo");
+
+349 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+350 
+	g»que¡_h—d”s
+[":·th"] = 
+¡d
+::
+¡ršg
+("/£rv”-»dœeù?"è+ 
+kRedœeùT¬g‘
+;
+
+351 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+352 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+353 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+355 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+356 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+357 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+359 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+360 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+362 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+363 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+364 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+369 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dHªdËGz
+) {
+
+370 cÚ¡ 
+	gkGzD©a
+[] =
+
+372 
+ušt64_t
+ 
+	g¿wBodyL’gth
+ = 
+¡¾’
+(
+kGzD©a
+);
+
+373 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+374 
+	g»que¡_h—d”s
+[":·th"] = 
+¡d
+::
+¡ršg
+("/gz-body?"è+ 
+kGzD©a
+;
+
+375 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+376 
+	g»que¡_h—d”s
+[":version"] = "HTTP/2.0";
+
+377 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+379 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+380 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+381 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+383 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+384 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+386 
+EXPECT_EQ
+(
+quic
+::
+QuicBack’dRe¥Ú£
+::
+REGULAR_RESPONSE
+,
+
+387 
+quic_»¥Ú£
+->
+»¥Ú£_ty³
+());
+
+388 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+389 
+EXPECT_EQ
+(
+kGzD©a
+, 
+quic_»¥Ú£
+->
+body
+());
+
+390 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+quic_»¥Ú£_h—d”s
+ =
+
+391 
+quic_»¥Ú£
+->
+h—d”s
+().
+ClÚe
+();
+
+394 autØ
+	g»¥Ú£L’gth
+ = 
+quic_»¥Ú£_h—d”s
+.
+fšd
+("content-length");
+
+395 
+ušt64_t
+ 
+	g»¥Ú£_h—d”_cÚ‹Á_Ëngth
+ = 0;
+
+396 ià(
+	g»¥Ú£L’gth
+ !ğ
+quic_»¥Ú£_h—d”s
+.
+’d
+()) {
+
+397 
+ba£
+::
+SŒšgToUšt64
+(
+»¥Ú£L’gth
+->
+£cÚd
+,
+
+398 &
+»¥Ú£_h—d”_cÚ‹Á_Ëngth
+);
+
+400 
+EXPECT_EQ
+(
+¿wBodyL’gth
+, 
+»¥Ú£_h—d”_cÚ‹Á_Ëngth
+);
+
+403 
+EXPECT_EQ
+(
+quic_»¥Ú£_h—d”s
+.
+’d
+(),
+
+404 
+quic_»¥Ú£_h—d”s
+.
+fšd
+("content-encoding"));
+
+408 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dCook›sNÙSaved
+) {
+
+409 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+410 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+411 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+414 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+415 
+	g»que¡_h—d”s
+[":path"] =
+
+417 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+418 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+420 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+421 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+423 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+424 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+quic_»¥Ú£_h—d”s
+ =
+
+425 
+quic_»¥Ú£
+->
+h—d”s
+().
+ClÚe
+();
+
+426 
+EXPECT_TRUE
+(
+quic_»¥Ú£_h—d”s
+.
+’d
+() !=
+
+427 
+quic_»¥Ú£_h—d”s
+.
+fšd
+("set-cookie"));
+
+428 autØ
+	gcook›
+ = 
+quic_»¥Ú£_h—d”s
+.
+fšd
+("set-cookie");
+
+429 
+EXPECT_TRUE
+(
+cook›
+->
+£cÚd
+.
+fšd
+("Cook›ToNÙSave=1"è!ğ
+¡d
+::
+¡ršg
+::
+Åos
+);
+
+430 
+EXPECT_TRUE
+(
+cook›
+->
+£cÚd
+.
+fšd
+("CookieToNotUpdate=1") !=
+
+431 
+¡d
+::
+¡ršg
+::
+Åos
+);
+
+434 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+435 
+	g»que¡_h—d”s
+[":path"] = "/echoheader?Cookie";
+
+436 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+437 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+439 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+440 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+442 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+443 
+EXPECT_TRUE
+(
+quic_»¥Ú£
+->
+body
+().
+fšd
+("CookieToNotSave=1") ==
+
+444 
+¡d
+::
+¡ršg
+::
+Åos
+);
+
+445 
+EXPECT_TRUE
+(
+quic_»¥Ú£
+->
+body
+().
+fšd
+("CookieToNotUpdate=1") ==
+
+446 
+¡d
+::
+¡ršg
+::
+Åos
+);
+
+452 
+TEST_F
+(
+QuicH‰pProxyBack’dSŒ—mTe¡
+, 
+S’dReque¡ToBack’dHİH—d”s
+) {
+
+453 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+454 
+	g»que¡_h—d”s
+[":path"] = "/echoall";
+
+455 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+456 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+457 
+	g¡d
+::
+£t
+<
+¡d
+::
+¡ršg
+>::
+™”©Ü
+ 
+™
+;
+
+458 
+	g™
+ = 
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+begš
+();
+
+459 
+	g™
+ !ğ
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+’d
+(); ++it) {
+
+460 
+	g»que¡_h—d”s
+[*
+™
+] = "SomeString";
+
+463 
+Te¡QuicS”v”SŒ—mD–eg©e
+ 
+	gd–eg©e
+;
+
+464 
+	gd–eg©e
+.
+C»©eProxyBack’dRe¥Ú£SŒ—mFÜTe¡
+(
+´oxy_back’d_
+.
+g‘
+());
+
+465 
+	gd–eg©e
+.
+S¹H‰pReque¡ToBack’dAndWa™
+(&
+»que¡_h—d”s
+, "");
+
+466 cÚ¡ 
+	gÃt
+::
+H‰pReque¡H—d”s
+& 
+aùu®_»que¡_h—d”s
+ =
+
+467 
+d–eg©e
+.
+g‘_»que¡_h—d”s
+();
+
+468 
+	g™
+ = 
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+begš
+();
+
+469 
+	g™
+ !ğ
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+’d
+(); ++it) {
+
+470 
+EXPECT_FALSE
+(
+aùu®_»que¡_h—d”s
+.
+HasH—d”
+(*
+™
+));
+
+473 
+	gquic
+::
+QuicBack’dRe¥Ú£
+* 
+quic_»¥Ú£
+ =
+
+474 
+d–eg©e
+.
+g‘_´oxy_back’d_¡»am
+()->
+G‘Back’dRe¥Ú£
+();
+
+475 
+EXPECT_EQ
+(200, 
+P¬£H—d”StusCode
+(
+quic_»¥Ú£
+->
+h—d”s
+()));
+
+476 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+quic_»¥Ú£_h—d”s
+ =
+
+477 
+quic_»¥Ú£
+->
+h—d”s
+().
+ClÚe
+();
+
+478 
+	g™
+ = 
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+begš
+();
+
+479 
+	g™
+ !ğ
+QuicH‰pProxyBack’dSŒ—m
+::
+kHİH—d”s
+.
+’d
+(); ++it) {
+
+480 
+EXPECT_EQ
+(
+quic_»¥Ú£_h—d”s
+.
+’d
+(), quic_»¥Ú£_h—d”s.
+fšd
+(*
+™
+));
+
+	@quic_http_proxy_backend_test.cc
+
+5 
+	~"ba£/fes/fe_·th.h
+"
+
+6 
+	~"ba£/·th_£rviû.h
+"
+
+7 
+	~"ba£/‹¡/scİed_sk_’vœÚm’t.h
+"
+
+8 
+	~"ba£/‹¡/‹¡_sim¶e_sk_ruÂ”.h
+"
+
+9 
+	~"Ãt/ba£/u¾_ut.h
+"
+
+10 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ_id.h
+"
+
+11 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_‹¡.h
+"
+
+13 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d.h
+"
+
+14 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d_¡»am.h
+"
+
+16 
+Çme¥aû
+ 
+	gÃt
+ {
+
+17 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+19 şas 
+	cTe¡QuicS”v”SŒ—m
+
+
+20 : 
+public
+ 
+quic
+::
+QuicSim¶eS”v”Back’d
+::
+Reque¡HªdËr
+ {
+
+21 
+public
+:
+
+22 
+Te¡QuicS”v”SŒ—m
+(è: 
+did_com¶‘e_
+(
+çl£
+) {}
+
+24 ~
+Te¡QuicS”v”SŒ—m
+(è
+ov”ride
+ {}
+
+26 
+quic
+::
+QuicCÚÃùiÚId
+ 
+cÚÃùiÚ_id
+(ècÚ¡ 
+ov”ride
+ {
+
+27  
+quic
+::
+QuicCÚÃùiÚIdFromUIÁ64
+(123);
+
+29 
+	gquic
+::
+QuicSŒ—mId
+ 
+¡»am_id
+(ècÚ¡ 
+ov”ride
+ {  5; };
+
+30 
+	g¡d
+::
+¡ršg
+ 
+³”_ho¡
+(ècÚ¡ 
+ov”ride
+ {  "127.0.0.1"; };
+
+32 
+OnRe¥Ú£Back’dCom¶‘e
+(
+
+33 cÚ¡ 
+quic
+::
+QuicBack’dRe¥Ú£
+* 
+»¥Ú£
+,
+
+34 
+¡d
+::
+li¡
+<
+quic
+::
+QuicBack’dRe¥Ú£
+::
+S”v”PushInfo
+> 
+»sourûs
+è
+ov”ride
+ {
+
+35 
+EXPECT_FALSE
+(
+did_com¶‘e_
+);
+
+36 
+	gdid_com¶‘e_
+ = 
+Œue
+;
+
+37 
+	gsk_ruÂ”_
+->
+Po¡Task
+(
+FROM_HERE
+, 
+run_loİ_
+.
+Qu™Closu»
+());
+
+40 
+	gba£
+::
+RunLoİ
+* 
+run_loİ
+(è{  &
+run_loİ_
+; }
+
+42 
+	g´iv©e
+:
+
+43 
+boŞ
+ 
+did_com¶‘e_
+;
+
+44 
+	gba£
+::
+‹¡
+::
+ScİedTaskEnvœÚm’t
+ 
+scİed_sk_’vœÚm’t
+;
+
+45 cÚ¡ 
+	gscİed_»åŒ
+<
+	gba£
+::
+SšgËTh»adTaskRuÂ”
+> 
+sk_ruÂ”_
+ =
+
+46 
+ba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+();
+
+47 
+	gba£
+::
+RunLoİ
+ 
+run_loİ_
+;
+
+50 şas 
+	cQuicH‰pProxyBack’dTe¡
+ : 
+public
+ 
+QuicTe¡
+ {
+
+51 
+public
+:
+
+52 
+QuicH‰pProxyBack’dTe¡
+() {
+
+53 
+´oxy_¡»am_m­_
+ = 
+h‰p_´oxy_
+.
+´oxy_back’d_¡»ams_m­
+();
+
+56 ~
+QuicH‰pProxyBack’dTe¡
+(è
+	gov”ride
+ {
+
+57 
+EXPECT_EQ
+(
+Œue
+, 
+´oxy_¡»am_m­_
+->
+em±y
+());
+
+60 
+S’dReque¡Ov”Back’d
+(
+Te¡QuicS”v”SŒ—m
+* 
+quic_¡»am
+) {
+
+61 
+	gquic_´oxy_back’d_u¾_
+ = "http://www.google.com:80";
+
+62 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+64 
+	g¥dy
+::
+SpdyH—d”Block
+ 
+»que¡_h—d”s
+;
+
+65 
+	g»que¡_h—d”s
+[":authority"] = "www.example.org";
+
+66 
+	g»que¡_h—d”s
+[":method"] = "GET";
+
+67 
+	g¡d
+::
+¡ršg
+ 
+body
+ = "Test Body";
+
+68 
+	gh‰p_´oxy_
+.
+F‘chRe¥Ú£FromBack’d
+(
+»que¡_h—d”s
+, 
+body
+, 
+quic_¡»am
+);
+
+69 
+	gquic_¡»am
+->
+run_loİ
+()->
+Run
+();
+
+72 
+	g´Ùeùed
+:
+
+73 
+¡d
+::
+¡ršg
+ 
+quic_´oxy_back’d_u¾_
+;
+
+74 
+QuicH‰pProxyBack’d
+ 
+	gh‰p_´oxy_
+;
+
+75 cÚ¡ 
+	gQuicH‰pProxyBack’d
+::
+ProxyBack’dSŒ—mM­
+* 
+´oxy_¡»am_m­_
+;
+
+78 
+TEST_F
+(
+QuicH‰pProxyBack’dTe¡
+, 
+In™ŸlizeQuicH‰pProxyBack’d
+) {
+
+80 
+	gquic_´oxy_back’d_u¾_
+ = "http://www.google.com:80--";
+
+81 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+82 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+83 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+85 
+	gquic_´oxy_back’d_u¾_
+ = "http://192.168.239.257:80";
+
+86 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+87 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+88 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+90 
+	gquic_´oxy_back’d_u¾_
+ = "http://2555.168.239:80";
+
+91 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+92 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+93 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+95 
+	gquic_´oxy_back’d_u¾_
+ = "http://192.168.239.237:65537";
+
+96 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+97 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+98 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+100 
+	gquic_´oxy_back’d_u¾_
+ = "ftp://www.google.com:80";
+
+101 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+102 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+103 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+106 
+	gquic_´oxy_back’d_u¾_
+ = "http://www.google.com:80";
+
+107 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+108 
+EXPECT_NE
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+109 
+EXPECT_EQ
+("h‰p://www.googË.com/", 
+h‰p_´oxy_
+.
+back’d_u¾
+());
+
+110 
+EXPECT_EQ
+(
+Œue
+, 
+h‰p_´oxy_
+.
+IsBack’dIn™Ÿlized
+());
+
+113 
+TEST_F
+(
+QuicH‰pProxyBack’dTe¡
+, 
+CheckProxySŒ—mMªag”
+) {
+
+114 
+Te¡QuicS”v”SŒ—m
+ 
+	gquic_¡»am
+;
+
+115 
+S’dReque¡Ov”Back’d
+(&
+quic_¡»am
+);
+
+116 autØ
+	g™_fšd_sucûss
+ = 
+´oxy_¡»am_m­_
+->
+fšd
+(&
+quic_¡»am
+);
+
+117 
+EXPECT_NE
+(
+™_fšd_sucûss
+, 
+´oxy_¡»am_m­_
+->
+’d
+());
+
+119 
+	gh‰p_´oxy_
+.
+Clo£Back’dRe¥Ú£SŒ—m
+(&
+quic_¡»am
+);
+
+127 
+TEST_F
+(
+QuicH‰pProxyBack’dTe¡
+, 
+CheckIsOnBack’dTh»ad
+) {
+
+128 
+	gquic_´oxy_back’d_u¾_
+ = "http://www.google.com:80";
+
+129 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+130 
+EXPECT_EQ
+(
+çl£
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+()->
+B–ÚgsToCu¼’tTh»ad
+());
+
+133 
+TEST_F
+(
+QuicH‰pProxyBack’dTe¡
+, 
+CheckG‘Back’dTaskRuÂ”
+) {
+
+134 
+EXPECT_EQ
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+135 
+	gquic_´oxy_back’d_u¾_
+ = "http://www.google.com:80";
+
+136 
+	gh‰p_´oxy_
+.
+In™ŸlizeBack’d
+(
+quic_´oxy_back’d_u¾_
+);
+
+137 
+EXPECT_NE
+(
+nuÎ±r
+, 
+h‰p_´oxy_
+.
+G‘ProxyTaskRuÂ”
+());
+
+	@quic_simple_client.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_ş›Á.h
+"
+
+7 
+	~<ut™y
+>
+
+9 
+	~"ba£/loggšg.h
+"
+
+10 
+	~"ba£/run_loİ.h
+"
+
+11 
+	~"ba£/th»adšg/th»ad_sk_ruÂ”_hªdË.h
+"
+
+12 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+13 
+	~"Ãt/h‰p/h‰p_»que¡_šfo.h
+"
+
+14 
+	~"Ãt/h‰p/h‰p_»¥Ú£_šfo.h
+"
+
+15 
+	~"Ãt/log/Ãt_log_sourû.h
+"
+
+16 
+	~"Ãt/log/Ãt_log_w™h_sourû.h
+"
+
+17 
+	~"Ãt/quic/quic_chromium_®¬m_çùÜy.h
+"
+
+18 
+	~"Ãt/quic/quic_chromium_cÚÃùiÚ_h–³r.h
+"
+
+19 
+	~"Ãt/quic/quic_chromium_·ck‘_»ad”.h
+"
+
+20 
+	~"Ãt/quic/quic_chromium_·ck‘_wr™”.h
+"
+
+21 
+	~"Ãt/sock‘/udp_ş›Á_sock‘.h
+"
+
+22 
+	~"Ãt/¥dy/¥dy_h‰p_uts.h
+"
+
+23 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_¿ndom.h
+"
+
+24 
+	~"Ãt/thœd_·¹y/quic/cÜe/h‰p/¥dy_uts.h
+"
+
+25 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ.h
+"
+
+26 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+27 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_£rv”_id.h
+"
+
+28 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_æags.h
+"
+
+29 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_±r_ut.h
+"
+
+30 
+	~"Ãt/thœd_·¹y/¥dy/cÜe/¥dy_h—d”_block.h
+"
+
+32 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+34 
+Çme¥aû
+ 
+	gÃt
+ {
+
+36 
+	gQuicSim¶eCl›Á
+::
+QuicSim¶eCl›Á
+(
+
+37 
+quic
+::
+QuicSock‘Add»ss
+ 
+£rv”_add»ss
+,
+
+38 cÚ¡ 
+quic
+::
+QuicS”v”Id
+& 
+£rv”_id
+,
+
+39 cÚ¡ 
+quic
+::
+P¬£dQuicV”siÚVeùÜ
+& 
+suµÜ‹d_v”siÚs
+,
+
+40 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”if›r
+> 
+´oof_v”if›r
+)
+
+41 : 
+quic
+::
+QuicSpdyCl›ÁBa£
+(
+
+42 
+£rv”_id
+,
+
+43 
+suµÜ‹d_v”siÚs
+,
+
+44 
+quic
+::
+QuicCÚfig
+(),
+
+45 
+C»©eQuicCÚÃùiÚH–³r
+(),
+
+46 
+C»©eQuicAÏrmFaùÜy
+(),
+
+47 
+quic
+::
+QuicW¿pUnique
+(
+
+48 
+Ãw
+ 
+QuicCl›ÁMes§geLoİlN‘wÜkH–³r
+(&
+şock_
+, 
+this
+)),
+
+49 
+¡d
+::
+move
+(
+´oof_v”if›r
+)),
+
+50 
+š™Ÿlized_
+(
+çl£
+),
+
+51 
+w—k_çùÜy_
+(
+this
+) {
+
+52 
+£t_£rv”_add»ss
+(
+£rv”_add»ss
+);
+
+55 
+	gQuicSim¶eCl›Á
+::~
+QuicSim¶eCl›Á
+() {
+
+56 ià(
+cÚÃùed
+()) {
+
+57 
+£ssiÚ
+()->
+cÚÃùiÚ
+()->
+Clo£CÚÃùiÚ
+(
+
+58 
+quic
+::
+QUIC_PEER_GOING_AWAY
+, "Shutting down",
+
+59 
+quic
+::
+CÚÃùiÚClo£BehaviÜ
+::
+SEND_CONNECTION_CLOSE_PACKET
+);
+
+63 
+QuicChromiumCÚÃùiÚH–³r
+* 
+	gQuicSim¶eCl›Á
+::
+C»©eQuicCÚÃùiÚH–³r
+() {
+
+64  
+Ãw
+ 
+QuicChromiumCÚÃùiÚH–³r
+ (&
+şock_
+,
+
+65 
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+());
+
+68 
+QuicChromiumAÏrmFaùÜy
+* 
+	gQuicSim¶eCl›Á
+::
+C»©eQuicAÏrmFaùÜy
+() {
+
+69  
+Ãw
+ 
+QuicChromiumAÏrmFaùÜy
+(
+ba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+().
+g‘
+(),
+
+70 &
+şock_
+);
+
+	@quic_simple_client.h
+
+8 #iâdeà
+NET_TOOLS_QUIC_QUIC_SIMPLE_CLIENT_H_
+
+
+9 
+	#NET_TOOLS_QUIC_QUIC_SIMPLE_CLIENT_H_
+
+
+	)
+
+11 
+	~<¡ddef.h
+>
+
+13 
+	~<memÜy
+>
+
+14 
+	~<¡ršg
+>
+
+16 
+	~"ba£/commªd_lše.h
+"
+
+17 
+	~"ba£/maüos.h
+"
+
+18 
+	~"Ãt/ba£/_add»ss.h
+"
+
+19 
+	~"Ãt/ba£/_’dpošt.h
+"
+
+20 
+	~"Ãt/h‰p/h‰p_»¥Ú£_h—d”s.h
+"
+
+21 
+	~"Ãt/log/Ãt_log.h
+"
+
+22 
+	~"Ãt/quic/quic_chromium_·ck‘_»ad”.h
+"
+
+23 
+	~"Ãt/thœd_·¹y/quic/cÜe/h‰p/quic_¥dy_¡»am.h
+"
+
+24 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚfig.h
+"
+
+25 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/im¶/quic_chromium_şock.h
+"
+
+26 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_¥dy_ş›Á_ba£.h
+"
+
+27 
+	~"Ãt/toŞs/quic/quic_ş›Á_mes§ge_loİ_ÃtwÜk_h–³r.h
+"
+
+29 
+Çme¥aû
+ 
+	gÃt
+ {
+
+31 
+şass
+ 
+	gQuicChromiumAÏrmFaùÜy
+;
+
+32 
+şass
+ 
+	gQuicChromiumCÚÃùiÚH–³r
+;
+
+34 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+35 
+şass
+ 
+	gQuicCl›ÁP“r
+;
+
+38 şas 
+	cQuicSim¶eCl›Á
+ : 
+public
+ 
+quic
+::
+QuicSpdyCl›ÁBa£
+ {
+
+39 
+public
+:
+
+41 
+QuicSim¶eCl›Á
+(
+quic
+::
+QuicSock‘Add»ss
+ 
+£rv”_add»ss
+,
+
+42 cÚ¡ 
+quic
+::
+QuicS”v”Id
+& 
+£rv”_id
+,
+
+43 cÚ¡ 
+quic
+::
+P¬£dQuicV”siÚVeùÜ
+& 
+suµÜ‹d_v”siÚs
+,
+
+44 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”if›r
+> 
+´oof_v”if›r
+);
+
+46 ~
+QuicSim¶eCl›Á
+(è
+	gov”ride
+;
+
+48 
+	g´iv©e
+:
+
+49 
+ä›nd
+ 
+şass
+ 
+Ãt
+::
+‹¡
+::
+QuicCl›ÁP“r
+;
+
+51 
+QuicChromiumAÏrmFaùÜy
+* 
+C»©eQuicAÏrmFaùÜy
+();
+
+52 
+QuicChromiumCÚÃùiÚH–³r
+* 
+C»©eQuicCÚÃùiÚH–³r
+();
+
+55 
+	gquic
+::
+QuicChromiumClock
+ 
+şock_
+;
+
+58 
+boŞ
+ 
+	gš™Ÿlized_
+;
+
+60 
+	gba£
+::
+W—kPŒFaùÜy
+<
+QuicSim¶eCl›Á
+> 
+w—k_çùÜy_
+;
+
+62 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicSim¶eCl›Á
+);
+
+	@quic_simple_client_bin.cc
+
+41 
+	~<io¡»am
+>
+
+43 
+	~"ba£/©_ex™.h
+"
+
+44 
+	~"ba£/commªd_lše.h
+"
+
+45 
+	~"ba£/loggšg.h
+"
+
+46 
+	~"ba£/mes§ge_loİ/mes§ge_loİ.h
+"
+
+47 
+	~"ba£/sk/sk_scheduËr/sk_scheduËr.h
+"
+
+48 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+49 
+	~"Ãt/ba£/´ivacy_mode.h
+"
+
+50 
+	~"Ãt/û¹/û¹_v”if›r.h
+"
+
+51 
+	~"Ãt/û¹/ù_log_v”if›r.h
+"
+
+52 
+	~"Ãt/û¹/ù_pŞicy_’fÜûr.h
+"
+
+53 
+	~"Ãt/û¹/muÉi_log_ù_v”if›r.h
+"
+
+54 
+	~"Ãt/h‰p/Œª¥Üt_£cur™y_¡©e.h
+"
+
+55 
+	~"Ãt/quic/üy±o/´oof_v”if›r_chromium.h
+"
+
+56 
+	~"Ãt/¥dy/¥dy_h‰p_uts.h
+"
+
+57 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_”rÜ_codes.h
+"
+
+58 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+59 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_£rv”_id.h
+"
+
+60 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_sock‘_add»ss.h
+"
+
+61 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_¡r_ÿt.h
+"
+
+62 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_¡ršg_p›û.h
+"
+
+63 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_‹xt_uts.h
+"
+
+64 
+	~"Ãt/thœd_·¹y/¥dy/cÜe/¥dy_h—d”_block.h
+"
+
+65 
+	~"Ãt/toŞs/quic/quic_sim¶e_ş›Á.h
+"
+
+66 
+	~"Ãt/toŞs/quic/synchrÚous_ho¡_»sŞv”.h
+"
+
+67 
+	~"u¾/gu¾.h
+"
+
+69 
+	~<ty³šfo
+>
+
+71 
+usšg
+ 
+	gÃt
+::
+C”tV”if›r
+;
+
+72 
+usšg
+ 
+	gÃt
+::
+CTV”if›r
+;
+
+73 
+usšg
+ 
+	gÃt
+::
+MuÉiLogCTV”if›r
+;
+
+74 
+usšg
+ 
+	gquic
+::
+ProofV”if›r
+;
+
+75 
+usšg
+ 
+	gÃt
+::
+ProofV”if›rChromium
+;
+
+76 
+usšg
+ 
+	gquic
+::
+QuicSŒšgP›û
+;
+
+77 
+usšg
+ 
+	gquic
+::
+QuicTextUts
+;
+
+78 
+usšg
+ 
+	gÃt
+::
+T¿n¥ÜtSecur™yS‹
+;
+
+79 
+usšg
+ 
+	g¥dy
+::
+SpdyH—d”Block
+;
+
+80 
+usšg
+ 
+	g¡d
+::
+cout
+;
+
+81 
+usšg
+ 
+	g¡d
+::
+û¼
+;
+
+82 
+usšg
+ 
+	g¡d
+::
+’dl
+;
+
+83 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+89 
+¡ršg
+ 
+	gFLAGS_ho¡
+ = "";
+
+91 
+št32_t
+ 
+	gFLAGS_pÜt
+ = 0;
+
+93 
+¡ršg
+ 
+	gFLAGS_body
+ = "";
+
+96 
+¡ršg
+ 
+	gFLAGS_body_hex
+ = "";
+
+98 
+¡ršg
+ 
+	gFLAGS_h—d”s
+ = "";
+
+100 
+boŞ
+ 
+	gFLAGS_qu›t
+ = 
+çl£
+;
+
+103 
+št32_t
+ 
+	gFLAGS_quic_v”siÚ
+ = -1;
+
+106 
+boŞ
+ 
+	gFLAGS_v”siÚ_mism©ch_ok
+ = 
+çl£
+;
+
+109 
+boŞ
+ 
+	gFLAGS_»dœeù_is_sucûss
+ = 
+Œue
+;
+
+111 
+št32_t
+ 
+	gFLAGS_š™Ÿl_mtu
+ = 0;
+
+113 şas 
+	cFakeProofV”if›r
+ : 
+public
+ 
+quic
+::
+ProofV”if›r
+ {
+
+114 
+public
+:
+
+115 
+quic
+::
+QuicAsyncStus
+ 
+V”ifyProof
+(
+
+116 cÚ¡ 
+¡ršg
+& 
+ho¡Çme
+,
+
+117 cÚ¡ 
+ušt16_t
+ 
+pÜt
+,
+
+118 cÚ¡ 
+¡ršg
+& 
+£rv”_cÚfig
+,
+
+119 
+quic
+::
+QuicT¿n¥ÜtV”siÚ
+ 
+quic_v”siÚ
+,
+
+120 
+quic
+::
+QuicSŒšgP›û
+ 
+chlo_hash
+,
+
+121 cÚ¡ 
+¡d
+::
+veùÜ
+<
+¡ršg
+>& 
+û¹s
+,
+
+122 cÚ¡ 
+¡ršg
+& 
+û¹_sù
+,
+
+123 cÚ¡ 
+¡ršg
+& 
+sigÇtu»
+,
+
+124 cÚ¡ 
+quic
+::
+ProofV”ifyCÚ‹xt
+* 
+cÚ‹xt
+,
+
+125 
+¡ršg
+* 
+”rÜ_d‘as
+,
+
+126 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”ifyD‘as
+>* 
+d‘as
+,
+
+127 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”if›rC®lback
+> 
+ÿÎback
+è
+ov”ride
+ {
+
+128  
+quic
+::
+QUIC_SUCCESS
+;
+
+131 
+	gquic
+::
+QuicAsyncStus
+ 
+V”ifyC”tChaš
+(
+
+132 cÚ¡ 
+¡d
+::
+¡ršg
+& 
+ho¡Çme
+,
+
+133 cÚ¡ 
+¡d
+::
+veùÜ
+<¡d::
+¡ršg
+>& 
+û¹s
+,
+
+134 cÚ¡ 
+quic
+::
+ProofV”ifyCÚ‹xt
+* 
+v”ify_cÚ‹xt
+,
+
+135 
+¡d
+::
+¡ršg
+* 
+”rÜ_d‘as
+,
+
+136 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”ifyD‘as
+>* 
+v”ify_d‘as
+,
+
+137 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”if›rC®lback
+> 
+ÿÎback
+è
+ov”ride
+ {
+
+138  
+quic
+::
+QUIC_SUCCESS
+;
+
+141 
+	g¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”ifyCÚ‹xt
+> 
+	$C»©eDeçuÉCÚ‹xt
+(è
+ov”ride
+ {
+
+142  
+nuÎ±r
+;
+
+143 
+	}
+}
+
+146 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[]) {
+
+148 
+¡d
+::
+cout
+<<"¶—£!!!!!!!!---------------------"<<¡d::
+’dl
+;
+
+150 
+ba£
+::
+CommªdLše
+::
+	`In™
+(
+¬gc
+, 
+¬gv
+);
+
+151 
+ba£
+::
+CommªdLše
+* 
+lše
+ = ba£::CommªdLše::
+	`FÜCu¼’tProûss
+();
+
+152 cÚ¡ 
+ba£
+::
+CommªdLše
+::
+SŒšgVeùÜ
+& 
+u¾s
+ = 
+lše
+->
+	`G‘Args
+();
+
+153 
+ba£
+::
+TaskScheduËr
+::
+	`C»©eAndS¹W™hDeçuÉP¬ams
+("quic_client");
+
+155 
+loggšg
+::
+LoggšgS‘tšgs
+ 
+£‰šgs
+;
+
+156 
+£‰šgs
+.
+loggšg_de¡
+ = 
+loggšg
+::
+LOG_TO_SYSTEM_DEBUG_LOG
+;
+
+157 
+	`CHECK
+(
+loggšg
+::
+	`In™Loggšg
+(
+£‰šgs
+));
+
+159 ià(
+lše
+->
+	`HasSw™ch
+("h"è||†še->HasSw™ch("h–p"è|| 
+u¾s
+.
+	`em±y
+()) {
+
+160 cÚ¡ * 
+h–p_¡r
+ =
+
+182 
+cout
+ << 
+h–p_¡r
+;
+
+183 
+	`ex™
+(0);
+
+185 ià(
+lše
+->
+	`HasSw™ch
+("host")) {
+
+186 
+FLAGS_ho¡
+ = 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("host");
+
+188 ià(
+lše
+->
+	`HasSw™ch
+("port")) {
+
+189 ià(!
+ba£
+::
+	`SŒšgToIÁ
+(
+lše
+->
+	`G‘Sw™chV®ueASCII
+("pÜt"), &
+FLAGS_pÜt
+)) {
+
+190 
+¡d
+::
+û¼
+ << "--port must be‡n integer\n";
+
+194 ià(
+lše
+->
+	`HasSw™ch
+("body")) {
+
+195 
+FLAGS_body
+ = 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("body");
+
+197 ià(
+lše
+->
+	`HasSw™ch
+("body_hex")) {
+
+198 
+FLAGS_body_hex
+ = 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("body_hex");
+
+200 ià(
+lše
+->
+	`HasSw™ch
+("headers")) {
+
+201 
+FLAGS_h—d”s
+ = 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("headers");
+
+203 ià(
+lše
+->
+	`HasSw™ch
+("quiet")) {
+
+204 
+FLAGS_qu›t
+ = 
+Œue
+;
+
+206 ià(
+lše
+->
+	`HasSw™ch
+("quic-version")) {
+
+207 
+quic_v”siÚ
+;
+
+208 ià(
+ba£
+::
+	`SŒšgToIÁ
+(
+lše
+->
+	`G‘Sw™chV®ueASCII
+("quic-version"),
+
+209 &
+quic_v”siÚ
+)) {
+
+210 
+FLAGS_quic_v”siÚ
+ = 
+quic_v”siÚ
+;
+
+213 ià(
+lše
+->
+	`HasSw™ch
+("version_mismatch_ok")) {
+
+214 
+FLAGS_v”siÚ_mism©ch_ok
+ = 
+Œue
+;
+
+216 ià(
+lše
+->
+	`HasSw™ch
+("redirect_is_success")) {
+
+217 
+FLAGS_»dœeù_is_sucûss
+ = 
+Œue
+;
+
+219 ià(
+lše
+->
+	`HasSw™ch
+("initial_mtu")) {
+
+220 ià(!
+ba£
+::
+	`SŒšgToIÁ
+(
+lše
+->
+	`G‘Sw™chV®ueASCII
+("initial_mtu"),
+
+221 &
+FLAGS_š™Ÿl_mtu
+)) {
+
+222 
+¡d
+::
+û¼
+ << "--initial_mtu must be‡n integer\n";
+
+227 
+	`VLOG
+(1è<< "£rv” ho¡: " << 
+FLAGS_ho¡
+ << "…Üt: " << 
+FLAGS_pÜt
+
+
+228 << " body: " << 
+FLAGS_body
+ << " h—d”s: " << 
+FLAGS_h—d”s
+
+
+229 << " qu›t: " << 
+FLAGS_qu›t
+
+
+230 << " quic-v”siÚ: " << 
+FLAGS_quic_v”siÚ
+
+
+231 << " v”siÚ_mism©ch_ok: " << 
+FLAGS_v”siÚ_mism©ch_ok
+
+
+232 << "„edœeù_is_sucûss: " << 
+FLAGS_»dœeù_is_sucûss
+
+
+233 << " in™Ÿl_mtu: " << 
+FLAGS_š™Ÿl_mtu
+;
+
+235 
+ba£
+::
+AtEx™Mªag”
+ 
+ex™_mªag”
+;
+
+236 
+ba£
+::
+Mes§geLoİFÜIO
+ 
+mes§ge_loİ
+;
+
+239 
+quic
+::
+QuicIpAdd»ss
+ 
+_addr
+;
+
+243 
+GURL
+ 
+	`u¾
+(
+u¾s
+[0]);
+
+247 
+¡ršg
+ 
+ho¡
+ = 
+FLAGS_ho¡
+;
+
+248 ià(
+ho¡
+.
+	`em±y
+()) {
+
+249 
+ho¡
+ = 
+u¾
+.
+	`ho¡
+();
+
+251 
+pÜt
+ = 
+FLAGS_pÜt
+;
+
+252 ià(
+pÜt
+ == 0) {
+
+253 
+pÜt
+ = 
+u¾
+.
+	`EfãùiveIÁPÜt
+();
+
+255 ià(!
+_addr
+.
+	`FromSŒšg
+(
+ho¡
+)) {
+
+256 
+Ãt
+::
+Add»ssLi¡
+ 
+add»s£s
+;
+
+257 
+rv
+ = 
+Ãt
+::
+SynchrÚousHo¡ResŞv”
+::
+	`ResŞve
+(
+ho¡
+, &
+add»s£s
+);
+
+258 ià(
+rv
+ !ğ
+Ãt
+::
+OK
+) {
+
+259 
+	`LOG
+(
+ERROR
+è<< "UÇbËØ»sŞv'" << 
+ho¡
+
+
+260 << "' : " << 
+Ãt
+::
+	`E¼ÜToShÜtSŒšg
+(
+rv
+);
+
+263 
+_addr
+ =
+
+264 
+quic
+::
+	`QuicIpAdd»ss
+(quic::
+	`QuicIpAdd»ssIm¶
+(
+add»s£s
+[0].
+	`add»ss
+()));
+
+267 
+¡ršg
+ 
+ho¡_pÜt
+ = 
+quic
+::
+	`QuicSŒC©
+(
+_addr
+.
+	`ToSŒšg
+(), ":", 
+pÜt
+);
+
+268 
+	`VLOG
+(1è<< "ResŞved " << 
+ho¡
+ << "Ø" << 
+ho¡_pÜt
+ << 
+’dl
+;
+
+271 
+quic
+::
+QuicS”v”Id
+ 
+	`£rv”_id
+(
+u¾
+.
+	`ho¡
+(), u¾.
+	`EfãùiveIÁPÜt
+(),
+
+272 
+Ãt
+::
+PRIVACY_MODE_DISABLED
+);
+
+273 
+quic
+::
+P¬£dQuicV”siÚVeùÜ
+ 
+v”siÚs
+ = quic::
+	`Cu¼’tSuµÜ‹dV”siÚs
+();
+
+274 ià(
+FLAGS_quic_v”siÚ
+ != -1) {
+
+275 
+v”siÚs
+.
+	`ş—r
+();
+
+276 
+v”siÚs
+.
+	`push_back
+(
+quic
+::
+	`P¬£dQuicV”siÚ
+(
+
+277 
+quic
+::
+PROTOCOL_QUIC_CRYPTO
+,
+
+278 
+¡©ic_ÿ¡
+<
+quic
+::
+QuicT¿n¥ÜtV”siÚ
+>(
+FLAGS_quic_v”siÚ
+)));
+
+281 
+¡d
+::
+unique_±r
+<
+C”tV”if›r
+> 
+	`û¹_v”if›r
+(C”tV”if›r::
+	`C»©eDeçuÉ
+());
+
+282 
+¡d
+::
+unique_±r
+<
+T¿n¥ÜtSecur™yS‹
+> 
+	`Œª¥Üt_£cur™y_¡©e
+(
+
+283 
+Ãw
+ 
+T¿n¥ÜtSecur™yS‹
+);
+
+284 
+¡d
+::
+unique_±r
+<
+MuÉiLogCTV”if›r
+> 
+	`ù_v”if›r
+(
+Ãw
+ 
+	`MuÉiLogCTV”if›r
+());
+
+285 
+¡d
+::
+unique_±r
+<
+Ãt
+::
+CTPŞicyEnfÜûr
+> 
+	`ù_pŞicy_’fÜûr
+(
+
+286 
+Ãw
+ 
+Ãt
+::
+	`DeçuÉCTPŞicyEnfÜûr
+());
+
+287 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofV”if›r
+> 
+´oof_v”if›r
+;
+
+288 ià(
+lše
+->
+	`HasSw™ch
+("disable-certificate-verification")) {
+
+289 
+´oof_v”if›r
+.
+	`»£t
+(
+Ãw
+ 
+	`FakeProofV”if›r
+());
+
+291 
+´oof_v”if›r
+.
+	`»£t
+(
+Ãw
+ 
+	`ProofV”if›rChromium
+(
+
+292 
+û¹_v”if›r
+.
+	`g‘
+(), 
+ù_pŞicy_’fÜûr
+.get(),
+
+293 
+Œª¥Üt_£cur™y_¡©e
+.
+	`g‘
+(), 
+ù_v”if›r
+.get()));
+
+295 
+Ãt
+::
+QuicSim¶eCl›Á
+ 
+	`ş›Á
+(
+quic
+::
+	`QuicSock‘Add»ss
+(
+_addr
+, 
+pÜt
+),
+
+296 
+£rv”_id
+, 
+v”siÚs
+, 
+¡d
+::
+	`move
+(
+´oof_v”if›r
+));
+
+297 
+ş›Á
+.
+	`£t_š™Ÿl_max_·ck‘_Ëngth
+(
+
+298 
+FLAGS_š™Ÿl_mtu
+ !ğ0 ? FLAGS_š™Ÿl_mtu : 
+quic
+::
+kDeçuÉMaxPack‘Size
+);
+
+299 ià(!
+ş›Á
+.
+	`In™Ÿlize
+()) {
+
+300 
+û¼
+ << "FaedØš™Ÿlizş›Á." << 
+’dl
+;
+
+303 ià(!
+ş›Á
+.
+	`CÚÃù
+()) {
+
+304 
+quic
+::
+QuicE¼ÜCode
+ 
+”rÜ
+ = 
+ş›Á
+.
+	`£ssiÚ
+()->
+	`”rÜ
+();
+
+305 ià(
+FLAGS_v”siÚ_mism©ch_ok
+ && 
+”rÜ
+ =ğ
+quic
+::
+QUIC_INVALID_VERSION
+) {
+
+306 
+cout
+ << "Serveralks QUIC, but‚one ofhe versions supported by "
+
+307 << "thi ş›Á: " << 
+	`P¬£dQuicV”siÚVeùÜToSŒšg
+(
+v”siÚs
+)
+
+308 << 
+’dl
+;
+
+312 
+û¼
+ << "FaedØcÚÃùØ" << 
+ho¡_pÜt
+
+
+313 << ". E¼Ü: " << 
+quic
+::
+	`QuicE¼ÜCodeToSŒšg
+(
+”rÜ
+è<< 
+’dl
+;
+
+316 
+cout
+ << "CÚÃùedØ" << 
+ho¡_pÜt
+ << 
+’dl
+;
+
+319 
+¡ršg
+ 
+body
+ = 
+FLAGS_body
+;
+
+320 ià(!
+FLAGS_body_hex
+.
+	`em±y
+()) {
+
+321 
+	`DCHECK
+(
+FLAGS_body
+.
+	`em±y
+()) << "Only set one of --body‡nd --body_hex.";
+
+322 
+body
+ = 
+quic
+::
+QuicTextUts
+::
+	`HexDecode
+(
+FLAGS_body_hex
+);
+
+326 
+SpdyH—d”Block
+ 
+h—d”_block
+;
+
+327 
+h—d”_block
+[":m‘hod"] = 
+body
+.
+	`em±y
+() ? "GET" : "POST";
+
+328 
+h—d”_block
+[":scheme"] = 
+u¾
+.
+	`scheme
+();
+
+329 
+h—d”_block
+[":authÜ™y"] = 
+u¾
+.
+	`ho¡
+();
+
+330 
+h—d”_block
+[":·th"] = 
+u¾
+.
+	`·th
+();
+
+331 
+¡d
+::
+cout
+<< "u¾_·th" << 
+u¾
+.
+	`·th
+()<<¡d::
+’dl
+;
+
+338 
+quic
+::
+QuicSŒšgP›û
+ 
+¥
+ :
+
+339 
+quic
+::
+QuicTextUts
+::
+	`S¶™
+(
+FLAGS_h—d”s
+, ';')) {
+
+340 
+quic
+::
+QuicTextUts
+::
+	`RemoveL—dšgAndT¿šgWh™e¥aû
+(&
+¥
+);
+
+341 ià(
+¥
+.
+	`em±y
+()) {
+
+344 
+¡d
+::
+veùÜ
+<
+quic
+::
+QuicSŒšgP›û
+> 
+kv
+ = quic::
+QuicTextUts
+::
+	`S¶™
+(
+¥
+, ':');
+
+345 
+quic
+::
+QuicTextUts
+::
+	`RemoveL—dšgAndT¿šgWh™e¥aû
+(&
+kv
+[0]);
+
+346 
+quic
+::
+QuicTextUts
+::
+	`RemoveL—dšgAndT¿šgWh™e¥aû
+(&
+kv
+[1]);
+
+347 
+h—d”_block
+[
+kv
+[0]] = kv[1];
+
+351 
+ş›Á
+.
+	`£t_¡Üe_»¥Ú£
+(
+Œue
+);
+
+354 
+ş›Á
+.
+	`S’dReque¡AndWa™FÜRe¥Ú£
+(
+h—d”_block
+, 
+body
+, 
+Œue
+);
+
+359 ià(!
+FLAGS_qu›t
+) {
+
+360 
+cout
+ << "Reque¡:" << 
+’dl
+;
+
+361 
+cout
+ << "h—d”s:" << 
+h—d”_block
+.
+	`DebugSŒšg
+();
+
+362 ià(!
+FLAGS_body_hex
+.
+	`em±y
+()) {
+
+364 
+cout
+ << "body:\n"
+
+365 << 
+quic
+::
+QuicTextUts
+::
+	`HexDump
+(
+
+366 
+quic
+::
+QuicTextUts
+::
+	`HexDecode
+(
+FLAGS_body_hex
+))
+
+367 << 
+’dl
+;
+
+369 
+cout
+ << "body: " << 
+body
+ << 
+’dl
+;
+
+371 
+cout
+ << 
+’dl
+;
+
+372 
+cout
+ << "Re¥Ú£:" << 
+’dl
+;
+
+373 
+cout
+ << "h—d”s: " << 
+ş›Á
+.
+	`Ï‹¡_»¥Ú£_h—d”s
+(è<< 
+’dl
+;
+
+374 
+¡ršg
+ 
+»¥Ú£_body
+ = 
+ş›Á
+.
+	`Ï‹¡_»¥Ú£_body
+();
+
+375 ià(!
+FLAGS_body_hex
+.
+	`em±y
+()) {
+
+377 
+cout
+ << "body:\n" << 
+quic
+::
+QuicTextUts
+::
+	`HexDump
+(
+»¥Ú£_body
+è<< 
+’dl
+;
+
+379 
+cout
+ << "body: " << 
+»¥Ú£_body
+ << 
+’dl
+;
+
+381 
+cout
+ << "Œa”s: " << 
+ş›Á
+.
+	`Ï‹¡_»¥Ú£_Œa”s
+(è<< 
+’dl
+;
+
+384 
+size_t
+ 
+»¥Ú£_code
+ = 
+ş›Á
+.
+	`Ï‹¡_»¥Ú£_code
+();
+
+385 ià(
+»¥Ú£_code
+ >= 200 &&„esponse_code < 300) {
+
+386 
+cout
+ << "Reque¡ sucûeded (" << 
+»¥Ú£_code
+ << ")." << 
+’dl
+;
+
+388 } ià(
+»¥Ú£_code
+ >= 300 &&„esponse_code < 400) {
+
+389 ià(
+FLAGS_»dœeù_is_sucûss
+) {
+
+390 
+cout
+ << "Reque¡ sucûeded (»dœeù " << 
+»¥Ú£_code
+ << ")." << 
+’dl
+;
+
+393 
+cout
+ << "Reque¡ faed (»dœeù " << 
+»¥Ú£_code
+ << ")." << 
+’dl
+;
+
+397 
+û¼
+ << "Reque¡ faed (" << 
+»¥Ú£_code
+ << ")." << 
+’dl
+;
+
+400 
+	}
+}
+
+	@quic_simple_client_test.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_ş›Á.h
+"
+
+7 
+	~"ba£/¡ršgs/¡ršg_ut.h
+"
+
+8 
+	~"ba£/‹¡/scİed_sk_’vœÚm’t.h
+"
+
+9 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/üy±o_‹¡_uts.h
+"
+
+10 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/quic_‹¡_uts.h
+"
+
+11 
+	~"‹¡šg/g‹¡/šşude/g‹¡/g‹¡.h
+"
+
+13 
+Çme¥aû
+ 
+	gÃt
+ {
+
+14 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+16 
+TEST
+(
+QuicSim¶eCl›ÁTe¡
+, 
+In™Ÿlize
+) {
+
+17 
+	gba£
+::
+‹¡
+::
+ScİedTaskEnvœÚm’t
+ 
+scİed_sk_’vœÚm’t
+;
+
+18 
+	gquic
+::
+QuicSock‘Add»ss
+ 
+£rv”_add»ss
+(
+quic
+::
+QuicIpAdd»ss
+::
+Loİback4
+(), 80);
+
+19 
+	gquic
+::
+QuicS”v”Id
+ 
+£rv”_id
+("ho¡Çme", 
+£rv”_add»ss
+.
+pÜt
+(), 
+çl£
+);
+
+20 
+	gquic
+::
+P¬£dQuicV”siÚVeùÜ
+ 
+v”siÚs
+ = 
+quic
+::
+AÎSuµÜ‹dV”siÚs
+();
+
+21 
+QuicSim¶eCl›Á
+ 
+ş›Á
+(
+
+22 
+£rv”_add»ss
+, 
+£rv”_id
+, 
+v”siÚs
+,
+
+23 
+quic
+::
+‹¡
+::
+üy±o_‹¡_uts
+::
+ProofV”if›rFÜTe¡šg
+());
+
+24 
+EXPECT_TRUE
+(
+ş›Á
+.
+In™Ÿlize
+());
+
+	@quic_simple_per_connection_packet_writer.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_³r_cÚÃùiÚ_·ck‘_wr™”.h
+"
+
+7 
+	~"ba£/bšd.h
+"
+
+8 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_·ck‘_wr™”.h
+"
+
+10 
+Çme¥aû
+ 
+	gÃt
+ {
+
+12 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+(
+
+13 
+QuicSim¶eS”v”Pack‘Wr™”
+* 
+sh¬ed_wr™”
+)
+
+14 : 
+sh¬ed_wr™”_
+(
+sh¬ed_wr™”
+),
+
+15 
+cÚÃùiÚ_
+(
+nuÎ±r
+),
+
+16 
+w—k_çùÜy_
+(
+this
+) {}
+
+18 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::~
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+() =
+
+21 
+	gquic
+::
+QuicPack‘Wr™”
+* 
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+sh¬ed_wr™”
+()
+
+23  
+sh¬ed_wr™”_
+;
+
+26 
+	gquic
+::
+Wr™eResuÉ
+ 
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+Wr™ePack‘
+(
+
+27 cÚ¡ * 
+bufãr
+,
+
+28 
+size_t
+ 
+buf_Ën
+,
+
+29 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+30 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+31 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+) {
+
+32  
+sh¬ed_wr™”_
+->
+Wr™ePack‘W™hC®lback
+(
+
+33 
+bufãr
+, 
+buf_Ën
+, 
+£lf_add»ss
+, 
+³”_add»ss
+, 
+İtiÚs
+,
+
+34 
+ba£
+::
+Bšd
+(&
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+OnWr™eCom¶‘e
+,
+
+35 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+()));
+
+38 
+boŞ
+ 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+IsWr™eBlockedD©aBufã»d
+() const {
+
+39  
+sh¬ed_wr™”_
+->
+IsWr™eBlockedD©aBufã»d
+();
+
+42 
+boŞ
+ 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+IsWr™eBlocked
+() const {
+
+43  
+sh¬ed_wr™”_
+->
+IsWr™eBlocked
+();
+
+46 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+S‘Wr™abË
+() {
+
+47 
+sh¬ed_wr™”_
+->
+S‘Wr™abË
+();
+
+50 
+	gQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+OnWr™eCom¶‘e
+(
+
+51 
+quic
+::
+Wr™eResuÉ
+ 
+»suÉ
+) {
+
+52 ià(
+cÚÃùiÚ_
+ && 
+»suÉ
+.
+¡©us
+ =ğ
+quic
+::
+WRITE_STATUS_ERROR
+) {
+
+53 
+cÚÃùiÚ_
+->
+OnWr™eE¼Ü
+(
+»suÉ
+.
+”rÜ_code
+);
+
+57 
+	gquic
+::
+QuicBy‹CouÁ
+ 
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+::
+G‘MaxPack‘Size
+(
+
+58 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+) const {
+
+59  
+sh¬ed_wr™”_
+->
+G‘MaxPack‘Size
+(
+³”_add»ss
+);
+
+	@quic_simple_per_connection_packet_writer.h
+
+5 #iâdeà
+NET_TOOLS_QUIC_QUIC_SIMPLE_PER_CONNECTION_PACKET_WRITER_H_
+
+
+6 
+	#NET_TOOLS_QUIC_QUIC_SIMPLE_PER_CONNECTION_PACKET_WRITER_H_
+
+
+	)
+
+8 
+	~<¡ddef.h
+>
+
+10 
+	~"ba£/maüos.h
+"
+
+11 
+	~"ba£/memÜy/w—k_±r.h
+"
+
+12 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ.h
+"
+
+13 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘_wr™”.h
+"
+
+15 
+Çme¥aû
+ 
+	gÃt
+ {
+
+17 
+şass
+ 
+	gQuicSim¶eS”v”Pack‘Wr™”
+;
+
+23 şas 
+	cQuicSim¶eP”CÚÃùiÚPack‘Wr™”
+ : 
+public
+ 
+quic
+::
+QuicPack‘Wr™”
+ {
+
+24 
+public
+:
+
+26 
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+(
+
+27 
+QuicSim¶eS”v”Pack‘Wr™”
+* 
+sh¬ed_wr™”
+);
+
+28 ~
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+(è
+	gov”ride
+;
+
+30 
+	gquic
+::
+QuicPack‘Wr™”
+* 
+sh¬ed_wr™”
+() const;
+
+31 
+£t_cÚÃùiÚ
+(
+quic
+::
+QuicCÚÃùiÚ
+* 
+cÚÃùiÚ
+) {
+
+32 
+cÚÃùiÚ_
+ = 
+cÚÃùiÚ
+;
+
+34 
+	gquic
+::
+QuicCÚÃùiÚ
+* 
+cÚÃùiÚ
+(ècÚ¡ {  
+cÚÃùiÚ_
+; }
+
+38 
+	gquic
+::
+Wr™eResuÉ
+ 
+Wr™ePack‘
+(cÚ¡ * 
+bufãr
+,
+
+39 
+size_t
+ 
+buf_Ën
+,
+
+40 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+41 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+42 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+è
+ov”ride
+;
+
+43 
+boŞ
+ 
+IsWr™eBlockedD©aBufã»d
+(ècÚ¡ 
+	gov”ride
+;
+
+44 
+boŞ
+ 
+IsWr™eBlocked
+(ècÚ¡ 
+	gov”ride
+;
+
+45 
+S‘Wr™abË
+(è
+	gov”ride
+;
+
+46 
+	gquic
+::
+QuicBy‹CouÁ
+ 
+G‘MaxPack‘Size
+(
+
+47 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+ècÚ¡ 
+ov”ride
+;
+
+49 
+	g´iv©e
+:
+
+50 
+OnWr™eCom¶‘e
+(
+quic
+::
+Wr™eResuÉ
+ 
+»suÉ
+);
+
+52 
+QuicSim¶eS”v”Pack‘Wr™”
+* 
+	gsh¬ed_wr™”_
+;
+
+53 
+	gquic
+::
+QuicCÚÃùiÚ
+* 
+cÚÃùiÚ_
+;
+
+55 
+	gba£
+::
+W—kPŒFaùÜy
+<
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+> 
+w—k_çùÜy_
+;
+
+57 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicSim¶eP”CÚÃùiÚPack‘Wr™”
+);
+
+	@quic_simple_server.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”.h
+"
+
+7 
+	~<¡ršg.h
+>
+
+9 
+	~"ba£/loÿtiÚ.h
+"
+
+10 
+	~"ba£/sšgË_th»ad_sk_ruÂ”.h
+"
+
+11 
+	~"ba£/th»adšg/th»ad_sk_ruÂ”_hªdË.h
+"
+
+12 
+	~"Ãt/ba£/_’dpošt.h
+"
+
+13 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+14 
+	~"Ãt/log/Ãt_log_sourû.h
+"
+
+15 
+	~"Ãt/sock‘/udp_£rv”_sock‘.h
+"
+
+16 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/üy±o_hªdshake.h
+"
+
+17 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_¿ndom.h
+"
+
+18 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_üy±o_¡»am.h
+"
+
+19 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_d©a_»ad”.h
+"
+
+20 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+21 
+	~"Ãt/thœd_·¹y/quic/cÜe/s_£rv”_hªdshak”.h
+"
+
+22 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_di¥©ch”.h
+"
+
+23 
+	~"Ãt/toŞs/quic/quic_sim¶e_³r_cÚÃùiÚ_·ck‘_wr™”.h
+"
+
+24 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_·ck‘_wr™”.h
+"
+
+25 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_£ssiÚ_h–³r.h
+"
+
+27 
+Çme¥aû
+ 
+	gÃt
+ {
+
+29 
+	gÇme¥aû
+ {
+
+31 cÚ¡ 
+	gkSourûAdd»ssTok’Seü‘
+[] = "secret";
+
+32 cÚ¡ 
+size_t
+ 
+	gkNumSessiÚsToC»©eP”Sock‘Ev’t
+ = 16;
+
+36 cÚ¡ 
+	gkR—dBufãrSize
+ = 2 * 
+quic
+::
+kMaxPack‘Size
+;
+
+40 
+	gQuicSim¶eS”v”
+::
+QuicSim¶eS”v”
+(
+
+41 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofSourû
+> 
+´oof_sourû
+,
+
+42 cÚ¡ 
+quic
+::
+QuicCÚfig
+& 
+cÚfig
+,
+
+43 cÚ¡ 
+quic
+::
+QuicCry±oS”v”CÚfig
+::
+CÚfigO±iÚs
+& 
+üy±o_cÚfig_İtiÚs
+,
+
+44 cÚ¡ 
+quic
+::
+P¬£dQuicV”siÚVeùÜ
+& 
+suµÜ‹d_v”siÚs
+,
+
+45 
+quic
+::
+QuicSim¶eS”v”Back’d
+* 
+quic_sim¶e_£rv”_back’d
+)
+
+46 : 
+v”siÚ_mªag”_
+(
+suµÜ‹d_v”siÚs
+),
+
+47 
+h–³r_
+(
+
+48 
+Ãw
+ 
+QuicChromiumCÚÃùiÚH–³r
+(&
+şock_
+,
+
+49 
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+())),
+
+50 
+®¬m_çùÜy_
+(
+Ãw
+ 
+QuicChromiumAÏrmFaùÜy
+(
+
+51 
+ba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+().
+g‘
+(),
+
+52 &
+şock_
+)),
+
+53 
+cÚfig_
+(
+cÚfig
+),
+
+54 
+üy±o_cÚfig_İtiÚs_
+(
+üy±o_cÚfig_İtiÚs
+),
+
+55 
+üy±o_cÚfig_
+(
+kSourûAdd»ssTok’Seü‘
+,
+
+56 
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+(),
+
+57 
+¡d
+::
+move
+(
+´oof_sourû
+),
+
+58 
+quic
+::
+KeyExchªgeSourû
+::
+DeçuÉ
+(),
+
+59 
+quic
+::
+TlsS”v”Hªdshak”
+::
+C»©eS¦Ctx
+()),
+
+60 
+»ad_³ndšg_
+(
+çl£
+),
+
+61 
+synchrÚous_»ad_couÁ_
+(0),
+
+62 
+»ad_bufãr_
+(
+ba£
+::
+MakeRefCouÁed
+<
+IOBufãrW™hSize
+>(
+kR—dBufãrSize
+)),
+
+63 
+quic_sim¶e_£rv”_back’d_
+(
+quic_sim¶e_£rv”_back’d
+),
+
+64 
+w—k_çùÜy_
+(
+this
+) {
+
+65 
+In™Ÿlize
+();
+
+68 
+	gQuicSim¶eS”v”
+::
+In™Ÿlize
+() {
+
+69 #ià
+MMSG_MORE
+
+
+70 
+u£_»cvmmsg_
+ = 
+Œue
+;
+
+75 cÚ¡ 
+ušt32_t
+ 
+	gkIn™ŸlSessiÚFlowCÚŒŞWšdow
+ = 1 * 1024 * 1024;
+
+76 cÚ¡ 
+ušt32_t
+ 
+	gkIn™ŸlSŒ—mFlowCÚŒŞWšdow
+ = 64 * 1024;
+
+77 ià(
+	gcÚfig_
+.
+G‘In™ŸlSŒ—mFlowCÚŒŞWšdowToS’d
+() ==
+
+78 
+quic
+::
+kMšimumFlowCÚŒŞS’dWšdow
+) {
+
+79 
+cÚfig_
+.
+S‘In™ŸlSŒ—mFlowCÚŒŞWšdowToS’d
+(
+
+80 
+kIn™ŸlSŒ—mFlowCÚŒŞWšdow
+);
+
+82 ià(
+	gcÚfig_
+.
+G‘In™ŸlSessiÚFlowCÚŒŞWšdowToS’d
+() ==
+
+83 
+quic
+::
+kMšimumFlowCÚŒŞS’dWšdow
+) {
+
+84 
+cÚfig_
+.
+S‘In™ŸlSessiÚFlowCÚŒŞWšdowToS’d
+(
+
+85 
+kIn™ŸlSessiÚFlowCÚŒŞWšdow
+);
+
+88 
+	g¡d
+::
+unique_±r
+<
+quic
+::
+Cry±oHªdshakeMes§ge
+> 
+scfg
+(
+
+89 
+üy±o_cÚfig_
+.
+AddDeçuÉCÚfig
+(
+h–³r_
+->
+G‘RªdomG’”©Ü
+(),
+
+90 
+h–³r_
+->
+G‘Clock
+(),
+
+91 
+üy±o_cÚfig_İtiÚs_
+));
+
+94 
+	gQuicSim¶eS”v”
+::~
+QuicSim¶eS”v”
+() = ;
+
+96 
+	gQuicSim¶eS”v”
+::
+Li¡’
+(cÚ¡ 
+IPEndPošt
+& 
+add»ss
+) {
+
+97 
+¡d
+::
+unique_±r
+<
+UDPS”v”Sock‘
+> 
+sock‘
+(
+
+98 
+Ãw
+ 
+UDPS”v”Sock‘
+(&
+Ãt_log_
+, 
+N‘LogSourû
+()));
+
+100 
+	gsock‘
+->
+AÎowAdd»ssReu£
+();
+
+102 
+	grc
+ = 
+sock‘
+->
+Li¡’
+(
+add»ss
+);
+
+103 ià(
+	grc
+ < 0) {
+
+104 
+LOG
+(
+ERROR
+è<< "Li¡’(èçed: " << 
+E¼ÜToSŒšg
+(
+rc
+);
+
+105  
+	grc
+;
+
+111 
+	grc
+ = 
+sock‘
+->
+S‘ReûiveBufãrSize
+(
+
+112 
+¡©ic_ÿ¡
+<
+št32_t
+>(
+quic
+::
+kDeçuÉSock‘ReûiveBufãr
+));
+
+113 ià(
+	grc
+ < 0) {
+
+114 
+LOG
+(
+ERROR
+è<< "S‘ReûiveBufãrSize(èçed: " << 
+E¼ÜToSŒšg
+(
+rc
+);
+
+115  
+	grc
+;
+
+118 
+	grc
+ = 
+sock‘
+->
+S‘S’dBufãrSize
+(20 * 
+quic
+::
+kMaxPack‘Size
+);
+
+119 ià(
+	grc
+ < 0) {
+
+120 
+LOG
+(
+ERROR
+è<< "S‘S’dBufãrSize(èçed: " << 
+E¼ÜToSŒšg
+(
+rc
+);
+
+121  
+	grc
+;
+
+124 
+	grc
+ = 
+sock‘
+->
+G‘LoÿlAdd»ss
+(&
+£rv”_add»ss_
+);
+
+125 ià(
+	grc
+ < 0) {
+
+126 
+LOG
+(
+ERROR
+è<< "G‘LoÿlAdd»ss(èçed: " << 
+E¼ÜToSŒšg
+(
+rc
+);
+
+127  
+	grc
+;
+
+130 
+DVLOG
+(1è<< "Li¡’šg oÀ" << 
+	g£rv”_add»ss_
+.
+ToSŒšg
+();
+
+132 
+	gsock‘_
+.
+sw­
+(
+sock‘
+);
+
+134 
+	gdi¥©ch”_
+.
+»£t
+(
+Ãw
+ 
+quic
+::
+QuicSim¶eDi¥©ch”
+(
+
+135 
+cÚfig_
+, &
+üy±o_cÚfig_
+, &
+v”siÚ_mªag”_
+,
+
+136 
+¡d
+::
+unique_±r
+<
+quic
+::
+QuicCÚÃùiÚH–³rIÁ”çû
+>(
+h–³r_
+),
+
+137 
+¡d
+::
+unique_±r
+<
+quic
+::
+QuicCry±oS”v”SŒ—m
+::
+H–³r
+>(
+
+138 
+Ãw
+ 
+QuicSim¶eS”v”SessiÚH–³r
+(
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+())),
+
+139 
+¡d
+::
+unique_±r
+<
+quic
+::
+QuicAÏrmFaùÜy
+>(
+®¬m_çùÜy_
+),
+
+140 
+quic_sim¶e_£rv”_back’d_
+));
+
+141 
+QuicSim¶eS”v”Pack‘Wr™”
+* 
+	gwr™”
+ =
+
+142 
+Ãw
+ 
+QuicSim¶eS”v”Pack‘Wr™”
+(
+sock‘_
+.
+g‘
+(), 
+di¥©ch”_
+.get());
+
+143 
+	gdi¥©ch”_
+->
+In™ŸlizeW™hWr™”
+(
+wr™”
+);
+
+145 
+S¹R—dšg
+();
+
+147  
+	gOK
+;
+
+150 
+	gQuicSim¶eS”v”
+::
+Shutdown
+() {
+
+153 
+di¥©ch”_
+->
+Shutdown
+();
+
+155 ià(!
+	gsock‘_
+) {
+
+158 
+	gsock‘_
+->
+Clo£
+();
+
+159 
+	gsock‘_
+.
+»£t
+();
+
+162 
+	gQuicSim¶eS”v”
+::
+S¹R—dšg
+() {
+
+163 ià(
+synchrÚous_»ad_couÁ_
+ == 0) {
+
+165 
+di¥©ch”_
+->
+ProûssBufã»dChlos
+(
+kNumSessiÚsToC»©eP”Sock‘Ev’t
+);
+
+168 ià(
+	g»ad_³ndšg_
+) {
+
+171 
+	g»ad_³ndšg_
+ = 
+Œue
+;
+
+173 
+	g»suÉ
+ = 
+sock‘_
+->
+RecvFrom
+(
+
+174 
+»ad_bufãr_
+.
+g‘
+(),„—d_bufãr_->
+size
+(), &
+ş›Á_add»ss_
+,
+
+175 
+ba£
+::
+Bšd
+(&
+QuicSim¶eS”v”
+::
+OnR—dCom¶‘e
+, ba£::
+UÄ‘ašed
+(
+this
+)));
+
+177 ià(
+	g»suÉ
+ =ğ
+ERR_IO_PENDING
+) {
+
+178 
+synchrÚous_»ad_couÁ_
+ = 0;
+
+179 ià(
+	gdi¥©ch”_
+->
+HasChlosBufã»d
+()) {
+
+181 
+	gba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+()->
+Po¡Task
+(
+
+182 
+FROM_HERE
+, 
+ba£
+::
+Bšd
+(&
+QuicSim¶eS”v”
+::
+S¹R—dšg
+,
+
+183 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+()));
+
+188 ià(++
+	gsynchrÚous_»ad_couÁ_
+ > 32) {
+
+189 
+	gsynchrÚous_»ad_couÁ_
+ = 0;
+
+192 
+	gba£
+::
+Th»adTaskRuÂ”HªdË
+::
+G‘
+()->
+Po¡Task
+(
+
+193 
+FROM_HERE
+, 
+ba£
+::
+Bšd
+(&
+QuicSim¶eS”v”
+::
+OnR—dCom¶‘e
+,
+
+194 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+(), 
+»suÉ
+));
+
+196 
+OnR—dCom¶‘e
+(
+»suÉ
+);
+
+200 
+	gQuicSim¶eS”v”
+::
+OnR—dCom¶‘e
+(
+»suÉ
+) {
+
+201 
+»ad_³ndšg_
+ = 
+çl£
+;
+
+202 ià(
+	g»suÉ
+ == 0)
+
+203 
+»suÉ
+ = 
+ERR_CONNECTION_CLOSED
+;
+
+205 ià(
+	g»suÉ
+ < 0) {
+
+206 
+LOG
+(
+ERROR
+è<< "QuicSim¶eS”v”„—d faed: " << 
+E¼ÜToSŒšg
+(
+»suÉ
+);
+
+207 
+Shutdown
+();
+
+211 
+	gquic
+::
+QuicReûivedPack‘
+ 
+·ck‘
+(
+»ad_bufãr_
+->
+d©a
+(), 
+»suÉ
+,
+
+212 
+h–³r_
+->
+G‘Clock
+()->
+Now
+(), 
+çl£
+);
+
+213 
+	gdi¥©ch”_
+->
+ProûssPack‘
+(
+
+214 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicSock‘Add»ssIm¶
+(
+£rv”_add»ss_
+)),
+
+215 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicSock‘Add»ssIm¶
+(
+ş›Á_add»ss_
+)),
+
+216 
+·ck‘
+);
+
+218 
+S¹R—dšg
+();
+
+	@quic_simple_server.h
+
+8 #iâdeà
+NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_H_
+
+
+9 
+	#NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_H_
+
+
+	)
+
+11 
+	~<memÜy
+>
+
+13 
+	~"ba£/maüos.h
+"
+
+14 
+	~"Ãt/ba£/io_bufãr.h
+"
+
+15 
+	~"Ãt/ba£/_’dpošt.h
+"
+
+16 
+	~"Ãt/log/Ãt_log.h
+"
+
+17 
+	~"Ãt/quic/quic_chromium_®¬m_çùÜy.h
+"
+
+18 
+	~"Ãt/quic/quic_chromium_cÚÃùiÚ_h–³r.h
+"
+
+19 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_üy±o_£rv”_cÚfig.h
+"
+
+20 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚfig.h
+"
+
+21 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_v”siÚ_mªag”.h
+"
+
+22 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/im¶/quic_chromium_şock.h
+"
+
+23 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_£rv”_back’d.h
+"
+
+25 
+Çme¥aû
+ 
+	gÃt
+ {
+
+27 
+şass
+ 
+	gUDPS”v”Sock‘
+;
+
+30 
+Çme¥aû
+ 
+	gquic
+ {
+
+31 
+şass
+ 
+	gQuicDi¥©ch”
+;
+
+33 
+Çme¥aû
+ 
+	gÃt
+ {
+
+35 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+36 
+şass
+ 
+	gQuicSim¶eS”v”P“r
+;
+
+39 şas 
+	cQuicSim¶eS”v”
+ {
+
+40 
+	gpublic
+:
+
+41 
+QuicSim¶eS”v”
+(
+
+42 
+¡d
+::
+unique_±r
+<
+quic
+::
+ProofSourû
+> 
+´oof_sourû
+,
+
+43 cÚ¡ 
+quic
+::
+QuicCÚfig
+& 
+cÚfig
+,
+
+44 cÚ¡ 
+quic
+::
+QuicCry±oS”v”CÚfig
+::
+CÚfigO±iÚs
+& 
+üy±o_cÚfig_İtiÚs
+,
+
+45 cÚ¡ 
+quic
+::
+P¬£dQuicV”siÚVeùÜ
+& 
+suµÜ‹d_v”siÚs
+,
+
+46 
+quic
+::
+QuicSim¶eS”v”Back’d
+* 
+quic_sim¶e_£rv”_back’d
+);
+
+48 
+	gvœtu®
+ ~
+QuicSim¶eS”v”
+();
+
+51 
+Li¡’
+(cÚ¡ 
+IPEndPošt
+& 
+add»ss
+);
+
+54 
+Shutdown
+();
+
+58 
+S¹R—dšg
+();
+
+62 
+OnR—dCom¶‘e
+(
+»suÉ
+);
+
+64 
+	gquic
+::
+QuicDi¥©ch”
+* 
+di¥©ch”
+(è{  
+di¥©ch”_
+.
+g‘
+(); }
+
+66 
+IPEndPošt
+ 
+£rv”_add»ss
+(ècÚ¡ {  
+	g£rv”_add»ss_
+; }
+
+68 
+	g´iv©e
+:
+
+69 
+ä›nd
+ 
+şass
+ 
+‹¡
+::
+QuicSim¶eS”v”P“r
+;
+
+72 
+In™Ÿlize
+();
+
+74 
+	gquic
+::
+QuicV”siÚMªag”
+ 
+v”siÚ_mªag”_
+;
+
+77 
+	g¡d
+::
+unique_±r
+<
+quic
+::
+QuicDi¥©ch”
+> 
+di¥©ch”_
+;
+
+80 
+	gquic
+::
+QuicChromiumClock
+ 
+şock_
+;
+
+83 
+QuicChromiumCÚÃùiÚH–³r
+* 
+	gh–³r_
+;
+
+86 
+QuicChromiumAÏrmFaùÜy
+* 
+	g®¬m_çùÜy_
+;
+
+89 
+	g¡d
+::
+unique_±r
+<
+UDPS”v”Sock‘
+> 
+sock‘_
+;
+
+93 
+	gquic
+::
+QuicCÚfig
+ 
+cÚfig_
+;
+
+96 
+	gquic
+::
+QuicCry±oS”v”CÚfig
+::
+CÚfigO±iÚs
+ 
+üy±o_cÚfig_İtiÚs_
+;
+
+98 
+	gquic
+::
+QuicCry±oS”v”CÚfig
+ 
+üy±o_cÚfig_
+;
+
+101 
+IPEndPošt
+ 
+	g£rv”_add»ss_
+;
+
+105 
+boŞ
+ 
+	g»ad_³ndšg_
+;
+
+109 
+	gsynchrÚous_»ad_couÁ_
+;
+
+112 
+	gscİed_»åŒ
+<
+	gIOBufãrW™hSize
+> 
+	g»ad_bufãr_
+;
+
+115 
+IPEndPošt
+ 
+	gş›Á_add»ss_
+;
+
+118 
+N‘Log
+ 
+	gÃt_log_
+;
+
+120 
+	gquic
+::
+QuicSim¶eS”v”Back’d
+* 
+quic_sim¶e_£rv”_back’d_
+;
+
+122 
+	gba£
+::
+W—kPŒFaùÜy
+<
+QuicSim¶eS”v”
+> 
+w—k_çùÜy_
+;
+
+124 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicSim¶eS”v”
+);
+
+	@quic_simple_server_bin.cc
+
+8 
+	~<io¡»am
+>
+
+10 
+	~"ba£/©_ex™.h
+"
+
+11 
+	~"ba£/commªd_lše.h
+"
+
+12 
+	~"ba£/loggšg.h
+"
+
+13 
+	~"ba£/mes§ge_loİ/mes§ge_loİ.h
+"
+
+14 
+	~"ba£/run_loİ.h
+"
+
+15 
+	~"ba£/¡ršgs/¡ršg_numb”_cÚv”siÚs.h
+"
+
+16 
+	~"ba£/sk/sk_scheduËr/sk_scheduËr.h
+"
+
+17 
+	~"Ãt/ba£/_add»ss.h
+"
+
+18 
+	~"Ãt/ba£/_’dpošt.h
+"
+
+19 
+	~"Ãt/quic/üy±o/´oof_sourû_chromium.h
+"
+
+20 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+21 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_memÜy_ÿche_back’d.h
+"
+
+22 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_£rv”_back’d.h
+"
+
+23 
+	~"Ãt/toŞs/quic/quic_h‰p_´oxy_back’d.h
+"
+
+24 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”.h
+"
+
+27 
+št32_t
+ 
+	gFLAGS_pÜt
+ = 6121;
+
+29 
+	g¡d
+::
+¡ršg
+ 
+FLAGS_quic_mode
+ = "cache";
+
+33 
+	g¡d
+::
+¡ršg
+ 
+FLAGS_quic_»¥Ú£_ÿche_dœ
+ = "";
+
+36 
+	g¡d
+::
+¡ršg
+ 
+FLAGS_quic_´oxy_back’d_u¾
+ = "";
+
+38 
+	g¡d
+::
+unique_±r
+<
+quic
+::
+ProofSourû
+> 
+	$C»©eProofSourû
+(
+
+39 cÚ¡ 
+ba£
+::
+FeP©h
+& 
+û¹_·th
+,
+
+40 cÚ¡ 
+ba£
+::
+FeP©h
+& 
+key_·th
+) {
+
+41 
+¡d
+::
+unique_±r
+<
+Ãt
+::
+ProofSourûChromium
+> 
+	`´oof_sourû
+(
+
+42 
+Ãw
+ 
+Ãt
+::
+	`ProofSourûChromium
+());
+
+43 
+	`CHECK
+(
+´oof_sourû
+->
+	`In™Ÿlize
+(
+û¹_·th
+, 
+key_·th
+, 
+ba£
+::
+	`FeP©h
+()));
+
+44  
+¡d
+::
+	`move
+(
+´oof_sourû
+);
+
+45 
+	}
+}
+
+47 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[]) {
+
+48 
+ba£
+::
+TaskScheduËr
+::
+	`C»©eAndS¹W™hDeçuÉP¬ams
+("quic_server");
+
+49 
+ba£
+::
+AtEx™Mªag”
+ 
+ex™_mªag”
+;
+
+50 
+ba£
+::
+Mes§geLoİFÜIO
+ 
+mes§ge_loİ
+;
+
+52 
+ba£
+::
+CommªdLše
+::
+	`In™
+(
+¬gc
+, 
+¬gv
+);
+
+53 
+ba£
+::
+CommªdLše
+* 
+lše
+ = ba£::CommªdLše::
+	`FÜCu¼’tProûss
+();
+
+55 
+loggšg
+::
+LoggšgS‘tšgs
+ 
+£‰šgs
+;
+
+56 
+£‰šgs
+.
+loggšg_de¡
+ = 
+loggšg
+::
+LOG_TO_SYSTEM_DEBUG_LOG
+;
+
+57 
+	`CHECK
+(
+loggšg
+::
+	`In™Loggšg
+(
+£‰šgs
+));
+
+59 ià(
+lše
+->
+	`HasSw™ch
+("h") ||†ine->HasSwitch("help")) {
+
+60 cÚ¡ * 
+h–p_¡r
+ =
+
+79 
+¡d
+::
+cout
+ << 
+h–p_¡r
+;
+
+80 
+	`ex™
+(0);
+
+84 
+¡d
+::
+unique_±r
+<
+quic
+::
+QuicSim¶eS”v”Back’d
+> 
+quic_sim¶e_£rv”_back’d
+;
+
+86 ià(
+lše
+->
+	`HasSw™ch
+("mode")) {
+
+87 
+FLAGS_quic_mode
+ = 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("mode");
+
+89 ià(
+FLAGS_quic_mode
+.
+	`com·»
+("cache") == 0) {
+
+90 ià(
+lše
+->
+	`HasSw™ch
+("quic_response_cache_dir")) {
+
+91 
+FLAGS_quic_»¥Ú£_ÿche_dœ
+ =
+
+92 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("quic_response_cache_dir");
+
+93 
+quic_sim¶e_£rv”_back’d
+ =
+
+94 
+¡d
+::
+make_unique
+<
+quic
+::
+QuicMemÜyCacheBack’d
+>();
+
+95 ià(
+FLAGS_quic_»¥Ú£_ÿche_dœ
+.
+	`em±y
+() ||
+
+96 
+quic_sim¶e_£rv”_back’d
+->
+	`In™ŸlizeBack’d
+(
+
+97 
+FLAGS_quic_»¥Ú£_ÿche_dœ
+è!ğ
+Œue
+) {
+
+98 
+	`LOG
+(
+ERROR
+) << "--quic_response_cache_dir is‚ot valid !";
+
+102 } ià(
+FLAGS_quic_mode
+.
+	`com·»
+("proxy") == 0) {
+
+103 ià(
+lše
+->
+	`HasSw™ch
+("quic_proxy_backend_url")) {
+
+104 
+FLAGS_quic_´oxy_back’d_u¾
+ =
+
+105 
+lše
+->
+	`G‘Sw™chV®ueASCII
+("quic_proxy_backend_url");
+
+106 
+quic_sim¶e_£rv”_back’d
+ =
+
+107 
+¡d
+::
+make_unique
+<
+Ãt
+::
+QuicH‰pProxyBack’d
+>();
+
+108 ià(
+quic_sim¶e_£rv”_back’d
+->
+	`In™ŸlizeBack’d
+(
+
+109 
+FLAGS_quic_´oxy_back’d_u¾
+è!ğ
+Œue
+) {
+
+110 
+	`LOG
+(
+ERROR
+) << "--quic_proxy_backend_url "
+
+111 << 
+FLAGS_quic_´oxy_back’d_u¾
+ << " is‚ot valid !";
+
+116 
+	`LOG
+(
+ERROR
+) << "unknown --mode. cache is‡ valid mode of operation";
+
+120 ià(
+lše
+->
+	`HasSw™ch
+("port")) {
+
+121 ià(!
+ba£
+::
+	`SŒšgToIÁ
+(
+lše
+->
+	`G‘Sw™chV®ueASCII
+("pÜt"), &
+FLAGS_pÜt
+)) {
+
+122 
+	`LOG
+(
+ERROR
+) << "--port must be‡n integer\n";
+
+127 ià(!
+lše
+->
+	`HasSw™ch
+("certificate_file")) {
+
+128 
+	`LOG
+(
+ERROR
+) << "missing --certificate_file";
+
+132 ià(!
+lše
+->
+	`HasSw™ch
+("key_file")) {
+
+133 
+	`LOG
+(
+ERROR
+) << "missing --key_file";
+
+137 
+Ãt
+::
+IPAdd»ss
+ 
+
+ =‚‘::IPAdd»ss::
+	`IPv6AÎZ”os
+();
+
+139 
+quic
+::
+QuicCÚfig
+ 
+cÚfig
+;
+
+140 
+Ãt
+::
+QuicSim¶eS”v”
+ 
+	`£rv”
+(
+
+141 
+	`C»©eProofSourû
+(
+lše
+->
+	`G‘Sw™chV®ueP©h
+("certificate_file"),
+
+142 
+lše
+->
+	`G‘Sw™chV®ueP©h
+("key_file")),
+
+143 
+cÚfig
+, 
+quic
+::
+QuicCry±oS”v”CÚfig
+::
+	`CÚfigO±iÚs
+(),
+
+144 
+quic
+::
+	`AÎSuµÜ‹dV”siÚs
+(), 
+quic_sim¶e_£rv”_back’d
+.
+	`g‘
+());
+
+146 
+rc
+ = 
+£rv”
+.
+	`Li¡’
+(
+Ãt
+::
+	`IPEndPošt
+(
+
+, 
+FLAGS_pÜt
+));
+
+147 ià(
+rc
+ < 0) {
+
+151 
+ba£
+::
+	`RunLoİ
+().
+	`Run
+();
+
+154 
+	}
+}
+
+	@quic_simple_server_packet_writer.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_·ck‘_wr™”.h
+"
+
+7 
+	~"ba£/ÿÎback_h–³rs.h
+"
+
+8 
+	~"ba£/loÿtiÚ.h
+"
+
+9 
+	~"ba£/loggšg.h
+"
+
+10 
+	~"ba£/m‘rics/hi¡og¿m_funùiÚs.h
+"
+
+11 
+	~"Ãt/ba£/io_bufãr.h
+"
+
+12 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+13 
+	~"Ãt/sock‘/udp_£rv”_sock‘.h
+"
+
+14 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_di¥©ch”.h
+"
+
+16 
+Çme¥aû
+ 
+	gÃt
+ {
+
+18 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+QuicSim¶eS”v”Pack‘Wr™”
+(
+
+19 
+UDPS”v”Sock‘
+* 
+sock‘
+,
+
+20 
+quic
+::
+QuicDi¥©ch”
+* 
+di¥©ch”
+)
+
+21 : 
+sock‘_
+(
+sock‘
+),
+
+22 
+di¥©ch”_
+(
+di¥©ch”
+),
+
+23 
+wr™e_blocked_
+(
+çl£
+),
+
+24 
+w—k_çùÜy_
+(
+this
+) {}
+
+26 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::~
+QuicSim¶eS”v”Pack‘Wr™”
+() = ;
+
+28 
+	gquic
+::
+Wr™eResuÉ
+ 
+QuicSim¶eS”v”Pack‘Wr™”
+::
+Wr™ePack‘W™hC®lback
+(
+
+29 cÚ¡ * 
+bufãr
+,
+
+30 
+size_t
+ 
+buf_Ën
+,
+
+31 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+32 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+33 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+,
+
+34 
+Wr™eC®lback
+ 
+ÿÎback
+) {
+
+35 
+DCHECK
+(
+ÿÎback_
+.
+is_nuÎ
+());
+
+36 
+	gÿÎback_
+ = 
+ÿÎback
+;
+
+37 
+	gquic
+::
+Wr™eResuÉ
+ 
+»suÉ
+ =
+
+38 
+Wr™ePack‘
+(
+bufãr
+, 
+buf_Ën
+, 
+£lf_add»ss
+, 
+³”_add»ss
+, 
+İtiÚs
+);
+
+39 ià(
+	g»suÉ
+.
+	g¡©us
+ !ğ
+quic
+::
+WRITE_STATUS_BLOCKED
+) {
+
+40 
+ÿÎback_
+.
+Re£t
+();
+
+42  
+	g»suÉ
+;
+
+45 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+OnWr™eCom¶‘e
+(
+rv
+) {
+
+46 
+DCHECK_NE
+(
+rv
+, 
+ERR_IO_PENDING
+);
+
+47 
+	gwr™e_blocked_
+ = 
+çl£
+;
+
+48 
+	gquic
+::
+Wr™eResuÉ
+ 
+»suÉ
+(
+
+49 
+rv
+ < 0 ? 
+quic
+::
+WRITE_STATUS_ERROR
+ : quic::
+WRITE_STATUS_OK
+,„v);
+
+50 ià(!
+	gÿÎback_
+.
+is_nuÎ
+()) {
+
+51 
+	gba£
+::
+Re£tAndR‘uº
+(&
+ÿÎback_
+).
+Run
+(
+»suÉ
+);
+
+53 
+	gdi¥©ch”_
+->
+OnCªWr™e
+();
+
+56 
+boŞ
+ 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+IsWr™eBlockedD©aBufã»d
+() const {
+
+58  
+Œue
+;
+
+61 
+boŞ
+ 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+IsWr™eBlocked
+() const {
+
+62  
+wr™e_blocked_
+;
+
+65 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+S‘Wr™abË
+() {
+
+66 
+wr™e_blocked_
+ = 
+çl£
+;
+
+69 
+	gquic
+::
+Wr™eResuÉ
+ 
+QuicSim¶eS”v”Pack‘Wr™”
+::
+Wr™ePack‘
+(
+
+70 cÚ¡ * 
+bufãr
+,
+
+71 
+size_t
+ 
+buf_Ën
+,
+
+72 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+73 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+74 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+) {
+
+75 
+scİed_»åŒ
+<
+SŒšgIOBufãr
+> 
+buf
+ =
+
+76 
+ba£
+::
+MakeRefCouÁed
+<
+SŒšgIOBufãr
+>(
+¡d
+::
+¡ršg
+(
+bufãr
+, 
+buf_Ën
+));
+
+77 
+DCHECK
+(!
+IsWr™eBlocked
+());
+
+78 
+	grv
+;
+
+79 ià(
+	gbuf_Ën
+ <ğ
+¡©ic_ÿ¡
+<
+size_t
+>(
+¡d
+::
+num”ic_lim™s
+<>::
+max
+())) {
+
+80 
+rv
+ = 
+sock‘_
+->
+S’dTo
+(
+
+81 
+buf
+.
+g‘
+(), 
+¡©ic_ÿ¡
+<>(
+buf_Ën
+),
+
+82 
+³”_add»ss
+.
+im¶
+().
+sock‘_add»ss
+(),
+
+83 
+ba£
+::
+Bšd
+(&
+QuicSim¶eS”v”Pack‘Wr™”
+::
+OnWr™eCom¶‘e
+,
+
+84 
+w—k_çùÜy_
+.
+G‘W—kPŒ
+()));
+
+86 
+	grv
+ = 
+ERR_MSG_TOO_BIG
+;
+
+88 
+	gquic
+::
+Wr™eStus
+ 
+¡©us
+ = 
+quic
+::
+WRITE_STATUS_OK
+;
+
+89 ià(
+	grv
+ < 0) {
+
+90 ià(
+	grv
+ !ğ
+ERR_IO_PENDING
+) {
+
+91 
+ba£
+::
+UmaHi¡og¿mS·r£
+("N‘.quic::QuicSessiÚ.Wr™eE¼Ü", -
+rv
+);
+
+92 
+	g¡©us
+ = 
+quic
+::
+WRITE_STATUS_ERROR
+;
+
+94 
+	g¡©us
+ = 
+quic
+::
+WRITE_STATUS_BLOCKED
+;
+
+95 
+	gwr™e_blocked_
+ = 
+Œue
+;
+
+98  
+	gquic
+::
+Wr™eResuÉ
+(
+¡©us
+, 
+rv
+);
+
+101 
+	gquic
+::
+QuicBy‹CouÁ
+ 
+QuicSim¶eS”v”Pack‘Wr™”
+::
+G‘MaxPack‘Size
+(
+
+102 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+) const {
+
+103  
+quic
+::
+kMaxPack‘Size
+;
+
+106 
+boŞ
+ 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+SuµÜtsR–—£Time
+() const {
+
+107  
+çl£
+;
+
+110 
+boŞ
+ 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+IsB©chMode
+() const {
+
+111  
+çl£
+;
+
+114 * 
+	gQuicSim¶eS”v”Pack‘Wr™”
+::
+G‘NextWr™eLoÿtiÚ
+(
+
+115 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+116 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+) {
+
+117  
+nuÎ±r
+;
+
+120 
+	gquic
+::
+Wr™eResuÉ
+ 
+QuicSim¶eS”v”Pack‘Wr™”
+::
+Flush
+() {
+
+121  
+quic
+::
+Wr™eResuÉ
+(quic::
+WRITE_STATUS_OK
+, 0);
+
+	@quic_simple_server_packet_writer.h
+
+5 #iâdeà
+NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_PACKET_WRITER_H_
+
+
+6 
+	#NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_PACKET_WRITER_H_
+
+
+	)
+
+8 
+	~<¡ddef.h
+>
+
+10 
+	~"ba£/ÿÎback.h
+"
+
+11 
+	~"ba£/maüos.h
+"
+
+12 
+	~"ba£/memÜy/w—k_±r.h
+"
+
+13 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ.h
+"
+
+14 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘_wr™”.h
+"
+
+15 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_·ck‘s.h
+"
+
+17 
+Çme¥aû
+ 
+	gquic
+ {
+
+18 
+şass
+ 
+	gQuicDi¥©ch”
+;
+
+20 
+Çme¥aû
+ 
+	gÃt
+ {
+
+21 
+şass
+ 
+	gUDPS”v”Sock‘
+;
+
+23 
+Çme¥aû
+ 
+	gquic
+ {
+
+24 
+	gWr™eResuÉ
+;
+
+26 
+Çme¥aû
+ 
+	gÃt
+ {
+
+30 şas 
+	cQuicSim¶eS”v”Pack‘Wr™”
+ : 
+public
+ 
+quic
+::
+QuicPack‘Wr™”
+ {
+
+31 
+public
+:
+
+32 
+ba£
+::
+	tC®lback
+<(
+	tquic
+::
+	tWr™eResuÉ
+)> 
+	tWr™eC®lback
+;
+
+34 
+QuicSim¶eS”v”Pack‘Wr™”
+(
+UDPS”v”Sock‘
+* 
+sock‘
+,
+
+35 
+quic
+::
+QuicDi¥©ch”
+* 
+di¥©ch”
+);
+
+36 ~
+QuicSim¶eS”v”Pack‘Wr™”
+(è
+	gov”ride
+;
+
+39 
+	gquic
+::
+Wr™eResuÉ
+ 
+Wr™ePack‘W™hC®lback
+(
+
+40 cÚ¡ * 
+bufãr
+,
+
+41 
+size_t
+ 
+buf_Ën
+,
+
+42 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+43 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+44 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+,
+
+45 
+Wr™eC®lback
+ 
+ÿÎback
+);
+
+47 
+	gquic
+::
+Wr™eResuÉ
+ 
+Wr™ePack‘
+(cÚ¡ * 
+bufãr
+,
+
+48 
+size_t
+ 
+buf_Ën
+,
+
+49 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+50 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+51 
+quic
+::
+P”Pack‘O±iÚs
+* 
+İtiÚs
+è
+ov”ride
+;
+
+53 
+OnWr™eCom¶‘e
+(
+rv
+);
+
+56 
+boŞ
+ 
+IsWr™eBlockedD©aBufã»d
+(ècÚ¡ 
+	gov”ride
+;
+
+57 
+boŞ
+ 
+IsWr™eBlocked
+(ècÚ¡ 
+	gov”ride
+;
+
+58 
+S‘Wr™abË
+(è
+	gov”ride
+;
+
+59 
+	gquic
+::
+QuicBy‹CouÁ
+ 
+G‘MaxPack‘Size
+(
+
+60 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+ècÚ¡ 
+ov”ride
+;
+
+61 
+boŞ
+ 
+SuµÜtsR–—£Time
+(ècÚ¡ 
+	gov”ride
+;
+
+62 
+boŞ
+ 
+IsB©chMode
+(ècÚ¡ 
+	gov”ride
+;
+
+63 * 
+G‘NextWr™eLoÿtiÚ
+(
+
+64 cÚ¡ 
+quic
+::
+QuicIpAdd»ss
+& 
+£lf_add»ss
+,
+
+65 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+è
+ov”ride
+;
+
+66 
+	gquic
+::
+Wr™eResuÉ
+ 
+Flush
+(è
+ov”ride
+;
+
+68 
+	g´iv©e
+:
+
+69 
+UDPS”v”Sock‘
+* 
+sock‘_
+;
+
+72 
+	gquic
+::
+QuicDi¥©ch”
+* 
+di¥©ch”_
+;
+
+75 
+Wr™eC®lback
+ 
+	gÿÎback_
+;
+
+78 
+boŞ
+ 
+	gwr™e_blocked_
+;
+
+80 
+	gba£
+::
+W—kPŒFaùÜy
+<
+QuicSim¶eS”v”Pack‘Wr™”
+> 
+w—k_çùÜy_
+;
+
+82 
+DISALLOW_COPY_AND_ASSIGN
+(
+QuicSim¶eS”v”Pack‘Wr™”
+);
+
+	@quic_simple_server_session_helper.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_£ssiÚ_h–³r.h
+"
+
+6 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ_id.h
+"
+
+8 
+Çme¥aû
+ 
+	gÃt
+ {
+
+10 
+	gQuicSim¶eS”v”SessiÚH–³r
+::
+QuicSim¶eS”v”SessiÚH–³r
+(
+
+11 
+quic
+::
+QuicRªdom
+* 
+¿ndom
+)
+
+12 : 
+¿ndom_
+(
+¿ndom
+) {}
+
+14 
+QuicSim¶eS”v”SessiÚH–³r
+::~QuicSimpleServerSessionHelper() = ;
+
+16 
+	gquic
+::
+QuicCÚÃùiÚId
+
+
+17 
+QuicSim¶eS”v”SessiÚH–³r
+::
+G’”©eCÚÃùiÚIdFÜRejeù
+(
+
+18 
+quic
+::
+QuicCÚÃùiÚId
+ ) const {
+
+19  
+quic
+::
+QuicCÚÃùiÚIdFromUIÁ64
+(
+¿ndom_
+->
+RªdUšt64
+());
+
+22 
+boŞ
+ 
+	gQuicSim¶eS”v”SessiÚH–³r
+::
+CªAcû±Cl›ÁH–lo
+(
+
+23 cÚ¡ 
+quic
+::
+Cry±oHªdshakeMes§ge
+& 
+mes§ge
+,
+
+24 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+ş›Á_add»ss
+,
+
+25 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+26 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+£lf_add»ss
+,
+
+27 
+¡d
+::
+¡ršg
+* 
+”rÜ_d‘as
+) const {
+
+28  
+Œue
+;
+
+	@quic_simple_server_session_helper.h
+
+5 #iâdeà
+NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_SESSION_HELPER_H_
+
+
+6 
+	#NET_TOOLS_QUIC_QUIC_SIMPLE_SERVER_SESSION_HELPER_H_
+
+
+	)
+
+8 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_¿ndom.h
+"
+
+9 
+	~"Ãt/thœd_·¹y/quic/cÜe/h‰p/quic_£rv”_£ssiÚ_ba£.h
+"
+
+11 
+Çme¥aû
+ 
+	gÃt
+ {
+
+15 şas 
+	cQuicSim¶eS”v”SessiÚH–³r
+
+
+16 : 
+public
+ 
+quic
+::
+QuicCry±oS”v”SŒ—m
+::
+H–³r
+ {
+
+17 
+public
+:
+
+18 
+ex¶ic™
+ 
+QuicSim¶eS”v”SessiÚH–³r
+(
+quic
+::
+QuicRªdom
+* 
+¿ndom
+);
+
+20 ~
+QuicSim¶eS”v”SessiÚH–³r
+(è
+	gov”ride
+;
+
+22 
+	gquic
+::
+QuicCÚÃùiÚId
+ 
+G’”©eCÚÃùiÚIdFÜRejeù
+(
+
+23 
+quic
+::
+QuicCÚÃùiÚId
+ ) cÚ¡ 
+ov”ride
+;
+
+25 
+boŞ
+ 
+CªAcû±Cl›ÁH–lo
+(cÚ¡ 
+quic
+::
+Cry±oHªdshakeMes§ge
+& 
+mes§ge
+,
+
+26 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+ş›Á_add»ss
+,
+
+27 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+³”_add»ss
+,
+
+28 cÚ¡ 
+quic
+::
+QuicSock‘Add»ss
+& 
+£lf_add»ss
+,
+
+29 
+¡d
+::
+¡ršg
+* 
+”rÜ_d‘as
+ècÚ¡ 
+ov”ride
+;
+
+31 
+	g´iv©e
+:
+
+32 
+quic
+::
+QuicRªdom
+* 
+¿ndom_
+;
+
+	@quic_simple_server_session_helper_test.cc
+
+5 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_cÚÃùiÚ_id.h
+"
+
+6 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/mock_¿ndom.h
+"
+
+7 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_sim¶e_üy±o_£rv”_¡»am_h–³r.h
+"
+
+9 
+	~"‹¡šg/g‹¡/šşude/g‹¡/g‹¡.h
+"
+
+11 
+Çme¥aû
+ 
+	gÃt
+ {
+
+13 
+TEST
+(
+QuicSim¶eCry±oS”v”SŒ—mH–³rTe¡
+, 
+G’”©eCÚÃùiÚIdFÜRejeù
+) {
+
+14 
+	gquic
+::
+‹¡
+::
+MockRªdom
+ 
+¿ndom
+;
+
+15 
+	gquic
+::
+QuicSim¶eCry±oS”v”SŒ—mH–³r
+ 
+h–³r
+(&
+¿ndom
+);
+
+17 
+EXPECT_EQ
+(
+quic
+::
+QuicCÚÃùiÚIdFromUIÁ64
+(
+¿ndom
+.
+RªdUšt64
+()),
+
+18 
+h–³r
+.
+G’”©eCÚÃùiÚIdFÜRejeù
+(
+
+19 
+quic
+::
+QuicCÚÃùiÚIdFromUIÁ64
+(42)));
+
+	@quic_simple_server_test.cc
+
+5 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”.h
+"
+
+7 
+	~"Ãt/thœd_·¹y/quic/cÜe/üy±o/quic_¿ndom.h
+"
+
+8 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_üy±o_¡»am.h
+"
+
+9 
+	~"Ãt/thœd_·¹y/quic/cÜe/quic_uts.h
+"
+
+10 
+	~"Ãt/thœd_·¹y/quic/cÜe/s_£rv”_hªdshak”.h
+"
+
+11 
+	~"Ãt/thœd_·¹y/quic/¶©fÜm/­i/quic_‹¡.h
+"
+
+12 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/üy±o_‹¡_uts.h
+"
+
+13 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/mock_quic_di¥©ch”.h
+"
+
+14 
+	~"Ãt/thœd_·¹y/quic/‹¡_toŞs/quic_‹¡_uts.h
+"
+
+15 
+	~"Ãt/thœd_·¹y/quic/toŞs/quic_memÜy_ÿche_back’d.h
+"
+
+16 
+	~"Ãt/toŞs/quic/quic_sim¶e_£rv”_£ssiÚ_h–³r.h
+"
+
+17 
+	~"‹¡šg/g‹¡/šşude/g‹¡/g‹¡.h
+"
+
+19 
+	gusšg
+ ::
+‹¡šg
+::
+_
+;
+
+21 
+Çme¥aû
+ 
+	gÃt
+ {
+
+22 
+Çme¥aû
+ 
+	g‹¡
+ {
+
+25 şas 
+	cQuicChromeS”v”Di¥©chPack‘Te¡
+ : 
+public
+ 
+QuicTe¡
+ {
+
+26 
+public
+:
+
+27 
+QuicChromeS”v”Di¥©chPack‘Te¡
+()
+
+28 : 
+üy±o_cÚfig_
+("blah",
+
+29 
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+(),
+
+30 
+quic
+::
+‹¡
+::
+üy±o_‹¡_uts
+::
+ProofSourûFÜTe¡šg
+(),
+
+31 
+quic
+::
+KeyExchªgeSourû
+::
+DeçuÉ
+(),
+
+32 
+quic
+::
+TlsS”v”Hªdshak”
+::
+C»©eS¦Ctx
+()),
+
+33 
+v”siÚ_mªag”_
+(
+quic
+::
+AÎSuµÜ‹dV”siÚs
+()),
+
+34 
+di¥©ch”_
+(
+cÚfig_
+,
+
+35 &
+üy±o_cÚfig_
+,
+
+36 &
+v”siÚ_mªag”_
+,
+
+37 
+¡d
+::
+unique_±r
+<
+quic
+::
+‹¡
+::
+MockQuicCÚÃùiÚH–³r
+>(
+
+38 
+Ãw
+ 
+quic
+::
+‹¡
+::
+MockQuicCÚÃùiÚH–³r
+),
+
+39 
+¡d
+::
+unique_±r
+<
+quic
+::
+QuicCry±oS”v”SŒ—m
+::
+H–³r
+>(
+
+40 
+Ãw
+ 
+QuicSim¶eS”v”SessiÚH–³r
+(
+
+41 
+quic
+::
+QuicRªdom
+::
+G‘In¡ªû
+())),
+
+42 
+¡d
+::
+unique_±r
+<
+quic
+::
+‹¡
+::
+MockAÏrmFaùÜy
+>(
+
+43 
+Ãw
+ 
+quic
+::
+‹¡
+::
+MockAÏrmFaùÜy
+),
+
+44 &
+memÜy_ÿche_back’d_
+) {
+
+45 
+	gdi¥©ch”_
+.
+In™ŸlizeW™hWr™”
+(
+nuÎ±r
+);
+
+48 
+Di¥©chPack‘
+(cÚ¡ 
+quic
+::
+QuicReûivedPack‘
+& 
+·ck‘
+) {
+
+49 
+IPEndPošt
+ 
+ş›Á_addr
+, 
+	g£rv”_addr
+;
+
+50 
+	gdi¥©ch”_
+.
+ProûssPack‘
+(
+
+51 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicSock‘Add»ssIm¶
+(
+£rv”_addr
+)),
+
+52 
+quic
+::
+QuicSock‘Add»ss
+(quic::
+QuicSock‘Add»ssIm¶
+(
+ş›Á_addr
+)),
+
+53 
+·ck‘
+);
+
+56 
+	g´Ùeùed
+:
+
+57 
+quic
+::
+QuicCÚfig
+ 
+cÚfig_
+;
+
+58 
+	gquic
+::
+QuicCry±oS”v”CÚfig
+ 
+üy±o_cÚfig_
+;
+
+59 
+	gquic
+::
+QuicV”siÚMªag”
+ 
+v”siÚ_mªag”_
+;
+
+60 
+	gquic
+::
+‹¡
+::
+MockQuicDi¥©ch”
+ 
+di¥©ch”_
+;
+
+61 
+	gquic
+::
+QuicMemÜyCacheBack’d
+ 
+memÜy_ÿche_back’d_
+;
+
+64 
+TEST_F
+(
+QuicChromeS”v”Di¥©chPack‘Te¡
+, 
+Di¥©chPack‘
+) {
+
+65 
+	gv®id_·ck‘
+[] = {
+
+74 
+	gquic
+::
+QuicReûivedPack‘
+ 
+’üy±ed_v®id_·ck‘
+(
+
+75 
+»š‹½»t_ÿ¡
+<*>(
+v®id_·ck‘
+), 
+¬¿ysize
+(valid_packet),
+
+76 
+quic
+::
+QuicTime
+::
+Z”o
+(), 
+çl£
+);
+
+78 
+EXPECT_CALL
+(
+di¥©ch”_
+, 
+ProûssPack‘
+(
+_
+, _, _)).
+Times
+(1);
+
+79 
+Di¥©chPack‘
+(
+’üy±ed_v®id_·ck‘
+);
+
+	@synchronous_host_resolver.cc
+
+5 
+	~"Ãt/toŞs/quic/synchrÚous_ho¡_»sŞv”.h
+"
+
+7 
+	~"ba£/©_ex™.h
+"
+
+8 
+	~"ba£/loÿtiÚ.h
+"
+
+9 
+	~"ba£/maüos.h
+"
+
+10 
+	~"ba£/memÜy/w—k_±r.h
+"
+
+11 
+	~"ba£/mes§ge_loİ/mes§ge_loİ.h
+"
+
+12 
+	~"ba£/run_loİ.h
+"
+
+13 
+	~"ba£/sšgË_th»ad_sk_ruÂ”.h
+"
+
+14 
+	~"ba£/th»adšg/sim¶e_th»ad.h
+"
+
+15 
+	~"ba£/th»adšg/th»ad_sk_ruÂ”_hªdË.h
+"
+
+16 
+	~"Ãt/ba£/ho¡_pÜt_·œ.h
+"
+
+17 
+	~"Ãt/ba£/Ãt_”rÜs.h
+"
+
+18 
+	~"Ãt/dns/ho¡_»sŞv”_im¶.h
+"
+
+19 
+	~"Ãt/log/Ãt_log.h
+"
+
+20 
+	~"Ãt/log/Ãt_log_w™h_sourû.h
+"
+
+22 
+Çme¥aû
+ 
+	gÃt
+ {
+
+25 
+	gÇme¥aû
+ {
+
+27 şas 
+	cResŞv”Th»ad
+ : 
+public
+ 
+ba£
+::
+Sim¶eTh»ad
+ {
+
+28 
+public
+:
+
+29 
+ResŞv”Th»ad
+();
+
+31 ~
+ResŞv”Th»ad
+(è
+	gov”ride
+;
+
+34 
+ResŞve
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+ho¡
+, 
+Add»ssLi¡
+* 
+add»s£s
+);
+
+37 
+Run
+(è
+	gov”ride
+;
+
+39 
+	g´iv©e
+:
+
+40 
+OnResŞutiÚCom¶‘e
+(
+ba£
+::
+OnûClosu»
+ 
+Ú_dÚe
+, 
+rv
+);
+
+42 
+Add»ssLi¡
+* 
+	gadd»s£s_
+;
+
+43 
+	g¡d
+::
+¡ršg
+ 
+ho¡_
+;
+
+44 
+	grv_
+;
+
+46 
+DISALLOW_COPY_AND_ASSIGN
+(
+ResŞv”Th»ad
+);
+
+49 
+	gResŞv”Th»ad
+::
+ResŞv”Th»ad
+()
+
+50 : 
+Sim¶eTh»ad
+("»sŞv”_th»ad"), 
+rv_
+(
+ERR_UNEXPECTED
+) {}
+
+52 
+	gResŞv”Th»ad
+::~
+ResŞv”Th»ad
+() = ;
+
+54 
+	gResŞv”Th»ad
+::
+Run
+() {
+
+55 
+ba£
+::
+Mes§geLoİFÜIO
+ 
+loİ
+;
+
+57 
+	gÃt
+::
+N‘Log
+ 
+Ãt_log
+;
+
+58 
+	gÃt
+::
+Ho¡ResŞv”
+::
+O±iÚs
+ 
+İtiÚs
+;
+
+59 
+	gİtiÚs
+.
+	gmax_cÚcu¼’t_»sŞves
+ = 6;
+
+60 
+	gİtiÚs
+.
+	gmax_»Œy_©‹m±s
+ = 3u;
+
+61 
+	g¡d
+::
+unique_±r
+<
+Ãt
+::
+Ho¡ResŞv”Im¶
+> 
+»sŞv”
+(
+
+62 
+Ãw
+ 
+Ãt
+::
+Ho¡ResŞv”Im¶
+(
+İtiÚs
+, &
+Ãt_log
+));
+
+64 
+	g¡d
+::
+unique_±r
+<
+Ãt
+::
+Ho¡ResŞv”
+::
+Reque¡
+> 
+»que¡
+;
+
+65 
+Ho¡PÜtPaœ
+ 
+ho¡_pÜt_·œ
+(
+ho¡_
+, 80);
+
+66 
+	gba£
+::
+RunLoİ
+ 
+run_loİ
+;
+
+67 
+	grv_
+ = 
+»sŞv”
+->
+ResŞve
+(
+
+68 
+Ho¡ResŞv”
+::
+Reque¡Info
+(
+ho¡_pÜt_·œ
+), 
+DEFAULT_PRIORITY
+, 
+add»s£s_
+,
+
+69 
+ba£
+::
+Bšd
+(&
+ResŞv”Th»ad
+::
+OnResŞutiÚCom¶‘e
+, ba£::
+UÄ‘ašed
+(
+this
+),
+
+70 
+run_loİ
+.
+Qu™Closu»
+()),
+
+71 &
+»que¡
+, 
+N‘LogW™hSourû
+());
+
+73 ià(
+	grv_
+ !ğ
+ERR_IO_PENDING
+)
+
+77 
+	grun_loİ
+.
+Run
+();
+
+80 
+	gResŞv”Th»ad
+::
+ResŞve
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+ho¡
+, 
+Add»ssLi¡
+* 
+add»s£s
+) {
+
+81 
+	gho¡_
+ = 
+ho¡
+;
+
+82 
+	gadd»s£s_
+ = 
+add»s£s
+;
+
+83 
+	gthis
+->
+S¹
+();
+
+84 
+	gthis
+->
+Još
+();
+
+85  
+	grv_
+;
+
+88 
+	gResŞv”Th»ad
+::
+OnResŞutiÚCom¶‘e
+(
+ba£
+::
+OnûClosu»
+ 
+Ú_dÚe
+, 
+rv
+) {
+
+89 
+	grv_
+ = 
+rv
+;
+
+90 
+	g¡d
+::
+move
+(
+Ú_dÚe
+).
+Run
+();
+
+96 
+	gSynchrÚousHo¡ResŞv”
+::
+	$ResŞve
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+ho¡
+,
+
+97 
+Add»ssLi¡
+* 
+add»s£s
+) {
+
+98 
+ResŞv”Th»ad
+ 
+»sŞv”
+;
+
+99  
+»sŞv”
+.
+	`ResŞve
+(
+ho¡
+, 
+add»s£s
+);
+
+100 
+	}
+}
+
+	@synchronous_host_resolver.h
+
+7 #iâdeà
+NET_TOOLS_QUIC_SYNCHRONOUS_HOST_RESOLVER_H_
+
+
+8 
+	#NET_TOOLS_QUIC_SYNCHRONOUS_HOST_RESOLVER_H_
+
+
+	)
+
+10 
+	~"Ãt/ba£/add»ss_li¡.h
+"
+
+11 
+	~"Ãt/dns/ho¡_»sŞv”.h
+"
+
+13 
+Çme¥aû
+ 
+	gÃt
+ {
+
+15 şas 
+	cSynchrÚousHo¡ResŞv”
+ {
+
+16 
+	gpublic
+:
+
+17 
+ResŞve
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+ho¡
+, 
+Add»ssLi¡
+* 
+add»s£s
+);
+
+	@/usr/include/limits.h
+
+22 #iâdeà
+_LIBC_LIMITS_H_
+
+
+23 
+	#_LIBC_LIMITS_H_
+ 1
+
+	)
+
+25 
+	#__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+
+
+	)
+
+26 
+	~<b™s/libc-h—d”-¡¬t.h
+>
+
+32 
+	#MB_LEN_MAX
+ 16
+
+	)
+
+37 #ià!
+defšed
+ 
+__GNUC__
+ || __GNUC__ < 2
+
+42 #iâdeà
+_LIMITS_H
+
+
+43 
+	#_LIMITS_H
+ 1
+
+	)
+
+45 
+	~<b™s/wÜdsize.h
+>
+
+54 
+	#CHAR_BIT
+ 8
+
+	)
+
+57 
+	#SCHAR_MIN
+ (-128)
+
+	)
+
+58 
+	#SCHAR_MAX
+ 127
+
+	)
+
+61 
+	#UCHAR_MAX
+ 255
+
+	)
+
+64 #ifdeà
+__CHAR_UNSIGNED__
+
+
+65 
+	#CHAR_MIN
+ 0
+
+	)
+
+66 
+	#CHAR_MAX
+ 
+UCHAR_MAX
+
+
+	)
+
+68 
+	#CHAR_MIN
+ 
+SCHAR_MIN
+
+
+	)
+
+69 
+	#CHAR_MAX
+ 
+SCHAR_MAX
+
+
+	)
+
+73 
+	#SHRT_MIN
+ (-32768)
+
+	)
+
+74 
+	#SHRT_MAX
+ 32767
+
+	)
+
+77 
+	#USHRT_MAX
+ 65535
+
+	)
+
+80 
+	#INT_MIN
+ (-
+INT_MAX
+ - 1)
+
+	)
+
+81 
+	#INT_MAX
+ 2147483647
+
+	)
+
+84 
+	#UINT_MAX
+ 4294967295U
+
+	)
+
+87 #ià
+__WORDSIZE
+ == 64
+
+88 
+	#LONG_MAX
+ 9223372036854775807L
+
+	)
+
+90 
+	#LONG_MAX
+ 2147483647L
+
+	)
+
+92 
+	#LONG_MIN
+ (-
+LONG_MAX
+ - 1L)
+
+	)
+
+95 #ià
+__WORDSIZE
+ == 64
+
+96 
+	#ULONG_MAX
+ 18446744073709551615UL
+
+	)
+
+98 
+	#ULONG_MAX
+ 4294967295UL
+
+	)
+
+101 #ifdeà
+__USE_ISOC99
+
+
+104 
+	#LLONG_MAX
+ 9223372036854775807LL
+
+	)
+
+105 
+	#LLONG_MIN
+ (-
+LLONG_MAX
+ - 1LL)
+
+	)
+
+108 
+	#ULLONG_MAX
+ 18446744073709551615ULL
+
+	)
+
+122 #ià
+defšed
+ 
+__GNUC__
+ && !defšed 
+_GCC_LIMITS_H_
+
+
+124 #šşude_Ãxˆ<
+lim™s
+.
+h
+>
+
+130 #ià
+defšed
+ 
+__USE_ISOC99
+ && defšed 
+__GNUC__
+
+
+131 #iâdeà
+LLONG_MIN
+
+
+132 
+	#LLONG_MIN
+ (-
+LLONG_MAX
+-1)
+
+	)
+
+134 #iâdeà
+LLONG_MAX
+
+
+135 
+	#LLONG_MAX
+ 
+__LONG_LONG_MAX__
+
+
+	)
+
+137 #iâdeà
+ULLONG_MAX
+
+
+138 
+	#ULLONG_MAX
+ (
+LLONG_MAX
+ * 2ULL + 1)
+
+	)
+
+145 #ià
+__GLIBC_USE
+ (
+IEC_60559_BFP_EXT
+)
+
+146 #iâdeà
+CHAR_WIDTH
+
+
+147 
+	#CHAR_WIDTH
+ 8
+
+	)
+
+149 #iâdeà
+SCHAR_WIDTH
+
+
+150 
+	#SCHAR_WIDTH
+ 8
+
+	)
+
+152 #iâdeà
+UCHAR_WIDTH
+
+
+153 
+	#UCHAR_WIDTH
+ 8
+
+	)
+
+155 #iâdeà
+SHRT_WIDTH
+
+
+156 
+	#SHRT_WIDTH
+ 16
+
+	)
+
+158 #iâdeà
+USHRT_WIDTH
+
+
+159 
+	#USHRT_WIDTH
+ 16
+
+	)
+
+161 #iâdeà
+INT_WIDTH
+
+
+162 
+	#INT_WIDTH
+ 32
+
+	)
+
+164 #iâdeà
+UINT_WIDTH
+
+
+165 
+	#UINT_WIDTH
+ 32
+
+	)
+
+167 #iâdeà
+LONG_WIDTH
+
+
+168 
+	#LONG_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+170 #iâdeà
+ULONG_WIDTH
+
+
+171 
+	#ULONG_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+173 #iâdeà
+LLONG_WIDTH
+
+
+174 
+	#LLONG_WIDTH
+ 64
+
+	)
+
+176 #iâdeà
+ULLONG_WIDTH
+
+
+177 
+	#ULLONG_WIDTH
+ 64
+
+	)
+
+181 #ifdef 
+__USE_POSIX
+
+
+183 
+	~<b™s/posix1_lim.h
+>
+
+186 #ifdef 
+__USE_POSIX2
+
+
+187 
+	~<b™s/posix2_lim.h
+>
+
+190 #ifdef 
+__USE_XOPEN
+
+
+191 
+	~<b™s/xİ’_lim.h
+>
+
+	@/usr/include/stdint.h
+
+22 #iâdeà
+_STDINT_H
+
+
+23 
+	#_STDINT_H
+ 1
+
+	)
+
+25 
+	#__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+
+
+	)
+
+26 
+	~<b™s/libc-h—d”-¡¬t.h
+>
+
+27 
+	~<b™s/ty³s.h
+>
+
+28 
+	~<b™s/wch¬.h
+>
+
+29 
+	~<b™s/wÜdsize.h
+>
+
+34 
+	~<b™s/¡dšt-šŠ.h
+>
+
+37 
+	~<b™s/¡dšt-ušŠ.h
+>
+
+43 sigÃd 
+	tšt_Ëa¡8_t
+;
+
+44 
+	tšt_Ëa¡16_t
+;
+
+45 
+	tšt_Ëa¡32_t
+;
+
+46 #ià
+__WORDSIZE
+ == 64
+
+47 
+	tšt_Ëa¡64_t
+;
+
+49 
+__ex‹nsiÚ__
+
+
+50 
+	tšt_Ëa¡64_t
+;
+
+54 
+	tušt_Ëa¡8_t
+;
+
+55 
+	tušt_Ëa¡16_t
+;
+
+56 
+	tušt_Ëa¡32_t
+;
+
+57 #ià
+__WORDSIZE
+ == 64
+
+58 
+	tušt_Ëa¡64_t
+;
+
+60 
+__ex‹nsiÚ__
+
+
+61 
+	tušt_Ëa¡64_t
+;
+
+68 sigÃd 
+	tšt_ç¡8_t
+;
+
+69 #ià
+__WORDSIZE
+ == 64
+
+70 
+	tšt_ç¡16_t
+;
+
+71 
+	tšt_ç¡32_t
+;
+
+72 
+	tšt_ç¡64_t
+;
+
+74 
+	tšt_ç¡16_t
+;
+
+75 
+	tšt_ç¡32_t
+;
+
+76 
+__ex‹nsiÚ__
+
+
+77 
+	tšt_ç¡64_t
+;
+
+81 
+	tušt_ç¡8_t
+;
+
+82 #ià
+__WORDSIZE
+ == 64
+
+83 
+	tušt_ç¡16_t
+;
+
+84 
+	tušt_ç¡32_t
+;
+
+85 
+	tušt_ç¡64_t
+;
+
+87 
+	tušt_ç¡16_t
+;
+
+88 
+	tušt_ç¡32_t
+;
+
+89 
+__ex‹nsiÚ__
+
+
+90 
+	tušt_ç¡64_t
+;
+
+95 #ià
+__WORDSIZE
+ == 64
+
+96 #iâdeà
+__šŒ_t_defšed
+
+
+97 
+	tšŒ_t
+;
+
+98 
+	#__šŒ_t_defšed
+
+
+	)
+
+100 
+	tušŒ_t
+;
+
+102 #iâdeà
+__šŒ_t_defšed
+
+
+103 
+	tšŒ_t
+;
+
+104 
+	#__šŒ_t_defšed
+
+
+	)
+
+106 
+	tušŒ_t
+;
+
+111 
+__štmax_t
+ 
+	tštmax_t
+;
+
+112 
+__uštmax_t
+ 
+	tuštmax_t
+;
+
+115 #ià
+__WORDSIZE
+ == 64
+
+116 
+	#__INT64_C
+(
+c
+èø## 
+L
+
+
+	)
+
+117 
+	#__UINT64_C
+(
+c
+èø## 
+UL
+
+
+	)
+
+119 
+	#__INT64_C
+(
+c
+èø## 
+LL
+
+
+	)
+
+120 
+	#__UINT64_C
+(
+c
+èø## 
+ULL
+
+
+	)
+
+126 
+	#INT8_MIN
+ (-128)
+
+	)
+
+127 
+	#INT16_MIN
+ (-32767-1)
+
+	)
+
+128 
+	#INT32_MIN
+ (-2147483647-1)
+
+	)
+
+129 
+	#INT64_MIN
+ (-
+	`__INT64_C
+(9223372036854775807)-1)
+
+	)
+
+131 
+	#INT8_MAX
+ (127)
+
+	)
+
+132 
+	#INT16_MAX
+ (32767)
+
+	)
+
+133 
+	#INT32_MAX
+ (2147483647)
+
+	)
+
+134 
+	#INT64_MAX
+ (
+	`__INT64_C
+(9223372036854775807))
+
+	)
+
+137 
+	#UINT8_MAX
+ (255)
+
+	)
+
+138 
+	#UINT16_MAX
+ (65535)
+
+	)
+
+139 
+	#UINT32_MAX
+ (4294967295U)
+
+	)
+
+140 
+	#UINT64_MAX
+ (
+	`__UINT64_C
+(18446744073709551615))
+
+	)
+
+144 
+	#INT_LEAST8_MIN
+ (-128)
+
+	)
+
+145 
+	#INT_LEAST16_MIN
+ (-32767-1)
+
+	)
+
+146 
+	#INT_LEAST32_MIN
+ (-2147483647-1)
+
+	)
+
+147 
+	#INT_LEAST64_MIN
+ (-
+	`__INT64_C
+(9223372036854775807)-1)
+
+	)
+
+149 
+	#INT_LEAST8_MAX
+ (127)
+
+	)
+
+150 
+	#INT_LEAST16_MAX
+ (32767)
+
+	)
+
+151 
+	#INT_LEAST32_MAX
+ (2147483647)
+
+	)
+
+152 
+	#INT_LEAST64_MAX
+ (
+	`__INT64_C
+(9223372036854775807))
+
+	)
+
+155 
+	#UINT_LEAST8_MAX
+ (255)
+
+	)
+
+156 
+	#UINT_LEAST16_MAX
+ (65535)
+
+	)
+
+157 
+	#UINT_LEAST32_MAX
+ (4294967295U)
+
+	)
+
+158 
+	#UINT_LEAST64_MAX
+ (
+	`__UINT64_C
+(18446744073709551615))
+
+	)
+
+162 
+	#INT_FAST8_MIN
+ (-128)
+
+	)
+
+163 #ià
+__WORDSIZE
+ == 64
+
+164 
+	#INT_FAST16_MIN
+ (-9223372036854775807L-1)
+
+	)
+
+165 
+	#INT_FAST32_MIN
+ (-9223372036854775807L-1)
+
+	)
+
+167 
+	#INT_FAST16_MIN
+ (-2147483647-1)
+
+	)
+
+168 
+	#INT_FAST32_MIN
+ (-2147483647-1)
+
+	)
+
+170 
+	#INT_FAST64_MIN
+ (-
+	`__INT64_C
+(9223372036854775807)-1)
+
+	)
+
+172 
+	#INT_FAST8_MAX
+ (127)
+
+	)
+
+173 #ià
+__WORDSIZE
+ == 64
+
+174 
+	#INT_FAST16_MAX
+ (9223372036854775807L)
+
+	)
+
+175 
+	#INT_FAST32_MAX
+ (9223372036854775807L)
+
+	)
+
+177 
+	#INT_FAST16_MAX
+ (2147483647)
+
+	)
+
+178 
+	#INT_FAST32_MAX
+ (2147483647)
+
+	)
+
+180 
+	#INT_FAST64_MAX
+ (
+	`__INT64_C
+(9223372036854775807))
+
+	)
+
+183 
+	#UINT_FAST8_MAX
+ (255)
+
+	)
+
+184 #ià
+__WORDSIZE
+ == 64
+
+185 
+	#UINT_FAST16_MAX
+ (18446744073709551615UL)
+
+	)
+
+186 
+	#UINT_FAST32_MAX
+ (18446744073709551615UL)
+
+	)
+
+188 
+	#UINT_FAST16_MAX
+ (4294967295U)
+
+	)
+
+189 
+	#UINT_FAST32_MAX
+ (4294967295U)
+
+	)
+
+191 
+	#UINT_FAST64_MAX
+ (
+	`__UINT64_C
+(18446744073709551615))
+
+	)
+
+195 #ià
+__WORDSIZE
+ == 64
+
+196 
+	#INTPTR_MIN
+ (-9223372036854775807L-1)
+
+	)
+
+197 
+	#INTPTR_MAX
+ (9223372036854775807L)
+
+	)
+
+198 
+	#UINTPTR_MAX
+ (18446744073709551615UL)
+
+	)
+
+200 
+	#INTPTR_MIN
+ (-2147483647-1)
+
+	)
+
+201 
+	#INTPTR_MAX
+ (2147483647)
+
+	)
+
+202 
+	#UINTPTR_MAX
+ (4294967295U)
+
+	)
+
+207 
+	#INTMAX_MIN
+ (-
+	`__INT64_C
+(9223372036854775807)-1)
+
+	)
+
+209 
+	#INTMAX_MAX
+ (
+	`__INT64_C
+(9223372036854775807))
+
+	)
+
+212 
+	#UINTMAX_MAX
+ (
+	`__UINT64_C
+(18446744073709551615))
+
+	)
+
+218 #ià
+__WORDSIZE
+ == 64
+
+219 
+	#PTRDIFF_MIN
+ (-9223372036854775807L-1)
+
+	)
+
+220 
+	#PTRDIFF_MAX
+ (9223372036854775807L)
+
+	)
+
+222 #ià
+__WORDSIZE32_PTRDIFF_LONG
+
+
+223 
+	#PTRDIFF_MIN
+ (-2147483647L-1)
+
+	)
+
+224 
+	#PTRDIFF_MAX
+ (2147483647L)
+
+	)
+
+226 
+	#PTRDIFF_MIN
+ (-2147483647-1)
+
+	)
+
+227 
+	#PTRDIFF_MAX
+ (2147483647)
+
+	)
+
+232 
+	#SIG_ATOMIC_MIN
+ (-2147483647-1)
+
+	)
+
+233 
+	#SIG_ATOMIC_MAX
+ (2147483647)
+
+	)
+
+236 #ià
+__WORDSIZE
+ == 64
+
+237 
+	#SIZE_MAX
+ (18446744073709551615UL)
+
+	)
+
+239 #ià
+__WORDSIZE32_SIZE_ULONG
+
+
+240 
+	#SIZE_MAX
+ (4294967295UL)
+
+	)
+
+242 
+	#SIZE_MAX
+ (4294967295U)
+
+	)
+
+247 #iâdeà
+WCHAR_MIN
+
+
+249 
+	#WCHAR_MIN
+ 
+__WCHAR_MIN
+
+
+	)
+
+250 
+	#WCHAR_MAX
+ 
+__WCHAR_MAX
+
+
+	)
+
+254 
+	#WINT_MIN
+ (0u)
+
+	)
+
+255 
+	#WINT_MAX
+ (4294967295u)
+
+	)
+
+258 
+	#INT8_C
+(
+c
+è
+	)
+c
+
+259 
+	#INT16_C
+(
+c
+è
+	)
+c
+
+260 
+	#INT32_C
+(
+c
+è
+	)
+c
+
+261 #ià
+__WORDSIZE
+ == 64
+
+262 
+	#INT64_C
+(
+c
+èø## 
+L
+
+
+	)
+
+264 
+	#INT64_C
+(
+c
+èø## 
+LL
+
+
+	)
+
+268 
+	#UINT8_C
+(
+c
+è
+	)
+c
+
+269 
+	#UINT16_C
+(
+c
+è
+	)
+c
+
+270 
+	#UINT32_C
+(
+c
+èø## 
+U
+
+
+	)
+
+271 #ià
+__WORDSIZE
+ == 64
+
+272 
+	#UINT64_C
+(
+c
+èø## 
+UL
+
+
+	)
+
+274 
+	#UINT64_C
+(
+c
+èø## 
+ULL
+
+
+	)
+
+278 #ià
+__WORDSIZE
+ == 64
+
+279 
+	#INTMAX_C
+(
+c
+èø## 
+L
+
+
+	)
+
+280 
+	#UINTMAX_C
+(
+c
+èø## 
+UL
+
+
+	)
+
+282 
+	#INTMAX_C
+(
+c
+èø## 
+LL
+
+
+	)
+
+283 
+	#UINTMAX_C
+(
+c
+èø## 
+ULL
+
+
+	)
+
+286 #ià
+__GLIBC_USE
+ (
+IEC_60559_BFP_EXT
+)
+
+288 
+	#INT8_WIDTH
+ 8
+
+	)
+
+289 
+	#UINT8_WIDTH
+ 8
+
+	)
+
+290 
+	#INT16_WIDTH
+ 16
+
+	)
+
+291 
+	#UINT16_WIDTH
+ 16
+
+	)
+
+292 
+	#INT32_WIDTH
+ 32
+
+	)
+
+293 
+	#UINT32_WIDTH
+ 32
+
+	)
+
+294 
+	#INT64_WIDTH
+ 64
+
+	)
+
+295 
+	#UINT64_WIDTH
+ 64
+
+	)
+
+297 
+	#INT_LEAST8_WIDTH
+ 8
+
+	)
+
+298 
+	#UINT_LEAST8_WIDTH
+ 8
+
+	)
+
+299 
+	#INT_LEAST16_WIDTH
+ 16
+
+	)
+
+300 
+	#UINT_LEAST16_WIDTH
+ 16
+
+	)
+
+301 
+	#INT_LEAST32_WIDTH
+ 32
+
+	)
+
+302 
+	#UINT_LEAST32_WIDTH
+ 32
+
+	)
+
+303 
+	#INT_LEAST64_WIDTH
+ 64
+
+	)
+
+304 
+	#UINT_LEAST64_WIDTH
+ 64
+
+	)
+
+306 
+	#INT_FAST8_WIDTH
+ 8
+
+	)
+
+307 
+	#UINT_FAST8_WIDTH
+ 8
+
+	)
+
+308 
+	#INT_FAST16_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+309 
+	#UINT_FAST16_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+310 
+	#INT_FAST32_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+311 
+	#UINT_FAST32_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+312 
+	#INT_FAST64_WIDTH
+ 64
+
+	)
+
+313 
+	#UINT_FAST64_WIDTH
+ 64
+
+	)
+
+315 
+	#INTPTR_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+316 
+	#UINTPTR_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+318 
+	#INTMAX_WIDTH
+ 64
+
+	)
+
+319 
+	#UINTMAX_WIDTH
+ 64
+
+	)
+
+321 
+	#PTRDIFF_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+322 
+	#SIG_ATOMIC_WIDTH
+ 32
+
+	)
+
+323 
+	#SIZE_WIDTH
+ 
+__WORDSIZE
+
+
+	)
+
+324 
+	#WCHAR_WIDTH
+ 32
+
+	)
+
+325 
+	#WINT_WIDTH
+ 32
+
+	)
+
+	@/usr/include/string.h
+
+22 #iâdef 
+_STRING_H
+
+
+23 
+	#_STRING_H
+ 1
+
+	)
+
+25 
+	#__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+
+
+	)
+
+26 
+	~<b™s/libc-h—d”-¡¬t.h
+>
+
+28 
+	g__BEGIN_DECLS
+
+
+31 
+	#__Ãed_size_t
+
+
+	)
+
+32 
+	#__Ãed_NULL
+
+
+	)
+
+33 
+	~<¡ddef.h
+>
+
+36 #ià
+defšed
+ 
+__ılu¥lus
+ && 
+__GNUC_PREREQ
+ (4, 4)
+
+37 
+	#__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+	)
+
+42 *
+	$memıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+43 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+46 *
+	$memmove
+ (*
+__de¡
+, cÚ¡ *
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+47 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+52 #ià
+defšed
+ 
+__USE_MISC
+ || defšed 
+__USE_XOPEN
+
+
+53 *
+	$memcıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+54 
+__c
+, 
+size_t
+ 
+__n
+)
+
+55 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+60 *
+	$mem£t
+ (*
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+63 
+	$memcmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+size_t
+ 
+__n
+)
+
+64 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+67 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+70 *
+	`memchr
+ (*
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+71 
+__THROW
+ 
+	`__asm
+ ("memchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+72 cÚ¡ *
+	`memchr
+ (cÚ¡ *
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+73 
+__THROW
+ 
+	`__asm
+ ("memchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+75 #ifdeà
+__OPTIMIZE__
+
+
+76 
+__ex‹º_®ways_šlše
+ *
+
+77 
+	`memchr
+ (*
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+è
+__THROW
+
+
+79  
+	`__butš_memchr
+ (
+__s
+, 
+__c
+, 
+__n
+);
+
+82 
+__ex‹º_®ways_šlše
+ const *
+
+83 
+	`memchr
+ (cÚ¡ *
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+è
+__THROW
+
+
+85  
+	`__butš_memchr
+ (
+__s
+, 
+__c
+, 
+__n
+);
+
+88 
+	}
+}
+
+90 *
+	$memchr
+ (cÚ¡ *
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+91 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+94 #ifdeà
+__USE_GNU
+
+
+97 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+98 "C++" *
+	$¿wmemchr
+ (*
+__s
+, 
+__c
+)
+
+99 
+__THROW
+ 
+	`__asm
+ ("¿wmemchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+100 "C++" cÚ¡ *
+	$¿wmemchr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+101 
+__THROW
+ 
+	`__asm
+ ("¿wmemchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+103 *
+	$¿wmemchr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+104 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+108 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+109 "C++" *
+	$memrchr
+ (*
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+110 
+__THROW
+ 
+	`__asm
+ ("memrchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+111 "C++" cÚ¡ *
+	$memrchr
+ (cÚ¡ *
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+112 
+__THROW
+ 
+	`__asm
+ ("memrchr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+114 *
+	$memrchr
+ (cÚ¡ *
+__s
+, 
+__c
+, 
+size_t
+ 
+__n
+)
+
+115 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+121 *
+	$¡rıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+)
+
+122 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+124 *
+	$¡ºıy
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+125 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+126 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+129 *
+	$¡rÿt
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+)
+
+130 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+132 *
+	$¡ºÿt
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+133 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+136 
+	$¡rcmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+)
+
+137 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+139 
+	$¡ºcmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+size_t
+ 
+__n
+)
+
+140 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+143 
+	$¡rcŞl
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+)
+
+144 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+146 
+size_t
+ 
+	$¡rxäm
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+147 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+148 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2));
+
+150 #ifdeà
+__USE_XOPEN2K8
+
+
+152 
+	~<b™s/ty³s/loÿË_t.h
+>
+
+155 
+	$¡rcŞl_l
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+loÿË_t
+ 
+__l
+)
+
+156 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2, 3));
+
+159 
+size_t
+ 
+	$¡rxäm_l
+ (*
+__de¡
+, cÚ¡ *
+__¤c
+, 
+size_t
+ 
+__n
+,
+
+160 
+loÿË_t
+ 
+__l
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((2, 4));
+
+163 #ià(
+defšed
+ 
+__USE_XOPEN_EXTENDED
+ || defšed 
+__USE_XOPEN2K8
+ \
+
+164 || 
+	$__GLIBC_USE
+ (
+LIB_EXT2
+))
+
+166 *
+	$¡rdup
+ (cÚ¡ *
+__s
+)
+
+167 
+__THROW
+ 
+__©Œibu‹_m®loc__
+ 
+	`__nÚnuÎ
+ ((1));
+
+173 #ià
+defšed
+ 
+__USE_XOPEN2K8
+ || 
+	`__GLIBC_USE
+ (
+LIB_EXT2
+)
+
+174 *
+	$¡ºdup
+ (cÚ¡ *
+__¡ršg
+, 
+size_t
+ 
+__n
+)
+
+175 
+__THROW
+ 
+__©Œibu‹_m®loc__
+ 
+	`__nÚnuÎ
+ ((1));
+
+178 #ià
+defšed
+ 
+__USE_GNU
+ && defšed 
+__GNUC__
+
+
+180 
+	#¡rdu·
+(
+s
+) \
+
+181 (
+__ex‹nsiÚ__
+ \
+
+183 cÚ¡ *
+__Şd
+ = (
+s
+); \
+
+184 
+size_t
+ 
+__Ën
+ = 
+	`¡¾’
+ (
+__Şd
+) + 1; \
+
+185 *
+__Ãw
+ = (*è
+	`__butš_®loÿ
+ (
+__Ën
+); \
+
+186 (*è
+	`memıy
+ (
+__Ãw
+, 
+__Şd
+, 
+__Ën
+); \
+
+187 
+	}
+}))
+
+	)
+
+190 
+	#¡ºdu·
+(
+s
+, 
+n
+) \
+
+191 (
+__ex‹nsiÚ__
+ \
+
+193 cÚ¡ *
+__Şd
+ = (
+s
+); \
+
+194 
+size_t
+ 
+__Ën
+ = 
+	`¡ºËn
+ (
+__Şd
+, (
+n
+)); \
+
+195 *
+__Ãw
+ = (*è
+	`__butš_®loÿ
+ (
+__Ën
+ + 1); \
+
+196 
+__Ãw
+[
+__Ën
+] = '\0'; \
+
+197 (*è
+	`memıy
+ (
+__Ãw
+, 
+__Şd
+, 
+__Ën
+); \
+
+198 }))
+
+	)
+
+202 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+205 *
+¡rchr
+ (*
+__s
+, 
+__c
+)
+
+206 
+__THROW
+ 
+__asm
+ ("¡rchr"è
+__©Œibu‹_pu»__
+ 
+__nÚnuÎ
+ ((1));
+
+207 cÚ¡ *
+¡rchr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+208 
+__THROW
+ 
+__asm
+ ("¡rchr"è
+__©Œibu‹_pu»__
+ 
+__nÚnuÎ
+ ((1));
+
+210 #ifdeà
+__OPTIMIZE__
+
+
+211 
+__ex‹º_®ways_šlše
+ *
+
+212 
+¡rchr
+ (*
+__s
+, 
+__c
+è
+	g__THROW
+
+
+214  
+__butš_¡rchr
+ (
+__s
+, 
+__c
+);
+
+217 
+__ex‹º_®ways_šlše
+ const *
+
+218 
+¡rchr
+ (cÚ¡ *
+__s
+, 
+__c
+è
+	g__THROW
+
+
+220  
+__butš_¡rchr
+ (
+__s
+, 
+__c
+);
+
+225 *
+	$¡rchr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+226 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+229 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+232 *
+	`¡¼chr
+ (*
+__s
+, 
+__c
+)
+
+233 
+__THROW
+ 
+	`__asm
+ ("¡¼chr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+234 cÚ¡ *
+	`¡¼chr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+235 
+__THROW
+ 
+	`__asm
+ ("¡¼chr"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+237 #ifdeà
+__OPTIMIZE__
+
+
+238 
+__ex‹º_®ways_šlše
+ *
+
+239 
+	`¡¼chr
+ (*
+__s
+, 
+__c
+è
+__THROW
+
+
+241  
+	`__butš_¡¼chr
+ (
+__s
+, 
+__c
+);
+
+244 
+__ex‹º_®ways_šlše
+ const *
+
+245 
+	`¡¼chr
+ (cÚ¡ *
+__s
+, 
+__c
+è
+__THROW
+
+
+247  
+	`__butš_¡¼chr
+ (
+__s
+, 
+__c
+);
+
+250 
+	}
+}
+
+252 *
+	$¡¼chr
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+253 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+256 #ifdeà
+__USE_GNU
+
+
+259 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+260 "C++" *
+	$¡rchºul
+ (*
+__s
+, 
+__c
+)
+
+261 
+__THROW
+ 
+	`__asm
+ ("¡rchºul"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+262 "C++" cÚ¡ *
+	$¡rchºul
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+263 
+__THROW
+ 
+	`__asm
+ ("¡rchºul"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+265 *
+	$¡rchºul
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+266 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+272 
+size_t
+ 
+	$¡rc¥n
+ (cÚ¡ *
+__s
+, cÚ¡ *
+__»jeù
+)
+
+273 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+276 
+size_t
+ 
+	$¡r¥n
+ (cÚ¡ *
+__s
+, cÚ¡ *
+__acû±
+)
+
+277 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+279 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+282 *
+	`¡½brk
+ (*
+__s
+, cÚ¡ *
+__acû±
+)
+
+283 
+__THROW
+ 
+	`__asm
+ ("¡½brk"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+284 cÚ¡ *
+	`¡½brk
+ (cÚ¡ *
+__s
+, cÚ¡ *
+__acû±
+)
+
+285 
+__THROW
+ 
+	`__asm
+ ("¡½brk"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+287 #ifdeà
+__OPTIMIZE__
+
+
+288 
+__ex‹º_®ways_šlše
+ *
+
+289 
+	`¡½brk
+ (*
+__s
+, cÚ¡ *
+__acû±
+è
+__THROW
+
+
+291  
+	`__butš_¡½brk
+ (
+__s
+, 
+__acû±
+);
+
+294 
+__ex‹º_®ways_šlše
+ const *
+
+295 
+	`¡½brk
+ (cÚ¡ *
+__s
+, cÚ¡ *
+__acû±
+è
+__THROW
+
+
+297  
+	`__butš_¡½brk
+ (
+__s
+, 
+__acû±
+);
+
+300 
+	}
+}
+
+302 *
+	$¡½brk
+ (cÚ¡ *
+__s
+, cÚ¡ *
+__acû±
+)
+
+303 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+306 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+309 *
+	`¡r¡r
+ (*
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+)
+
+310 
+__THROW
+ 
+	`__asm
+ ("¡r¡r"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+311 cÚ¡ *
+	`¡r¡r
+ (cÚ¡ *
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+)
+
+312 
+__THROW
+ 
+	`__asm
+ ("¡r¡r"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+314 #ifdeà
+__OPTIMIZE__
+
+
+315 
+__ex‹º_®ways_šlše
+ *
+
+316 
+	`¡r¡r
+ (*
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+è
+__THROW
+
+
+318  
+	`__butš_¡r¡r
+ (
+__hay¡ack
+, 
+__ÃedË
+);
+
+321 
+__ex‹º_®ways_šlše
+ const *
+
+322 
+	`¡r¡r
+ (cÚ¡ *
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+è
+__THROW
+
+
+324  
+	`__butš_¡r¡r
+ (
+__hay¡ack
+, 
+__ÃedË
+);
+
+327 
+	}
+}
+
+329 *
+	$¡r¡r
+ (cÚ¡ *
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+)
+
+330 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+335 *
+	$¡¹ok
+ (*
+__»¡riù
+ 
+__s
+, cÚ¡ *__»¡riù 
+__d–im
+)
+
+336 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2));
+
+340 *
+	$__¡¹ok_r
+ (*
+__»¡riù
+ 
+__s
+,
+
+341 cÚ¡ *
+__»¡riù
+ 
+__d–im
+,
+
+342 **
+__»¡riù
+ 
+__§ve_±r
+)
+
+343 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2, 3));
+
+344 #ifdeà
+__USE_POSIX
+
+
+345 *
+	$¡¹ok_r
+ (*
+__»¡riù
+ 
+__s
+, cÚ¡ *__»¡riù 
+__d–im
+,
+
+346 **
+__»¡riù
+ 
+__§ve_±r
+)
+
+347 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2, 3));
+
+350 #ifdeà
+__USE_GNU
+
+
+352 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+353 "C++" *
+	$¡rÿ£¡r
+ (*
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+)
+
+354 
+__THROW
+ 
+	`__asm
+ ("¡rÿ£¡r"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+355 "C++" cÚ¡ *
+	$¡rÿ£¡r
+ (cÚ¡ *
+__hay¡ack
+,
+
+356 cÚ¡ *
+__ÃedË
+)
+
+357 
+__THROW
+ 
+	`__asm
+ ("¡rÿ£¡r"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+359 *
+	$¡rÿ£¡r
+ (cÚ¡ *
+__hay¡ack
+, cÚ¡ *
+__ÃedË
+)
+
+360 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+364 #ifdeà
+__USE_GNU
+
+
+368 *
+	$memmem
+ (cÚ¡ *
+__hay¡ack
+, 
+size_t
+ 
+__hay¡ackËn
+,
+
+369 cÚ¡ *
+__ÃedË
+, 
+size_t
+ 
+__ÃedËËn
+)
+
+370 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 3));
+
+374 *
+	$__mempıy
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+375 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+376 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+377 *
+	$mempıy
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+378 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+379 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+384 
+size_t
+ 
+	$¡¾’
+ (cÚ¡ *
+__s
+)
+
+385 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+387 #ifdef 
+__USE_XOPEN2K8
+
+
+390 
+size_t
+ 
+	$¡ºËn
+ (cÚ¡ *
+__¡ršg
+, 
+size_t
+ 
+__maxËn
+)
+
+391 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+396 *
+	$¡»¼Ü
+ (
+__”ºum
+è
+__THROW
+;
+
+397 #ifdeà
+__USE_XOPEN2K
+
+
+405 #ià
+defšed
+ 
+__USE_XOPEN2K
+ && !defšed 
+__USE_GNU
+
+
+408 #ifdeà
+__REDIRECT_NTH
+
+
+409 
+	`__REDIRECT_NTH
+ (
+¡»¼Ü_r
+,
+
+410 (
+__”ºum
+, *
+__buf
+, 
+size_t
+ 
+__buæ’
+),
+
+411 
+__xpg_¡»¼Ü_r
+è
+	`__nÚnuÎ
+ ((2));
+
+413 
+	$__xpg_¡»¼Ü_r
+ (
+__”ºum
+, *
+__buf
+, 
+size_t
+ 
+__buæ’
+)
+
+414 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2));
+
+415 
+	#¡»¼Ü_r
+ 
+__xpg_¡»¼Ü_r
+
+
+	)
+
+420 *
+	$¡»¼Ü_r
+ (
+__”ºum
+, *
+__buf
+, 
+size_t
+ 
+__buæ’
+)
+
+421 
+__THROW
+ 
+	`__nÚnuÎ
+ ((2)è
+__wur
+;
+
+425 #ifdeà
+__USE_XOPEN2K8
+
+
+427 *
+	$¡»¼Ü_l
+ (
+__”ºum
+, 
+loÿË_t
+ 
+__l
+è
+__THROW
+;
+
+430 #ifdeà
+__USE_MISC
+
+
+431 
+	~<¡ršgs.h
+>
+
+435 
+	$ex¶ic™_bz”o
+ (*
+__s
+, 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+439 *
+	$¡r£p
+ (**
+__»¡riù
+ 
+__¡ršgp
+,
+
+440 cÚ¡ *
+__»¡riù
+ 
+__d–im
+)
+
+441 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+444 #ifdef 
+__USE_XOPEN2K8
+
+
+446 *
+	$¡rsigÇl
+ (
+__sig
+è
+__THROW
+;
+
+449 *
+	$__¡pıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+)
+
+450 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+451 *
+	$¡pıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+)
+
+452 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+456 *
+	$__¡²ıy
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+457 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+458 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+459 *
+	$¡²ıy
+ (*
+__»¡riù
+ 
+__de¡
+,
+
+460 cÚ¡ *
+__»¡riù
+ 
+__¤c
+, 
+size_t
+ 
+__n
+)
+
+461 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+464 #ifdef 
+__USE_GNU
+
+
+466 
+	$¡rv”scmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+)
+
+467 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+470 *
+	$¡räy
+ (*
+__¡ršg
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+473 *
+	$memäob
+ (*
+__s
+, 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+475 #iâdeà
+ba£Çme
+
+
+480 #ifdeà
+__CORRECT_ISO_CPP_STRING_H_PROTO
+
+
+481 "C++" *
+	$ba£Çme
+ (*
+__f’ame
+)
+
+482 
+__THROW
+ 
+	`__asm
+ ("ba£Çme"è
+	`__nÚnuÎ
+ ((1));
+
+483 "C++" cÚ¡ *
+	$ba£Çme
+ (cÚ¡ *
+__f’ame
+)
+
+484 
+__THROW
+ 
+	`__asm
+ ("ba£Çme"è
+	`__nÚnuÎ
+ ((1));
+
+486 *
+	$ba£Çme
+ (cÚ¡ *
+__f’ame
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+491 #ià
+	`__GNUC_PREREQ
+ (3,4)
+
+492 #ià
+__USE_FORTIFY_LEVEL
+ > 0 && 
+defšed
+ 
+__fÜtify_funùiÚ
+
+
+494 
+	~<b™s/¡ršg_fÜtif›d.h
+>
+
+498 
+__END_DECLS
+
+
+	@/usr/include/bits/libc-header-start.h
+
+27 #iâdeà
+__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+
+
+31 #undeà
+__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+
+
+33 
+	~<ã©u»s.h
+>
+
+37 #undeà
+__GLIBC_USE_LIB_EXT2
+
+
+38 #ià(
+defšed
+ 
+__USE_GNU
+ \
+
+39 || (
+defšed
+ 
+	g__STDC_WANT_LIB_EXT2__
+ && __STDC_WANT_LIB_EXT2__ > 0))
+
+40 
+	#__GLIBC_USE_LIB_EXT2
+ 1
+
+	)
+
+42 
+	#__GLIBC_USE_LIB_EXT2
+ 0
+
+	)
+
+47 #undeà
+__GLIBC_USE_IEC_60559_BFP_EXT
+
+
+48 #ià
+defšed
+ 
+__USE_GNU
+ || defšed 
+__STDC_WANT_IEC_60559_BFP_EXT__
+
+
+49 
+	#__GLIBC_USE_IEC_60559_BFP_EXT
+ 1
+
+	)
+
+51 
+	#__GLIBC_USE_IEC_60559_BFP_EXT
+ 0
+
+	)
+
+56 #undeà
+__GLIBC_USE_IEC_60559_FUNCS_EXT
+
+
+57 #ià
+defšed
+ 
+__USE_GNU
+ || defšed 
+__STDC_WANT_IEC_60559_FUNCS_EXT__
+
+
+58 
+	#__GLIBC_USE_IEC_60559_FUNCS_EXT
+ 1
+
+	)
+
+60 
+	#__GLIBC_USE_IEC_60559_FUNCS_EXT
+ 0
+
+	)
+
+65 #undeà
+__GLIBC_USE_IEC_60559_TYPES_EXT
+
+
+66 #ià
+defšed
+ 
+__USE_GNU
+ || defšed 
+__STDC_WANT_IEC_60559_TYPES_EXT__
+
+
+67 
+	#__GLIBC_USE_IEC_60559_TYPES_EXT
+ 1
+
+	)
+
+69 
+	#__GLIBC_USE_IEC_60559_TYPES_EXT
+ 0
+
+	)
+
+	@/usr/include/bits/posix1_lim.h
+
+24 #iâdef 
+_BITS_POSIX1_LIM_H
+
+
+25 
+	#_BITS_POSIX1_LIM_H
+ 1
+
+	)
+
+31 
+	#_POSIX_AIO_LISTIO_MAX
+ 2
+
+	)
+
+34 
+	#_POSIX_AIO_MAX
+ 1
+
+	)
+
+37 
+	#_POSIX_ARG_MAX
+ 4096
+
+	)
+
+40 #ifdeà
+__USE_XOPEN2K
+
+
+41 
+	#_POSIX_CHILD_MAX
+ 25
+
+	)
+
+43 
+	#_POSIX_CHILD_MAX
+ 6
+
+	)
+
+47 
+	#_POSIX_DELAYTIMER_MAX
+ 32
+
+	)
+
+51 
+	#_POSIX_HOST_NAME_MAX
+ 255
+
+	)
+
+54 
+	#_POSIX_LINK_MAX
+ 8
+
+	)
+
+57 
+	#_POSIX_LOGIN_NAME_MAX
+ 9
+
+	)
+
+60 
+	#_POSIX_MAX_CANON
+ 255
+
+	)
+
+64 
+	#_POSIX_MAX_INPUT
+ 255
+
+	)
+
+67 
+	#_POSIX_MQ_OPEN_MAX
+ 8
+
+	)
+
+70 
+	#_POSIX_MQ_PRIO_MAX
+ 32
+
+	)
+
+73 
+	#_POSIX_NAME_MAX
+ 14
+
+	)
+
+76 #ifdeà
+__USE_XOPEN2K
+
+
+77 
+	#_POSIX_NGROUPS_MAX
+ 8
+
+	)
+
+79 
+	#_POSIX_NGROUPS_MAX
+ 0
+
+	)
+
+83 #ifdeà
+__USE_XOPEN2K
+
+
+84 
+	#_POSIX_OPEN_MAX
+ 20
+
+	)
+
+86 
+	#_POSIX_OPEN_MAX
+ 16
+
+	)
+
+89 #ià!
+defšed
+ 
+__USE_XOPEN2K
+ || defšed 
+__USE_GNU
+
+
+92 
+	#_POSIX_FD_SETSIZE
+ 
+_POSIX_OPEN_MAX
+
+
+	)
+
+96 
+	#_POSIX_PATH_MAX
+ 256
+
+	)
+
+99 
+	#_POSIX_PIPE_BUF
+ 512
+
+	)
+
+103 
+	#_POSIX_RE_DUP_MAX
+ 255
+
+	)
+
+106 
+	#_POSIX_RTSIG_MAX
+ 8
+
+	)
+
+109 
+	#_POSIX_SEM_NSEMS_MAX
+ 256
+
+	)
+
+112 
+	#_POSIX_SEM_VALUE_MAX
+ 32767
+
+	)
+
+115 
+	#_POSIX_SIGQUEUE_MAX
+ 32
+
+	)
+
+118 
+	#_POSIX_SSIZE_MAX
+ 32767
+
+	)
+
+121 
+	#_POSIX_STREAM_MAX
+ 8
+
+	)
+
+124 
+	#_POSIX_SYMLINK_MAX
+ 255
+
+	)
+
+128 
+	#_POSIX_SYMLOOP_MAX
+ 8
+
+	)
+
+131 
+	#_POSIX_TIMER_MAX
+ 32
+
+	)
+
+134 
+	#_POSIX_TTY_NAME_MAX
+ 9
+
+	)
+
+137 #ifdeà
+__USE_XOPEN2K
+
+
+138 
+	#_POSIX_TZNAME_MAX
+ 6
+
+	)
+
+140 
+	#_POSIX_TZNAME_MAX
+ 3
+
+	)
+
+143 #ià!
+defšed
+ 
+__USE_XOPEN2K
+ || defšed 
+__USE_GNU
+
+
+145 
+	#_POSIX_QLIMIT
+ 1
+
+	)
+
+149 
+	#_POSIX_HIWAT
+ 
+_POSIX_PIPE_BUF
+
+
+	)
+
+152 
+	#_POSIX_UIO_MAXIOV
+ 16
+
+	)
+
+156 
+	#_POSIX_CLOCKRES_MIN
+ 20000000
+
+	)
+
+160 
+	~<b™s/loÿl_lim.h
+>
+
+163 #iâdef 
+SSIZE_MAX
+
+
+164 
+	#SSIZE_MAX
+ 
+LONG_MAX
+
+
+	)
+
+171 #iâdef 
+NGROUPS_MAX
+
+
+172 
+	#NGROUPS_MAX
+ 8
+
+	)
+
+	@/usr/include/bits/posix2_lim.h
+
+22 #iâdef 
+_BITS_POSIX2_LIM_H
+
+
+23 
+	#_BITS_POSIX2_LIM_H
+ 1
+
+	)
+
+27 
+	#_POSIX2_BC_BASE_MAX
+ 99
+
+	)
+
+30 
+	#_POSIX2_BC_DIM_MAX
+ 2048
+
+	)
+
+33 
+	#_POSIX2_BC_SCALE_MAX
+ 99
+
+	)
+
+36 
+	#_POSIX2_BC_STRING_MAX
+ 1000
+
+	)
+
+40 
+	#_POSIX2_COLL_WEIGHTS_MAX
+ 2
+
+	)
+
+44 
+	#_POSIX2_EXPR_NEST_MAX
+ 32
+
+	)
+
+47 
+	#_POSIX2_LINE_MAX
+ 2048
+
+	)
+
+51 
+	#_POSIX2_RE_DUP_MAX
+ 255
+
+	)
+
+55 
+	#_POSIX2_CHARCLASS_NAME_MAX
+ 14
+
+	)
+
+62 #iâdef 
+BC_BASE_MAX
+
+
+63 
+	#BC_BASE_MAX
+ 
+_POSIX2_BC_BASE_MAX
+
+
+	)
+
+65 #iâdef 
+BC_DIM_MAX
+
+
+66 
+	#BC_DIM_MAX
+ 
+_POSIX2_BC_DIM_MAX
+
+
+	)
+
+68 #iâdef 
+BC_SCALE_MAX
+
+
+69 
+	#BC_SCALE_MAX
+ 
+_POSIX2_BC_SCALE_MAX
+
+
+	)
+
+71 #iâdef 
+BC_STRING_MAX
+
+
+72 
+	#BC_STRING_MAX
+ 
+_POSIX2_BC_STRING_MAX
+
+
+	)
+
+74 #iâdef 
+COLL_WEIGHTS_MAX
+
+
+75 
+	#COLL_WEIGHTS_MAX
+ 255
+
+	)
+
+77 #iâdef 
+EXPR_NEST_MAX
+
+
+78 
+	#EXPR_NEST_MAX
+ 
+_POSIX2_EXPR_NEST_MAX
+
+
+	)
+
+80 #iâdef 
+LINE_MAX
+
+
+81 
+	#LINE_MAX
+ 
+_POSIX2_LINE_MAX
+
+
+	)
+
+83 #iâdef 
+CHARCLASS_NAME_MAX
+
+
+84 
+	#CHARCLASS_NAME_MAX
+ 2048
+
+	)
+
+88 
+	#RE_DUP_MAX
+ (0x7fff)
+
+	)
+
+	@/usr/include/bits/stdint-intn.h
+
+19 #iâdeà
+_BITS_STDINT_INTN_H
+
+
+20 
+	#_BITS_STDINT_INTN_H
+ 1
+
+	)
+
+22 
+	~<b™s/ty³s.h
+>
+
+24 
+__št8_t
+ 
+	tšt8_t
+;
+
+25 
+__št16_t
+ 
+	tšt16_t
+;
+
+26 
+__št32_t
+ 
+	tšt32_t
+;
+
+27 
+__št64_t
+ 
+	tšt64_t
+;
+
+	@/usr/include/bits/stdint-uintn.h
+
+19 #iâdeà
+_BITS_STDINT_UINTN_H
+
+
+20 
+	#_BITS_STDINT_UINTN_H
+ 1
+
+	)
+
+22 
+	~<b™s/ty³s.h
+>
+
+24 
+__ušt8_t
+ 
+	tušt8_t
+;
+
+25 
+__ušt16_t
+ 
+	tušt16_t
+;
+
+26 
+__ušt32_t
+ 
+	tušt32_t
+;
+
+27 
+__ušt64_t
+ 
+	tušt64_t
+;
+
+	@/usr/include/bits/string_fortified.h
+
+18 #iâdeà
+_BITS_STRING_FORTIFIED_H
+
+
+19 
+	#_BITS_STRING_FORTIFIED_H
+ 1
+
+	)
+
+21 #iâdeà
+_STRING_H
+
+
+25 #ià!
+__GNUC_PREREQ
+ (5,0)
+
+26 
+__w¬ndeş
+ (
+__w¬n_mem£t_z”o_Ën
+,
+
+30 
+__fÜtify_funùiÚ
+ *
+
+31 
+__NTH
+ (
+	$memıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+32 
+size_t
+ 
+__Ën
+))
+
+34  
+	`__butš___memıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+35 
+	}
+}
+
+37 
+__fÜtify_funùiÚ
+ *
+
+38 
+__NTH
+ (
+	$memmove
+ (*
+__de¡
+, cÚ¡ *
+__¤c
+, 
+size_t
+ 
+__Ën
+))
+
+40  
+	`__butš___memmove_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+41 
+	}
+}
+
+43 #ifdeà
+__USE_GNU
+
+
+44 
+__fÜtify_funùiÚ
+ *
+
+45 
+__NTH
+ (
+	$mempıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+46 
+size_t
+ 
+__Ën
+))
+
+48  
+	`__butš___mempıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+49 
+	}
+}
+
+58 
+__fÜtify_funùiÚ
+ *
+
+59 
+__NTH
+ (
+	$mem£t
+ (*
+__de¡
+, 
+__ch
+, 
+size_t
+ 
+__Ën
+))
+
+63 #ià!
+	`__GNUC_PREREQ
+ (5,0)
+
+64 ià(
+	`__butš_cÚ¡ªt_p
+ (
+__Ën
+) && __len == 0
+
+65 && (!
+	`__butš_cÚ¡ªt_p
+ (
+__ch
+) || __ch != 0))
+
+67 
+	`__w¬n_mem£t_z”o_Ën
+ ();
+
+68  
+__de¡
+;
+
+71  
+	`__butš___mem£t_chk
+ (
+__de¡
+, 
+__ch
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+72 
+	}
+}
+
+74 #ifdeà
+__USE_MISC
+
+
+75 
+	~<b™s/¡ršgs_fÜtif›d.h
+>
+
+77 
+	$__ex¶ic™_bz”o_chk
+ (*
+__de¡
+, 
+size_t
+ 
+__Ën
+, size_ˆ
+__de¡Ën
+)
+
+78 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+80 
+__fÜtify_funùiÚ
+ 
+
+81 
+	`__NTH
+ (
+	$ex¶ic™_bz”o
+ (*
+__de¡
+, 
+size_t
+ 
+__Ën
+))
+
+83 
+	`__ex¶ic™_bz”o_chk
+ (
+__de¡
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+84 
+	}
+}
+
+87 
+__fÜtify_funùiÚ
+ *
+
+88 
+__NTH
+ (
+	$¡rıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+))
+
+90  
+	`__butš___¡rıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+	`__bos
+ (__dest));
+
+91 
+	}
+}
+
+93 #ifdeà
+__USE_GNU
+
+
+94 
+__fÜtify_funùiÚ
+ *
+
+95 
+__NTH
+ (
+	$¡pıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+))
+
+97  
+	`__butš___¡pıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+	`__bos
+ (__dest));
+
+98 
+	}
+}
+
+102 
+__fÜtify_funùiÚ
+ *
+
+103 
+__NTH
+ (
+	$¡ºıy
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+104 
+size_t
+ 
+__Ën
+))
+
+106  
+	`__butš___¡ºıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos
+ (__dest));
+
+107 
+	}
+}
+
+110 *
+	$__¡²ıy_chk
+ (*
+__de¡
+, cÚ¡ *
+__¤c
+, 
+size_t
+ 
+__n
+,
+
+111 
+size_t
+ 
+__de¡Ën
+è
+__THROW
+;
+
+112 *
+	`__REDIRECT_NTH
+ (
+__¡²ıy_®Ÿs
+, (*
+__de¡
+, cÚ¡ *
+__¤c
+,
+
+113 
+size_t
+ 
+__n
+), 
+¡²ıy
+);
+
+115 
+__fÜtify_funùiÚ
+ *
+
+116 
+	`__NTH
+ (
+	$¡²ıy
+ (*
+__de¡
+, cÚ¡ *
+__¤c
+, 
+size_t
+ 
+__n
+))
+
+118 ià(
+	`__bos
+ (
+__de¡
+è!ğ(
+size_t
+) -1
+
+119 && (!
+	`__butš_cÚ¡ªt_p
+ (
+__n
+è|| __À> 
+	`__bos
+ (
+__de¡
+)))
+
+120  
+	`__¡²ıy_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__n
+, 
+	`__bos
+ (__dest));
+
+121  
+	`__¡²ıy_®Ÿs
+ (
+__de¡
+, 
+__¤c
+, 
+__n
+);
+
+122 
+	}
+}
+
+125 
+__fÜtify_funùiÚ
+ *
+
+126 
+__NTH
+ (
+	$¡rÿt
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+))
+
+128  
+	`__butš___¡rÿt_chk
+ (
+__de¡
+, 
+__¤c
+, 
+	`__bos
+ (__dest));
+
+129 
+	}
+}
+
+132 
+__fÜtify_funùiÚ
+ *
+
+133 
+__NTH
+ (
+	$¡ºÿt
+ (*
+__»¡riù
+ 
+__de¡
+, cÚ¡ *__»¡riù 
+__¤c
+,
+
+134 
+size_t
+ 
+__Ën
+))
+
+136  
+	`__butš___¡ºÿt_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos
+ (__dest));
+
+137 
+	}
+}
+
+	@/usr/include/bits/types.h
+
+23 #iâdef 
+_BITS_TYPES_H
+
+
+24 
+	#_BITS_TYPES_H
+ 1
+
+	)
+
+26 
+	~<ã©u»s.h
+>
+
+27 
+	~<b™s/wÜdsize.h
+>
+
+30 
+	t__u_ch¬
+;
+
+31 
+	t__u_shÜt
+;
+
+32 
+	t__u_št
+;
+
+33 
+	t__u_lÚg
+;
+
+36 sigÃd 
+	t__št8_t
+;
+
+37 
+	t__ušt8_t
+;
+
+38 sigÃd 
+	t__št16_t
+;
+
+39 
+	t__ušt16_t
+;
+
+40 sigÃd 
+	t__št32_t
+;
+
+41 
+	t__ušt32_t
+;
+
+42 #ià
+__WORDSIZE
+ == 64
+
+43 sigÃd 
+	t__št64_t
+;
+
+44 
+	t__ušt64_t
+;
+
+46 
+__ex‹nsiÚ__
+ sigÃd 
+	t__št64_t
+;
+
+47 
+__ex‹nsiÚ__
+ 
+	t__ušt64_t
+;
+
+51 #ià
+__WORDSIZE
+ == 64
+
+52 
+	t__quad_t
+;
+
+53 
+	t__u_quad_t
+;
+
+55 
+__ex‹nsiÚ__
+ 
+	t__quad_t
+;
+
+56 
+__ex‹nsiÚ__
+ 
+	t__u_quad_t
+;
+
+60 #ià
+__WORDSIZE
+ == 64
+
+61 
+	t__štmax_t
+;
+
+62 
+	t__uštmax_t
+;
+
+64 
+__ex‹nsiÚ__
+ 
+	t__štmax_t
+;
+
+65 
+__ex‹nsiÚ__
+ 
+	t__uštmax_t
+;
+
+98 
+	#__S16_TYPE
+ 
+
+	)
+
+99 
+	#__U16_TYPE
+ 
+
+	)
+
+100 
+	#__S32_TYPE
+ 
+
+	)
+
+101 
+	#__U32_TYPE
+ 
+
+	)
+
+102 
+	#__SLONGWORD_TYPE
+ 
+
+	)
+
+103 
+	#__ULONGWORD_TYPE
+ 
+
+	)
+
+104 #ià
+__WORDSIZE
+ == 32
+
+105 
+	#__SQUAD_TYPE
+ 
+__quad_t
+
+
+	)
+
+106 
+	#__UQUAD_TYPE
+ 
+__u_quad_t
+
+
+	)
+
+107 
+	#__SWORD_TYPE
+ 
+
+	)
+
+108 
+	#__UWORD_TYPE
+ 
+
+	)
+
+109 
+	#__SLONG32_TYPE
+ 
+
+	)
+
+110 
+	#__ULONG32_TYPE
+ 
+
+	)
+
+111 
+	#__S64_TYPE
+ 
+__quad_t
+
+
+	)
+
+112 
+	#__U64_TYPE
+ 
+__u_quad_t
+
+
+	)
+
+115 
+	#__STD_TYPE
+ 
+__ex‹nsiÚ__
+ 
+
+	)
+
+116 #–ià
+__WORDSIZE
+ == 64
+
+117 
+	t__SQUAD_TYPE
+ 
+
+	)
+
+118 
+	t__UQUAD_TYPE
+ 
+
+	)
+
+119 
+	t__SWORD_TYPE
+ 
+
+	)
+
+120 
+	t__UWORD_TYPE
+ 
+
+	)
+
+121 
+	t__SLONG32_TYPE
+ 
+
+	)
+
+122 
+	t__ULONG32_TYPE
+ 
+
+	)
+
+123 
+	t__S64_TYPE
+ 
+
+	)
+
+124 
+	t__U64_TYPE
+ 
+
+	)
+
+126 
+	t__STD_TYPE
+ 
+
+	)
+
+130 
+	~<b™s/ty³sizes.h
+>
+
+133 
+__STD_TYPE
+ 
+	t__DEV_T_TYPE
+ 
+	t__dev_t
+;
+
+134 
+__STD_TYPE
+ 
+__UID_T_TYPE
+ 
+	g__uid_t
+;
+
+135 
+__STD_TYPE
+ 
+__GID_T_TYPE
+ 
+	g__gid_t
+;
+
+136 
+__STD_TYPE
+ 
+__INO_T_TYPE
+ 
+	g__šo_t
+;
+
+137 
+__STD_TYPE
+ 
+__INO64_T_TYPE
+ 
+	g__šo64_t
+;
+
+138 
+__STD_TYPE
+ 
+__MODE_T_TYPE
+ 
+	g__mode_t
+;
+
+139 
+__STD_TYPE
+ 
+__NLINK_T_TYPE
+ 
+	g__Æšk_t
+;
+
+140 
+__STD_TYPE
+ 
+__OFF_T_TYPE
+ 
+	g__off_t
+;
+
+141 
+__STD_TYPE
+ 
+__OFF64_T_TYPE
+ 
+	g__off64_t
+;
+
+142 
+__STD_TYPE
+ 
+__PID_T_TYPE
+ 
+	g__pid_t
+;
+
+143 
+__STD_TYPE
+ 
+__FSID_T_TYPE
+ 
+	g__fsid_t
+;
+
+144 
+__STD_TYPE
+ 
+__CLOCK_T_TYPE
+ 
+	g__şock_t
+;
+
+145 
+__STD_TYPE
+ 
+__RLIM_T_TYPE
+ 
+	g__¾im_t
+;
+
+146 
+__STD_TYPE
+ 
+__RLIM64_T_TYPE
+ 
+	g__¾im64_t
+;
+
+147 
+__STD_TYPE
+ 
+__ID_T_TYPE
+ 
+	g__id_t
+;
+
+148 
+__STD_TYPE
+ 
+__TIME_T_TYPE
+ 
+	g__time_t
+;
+
+149 
+__STD_TYPE
+ 
+__USECONDS_T_TYPE
+ 
+	g__u£cÚds_t
+;
+
+150 
+__STD_TYPE
+ 
+__SUSECONDS_T_TYPE
+ 
+	g__su£cÚds_t
+;
+
+152 
+__STD_TYPE
+ 
+__DADDR_T_TYPE
+ 
+	g__daddr_t
+;
+
+153 
+__STD_TYPE
+ 
+__KEY_T_TYPE
+ 
+	g__key_t
+;
+
+156 
+__STD_TYPE
+ 
+__CLOCKID_T_TYPE
+ 
+	g__şockid_t
+;
+
+159 
+__STD_TYPE
+ 
+__TIMER_T_TYPE
+ 
+	g__tim”_t
+;
+
+162 
+__STD_TYPE
+ 
+__BLKSIZE_T_TYPE
+ 
+	g__blksize_t
+;
+
+167 
+__STD_TYPE
+ 
+__BLKCNT_T_TYPE
+ 
+	g__blkút_t
+;
+
+168 
+__STD_TYPE
+ 
+__BLKCNT64_T_TYPE
+ 
+	g__blkút64_t
+;
+
+171 
+__STD_TYPE
+ 
+__FSBLKCNT_T_TYPE
+ 
+	g__fsblkút_t
+;
+
+172 
+__STD_TYPE
+ 
+__FSBLKCNT64_T_TYPE
+ 
+	g__fsblkút64_t
+;
+
+175 
+__STD_TYPE
+ 
+__FSFILCNT_T_TYPE
+ 
+	g__fsfút_t
+;
+
+176 
+__STD_TYPE
+ 
+__FSFILCNT64_T_TYPE
+ 
+	g__fsfút64_t
+;
+
+179 
+__STD_TYPE
+ 
+__FSWORD_T_TYPE
+ 
+	g__fswÜd_t
+;
+
+181 
+__STD_TYPE
+ 
+__SSIZE_T_TYPE
+ 
+	g__ssize_t
+;
+
+184 
+__STD_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+ 
+	g__sysÿÎ_¦Úg_t
+;
+
+186 
+__STD_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+ 
+	g__sysÿÎ_ulÚg_t
+;
+
+190 
+__off64_t
+ 
+	t__loff_t
+;
+
+191 *
+	t__ÿddr_t
+;
+
+194 
+__STD_TYPE
+ 
+__SWORD_TYPE
+ 
+	g__šŒ_t
+;
+
+197 
+__STD_TYPE
+ 
+__U32_TYPE
+ 
+	g__sockËn_t
+;
+
+202 
+	t__sig_©omic_t
+;
+
+204 #undeà
+__STD_TYPE
+
+
+	@/usr/include/bits/types/locale_t.h
+
+19 #iâdeà
+_BITS_TYPES_LOCALE_T_H
+
+
+20 
+	#_BITS_TYPES_LOCALE_T_H
+ 1
+
+	)
+
+22 
+	~<b™s/ty³s/__loÿË_t.h
+>
+
+24 
+__loÿË_t
+ 
+	tloÿË_t
+;
+
+	@/usr/include/bits/wchar.h
+
+19 #iâdeà
+_BITS_WCHAR_H
+
+
+20 
+	#_BITS_WCHAR_H
+ 1
+
+	)
+
+33 #ifdeà
+__WCHAR_MAX__
+
+
+34 
+	#__WCHAR_MAX
+ 
+__WCHAR_MAX__
+
+
+	)
+
+35 #–ià
+L
+'\0' - 1 > 0
+
+36 
+	#__WCHAR_MAX
+ (0xffffffffu + 
+L
+'\0')
+
+	)
+
+38 
+	#__WCHAR_MAX
+ (0x7ffffffà+ 
+L
+'\0')
+
+	)
+
+41 #ifdeà
+__WCHAR_MIN__
+
+
+42 
+	#__WCHAR_MIN
+ 
+__WCHAR_MIN__
+
+
+	)
+
+43 #–ià
+L
+'\0' - 1 > 0
+
+44 
+	#__WCHAR_MIN
+ (
+L
+'\0' + 0)
+
+	)
+
+46 
+	#__WCHAR_MIN
+ (-
+__WCHAR_MAX
+ - 1)
+
+	)
+
+	@/usr/include/bits/wordsize.h
+
+3 #ià
+defšed
+ 
+__x86_64__
+ && !defšed 
+__ILP32__
+
+
+4 
+	#__WORDSIZE
+ 64
+
+	)
+
+6 
+	#__WORDSIZE
+ 32
+
+	)
+
+7 
+	#__WORDSIZE32_SIZE_ULONG
+ 0
+
+	)
+
+8 
+	#__WORDSIZE32_PTRDIFF_LONG
+ 0
+
+	)
+
+11 #ifdeà
+__x86_64__
+
+
+12 
+	#__WORDSIZE_TIME64_COMPAT32
+ 1
+
+	)
+
+14 
+	#__SYSCALL_WORDSIZE
+ 64
+
+	)
+
+16 
+	#__WORDSIZE_TIME64_COMPAT32
+ 0
+
+	)
+
+	@/usr/include/bits/xopen_lim.h
+
+29 #iâdeà
+_XOPEN_LIM_H
+
+
+30 
+	#_XOPEN_LIM_H
+ 1
+
+	)
+
+62 
+	#_XOPEN_IOV_MAX
+ 
+_POSIX_UIO_MAXIOV
+
+
+	)
+
+64 
+	~<b™s/uio_lim.h
+>
+
+65 #ifdeà
+__IOV_MAX
+
+
+66 
+	#IOV_MAX
+ 
+__IOV_MAX
+
+
+	)
+
+68 #undeà
+IOV_MAX
+
+
+73 
+	#NL_ARGMAX
+ 
+_POSIX_ARG_MAX
+
+
+	)
+
+76 
+	#NL_LANGMAX
+ 
+_POSIX2_LINE_MAX
+
+
+	)
+
+79 
+	#NL_MSGMAX
+ 
+INT_MAX
+
+
+	)
+
+83 #ià
+defšed
+ 
+__USE_GNU
+ || !defšed 
+__USE_XOPEN2K8
+
+
+84 
+	#NL_NMAX
+ 
+INT_MAX
+
+
+	)
+
+88 
+	#NL_SETMAX
+ 
+INT_MAX
+
+
+	)
+
+91 
+	#NL_TEXTMAX
+ 
+INT_MAX
+
+
+	)
+
+94 
+	#NZERO
+ 20
+
+	)
+
+98 #ifdeà
+INT_MAX
+
+
+99 #ià
+INT_MAX
+ == 32767
+
+100 
+	#WORD_BIT
+ 16
+
+	)
+
+102 #ià
+INT_MAX
+ == 2147483647
+
+103 
+	#WORD_BIT
+ 32
+
+	)
+
+106 
+	#WORD_BIT
+ 64
+
+	)
+
+109 #–ià
+defšed
+ 
+__INT_MAX__
+
+
+110 #ià
+__INT_MAX__
+ == 32767
+
+111 
+	#WORD_BIT
+ 16
+
+	)
+
+113 #ià
+__INT_MAX__
+ == 2147483647
+
+114 
+	#WORD_BIT
+ 32
+
+	)
+
+117 
+	#WORD_BIT
+ 64
+
+	)
+
+121 
+	#WORD_BIT
+ 32
+
+	)
+
+125 #ifdeà
+LONG_MAX
+
+
+126 #ià
+LONG_MAX
+ == 2147483647
+
+127 
+	#LONG_BIT
+ 32
+
+	)
+
+130 
+	#LONG_BIT
+ 64
+
+	)
+
+132 #–ià
+defšed
+ 
+__LONG_MAX__
+
+
+133 #ià
+__LONG_MAX__
+ == 2147483647
+
+134 
+	#LONG_BIT
+ 32
+
+	)
+
+137 
+	#LONG_BIT
+ 64
+
+	)
+
+140 
+	~<b™s/wÜdsize.h
+>
+
+141 #ià
+__WORDSIZE
+ == 64
+
+142 
+	#LONG_BIT
+ 64
+
+	)
+
+144 
+	#LONG_BIT
+ 32
+
+	)
+
+	@/usr/include/strings.h
+
+18 #iâdef 
+_STRINGS_H
+
+
+19 
+	#_STRINGS_H
+ 1
+
+	)
+
+21 
+	~<ã©u»s.h
+>
+
+22 
+	#__Ãed_size_t
+
+
+	)
+
+23 
+	~<¡ddef.h
+>
+
+26 #ià
+defšed
+ 
+__ılu¥lus
+ && 
+__GNUC_PREREQ
+ (4, 4)
+
+27 
+	#__CORRECT_ISO_CPP_STRINGS_H_PROTO
+
+
+	)
+
+30 
+	g__BEGIN_DECLS
+
+
+32 #ià
+defšed
+ 
+__USE_MISC
+ || !defšed 
+__USE_XOPEN2K8
+
+
+34 
+	$bcmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+size_t
+ 
+__n
+)
+
+35 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+38 
+	$bcİy
+ (cÚ¡ *
+__¤c
+, *
+__de¡
+, 
+size_t
+ 
+__n
+)
+
+39 
+__THROW
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+42 
+	$bz”o
+ (*
+__s
+, 
+size_t
+ 
+__n
+è
+__THROW
+ 
+	`__nÚnuÎ
+ ((1));
+
+45 #ifdeà
+__CORRECT_ISO_CPP_STRINGS_H_PROTO
+
+
+48 *
+	`šdex
+ (*
+__s
+, 
+__c
+)
+
+49 
+__THROW
+ 
+	`__asm
+ ("šdex"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+50 cÚ¡ *
+	`šdex
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+51 
+__THROW
+ 
+	`__asm
+ ("šdex"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+53 #ià
+defšed
+ 
+__OPTIMIZE__
+
+
+54 
+__ex‹º_®ways_šlše
+ *
+
+55 
+	`šdex
+ (*
+__s
+, 
+__c
+è
+__THROW
+
+
+57  
+	`__butš_šdex
+ (
+__s
+, 
+__c
+);
+
+60 
+__ex‹º_®ways_šlše
+ const *
+
+61 
+	`šdex
+ (cÚ¡ *
+__s
+, 
+__c
+è
+__THROW
+
+
+63  
+	`__butš_šdex
+ (
+__s
+, 
+__c
+);
+
+66 
+	}
+}
+
+68 *
+	$šdex
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+69 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+73 #ifdeà
+__CORRECT_ISO_CPP_STRINGS_H_PROTO
+
+
+76 *
+	`ršdex
+ (*
+__s
+, 
+__c
+)
+
+77 
+__THROW
+ 
+	`__asm
+ ("ršdex"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+78 cÚ¡ *
+	`ršdex
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+79 
+__THROW
+ 
+	`__asm
+ ("ršdex"è
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+81 #ià
+defšed
+ 
+__OPTIMIZE__
+
+
+82 
+__ex‹º_®ways_šlše
+ *
+
+83 
+	`ršdex
+ (*
+__s
+, 
+__c
+è
+__THROW
+
+
+85  
+	`__butš_ršdex
+ (
+__s
+, 
+__c
+);
+
+88 
+__ex‹º_®ways_šlše
+ const *
+
+89 
+	`ršdex
+ (cÚ¡ *
+__s
+, 
+__c
+è
+__THROW
+
+
+91  
+	`__butš_ršdex
+ (
+__s
+, 
+__c
+);
+
+94 
+	}
+}
+
+96 *
+	$ršdex
+ (cÚ¡ *
+__s
+, 
+__c
+)
+
+97 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1));
+
+101 #ià
+defšed
+ 
+__USE_MISC
+ || !defšed 
+__USE_XOPEN2K8
+ || defšed 
+__USE_XOPEN2K8XSI
+
+
+104 
+	$ffs
+ (
+__i
+è
+__THROW
+ 
+__©Œibu‹_cÚ¡__
+;
+
+109 #ifdef 
+__USE_MISC
+
+
+110 
+	$ff¦
+ (
+__l
+è
+__THROW
+ 
+__©Œibu‹_cÚ¡__
+;
+
+111 
+__ex‹nsiÚ__
+ 
+	$ff¦l
+ (
+__Î
+)
+
+112 
+__THROW
+ 
+__©Œibu‹_cÚ¡__
+;
+
+116 
+	$¡rÿ£cmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+)
+
+117 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+120 
+	$¡ºÿ£cmp
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+size_t
+ 
+__n
+)
+
+121 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2));
+
+123 #ifdef 
+__USE_XOPEN2K8
+
+
+125 
+	~<b™s/ty³s/loÿË_t.h
+>
+
+128 
+	$¡rÿ£cmp_l
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+, 
+loÿË_t
+ 
+__loc
+)
+
+129 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2, 3));
+
+133 
+	$¡ºÿ£cmp_l
+ (cÚ¡ *
+__s1
+, cÚ¡ *
+__s2
+,
+
+134 
+size_t
+ 
+__n
+, 
+loÿË_t
+ 
+__loc
+)
+
+135 
+__THROW
+ 
+__©Œibu‹_pu»__
+ 
+	`__nÚnuÎ
+ ((1, 2, 4));
+
+138 
+__END_DECLS
+
+
+140 #ià
+	`__GNUC_PREREQ
+ (3,4è&& 
+__USE_FORTIFY_LEVEL
+ > 0 \
+
+141 && 
+defšed
+ 
+__fÜtify_funùiÚ
+
+
+143 #ià
+defšed
+ 
+__USE_MISC
+ || !defšed 
+__USE_XOPEN2K8
+
+
+144 
+	~<b™s/¡ršgs_fÜtif›d.h
+>
+
+	@/usr/include/bits/local_lim.h
+
+24 #iâdeà
+NR_OPEN
+
+
+25 
+	#__undef_NR_OPEN
+
+
+	)
+
+27 #iâdeà
+LINK_MAX
+
+
+28 
+	#__undef_LINK_MAX
+
+
+	)
+
+30 #iâdeà
+OPEN_MAX
+
+
+31 
+	#__undef_OPEN_MAX
+
+
+	)
+
+33 #iâdeà
+ARG_MAX
+
+
+34 
+	#__undef_ARG_MAX
+
+
+	)
+
+38 
+	~<lšux/lim™s.h
+>
+
+41 #ifdeà
+__undef_NR_OPEN
+
+
+42 #undeà
+NR_OPEN
+
+
+43 #undeà
+__undef_NR_OPEN
+
+
+46 #ifdeà
+__undef_LINK_MAX
+
+
+47 #undeà
+LINK_MAX
+
+
+48 #undeà
+__undef_LINK_MAX
+
+
+51 #ifdeà
+__undef_OPEN_MAX
+
+
+52 #undeà
+OPEN_MAX
+
+
+53 #undeà
+__undef_OPEN_MAX
+
+
+56 #ifdeà
+__undef_ARG_MAX
+
+
+57 #undeà
+ARG_MAX
+
+
+58 #undeà
+__undef_ARG_MAX
+
+
+62 
+	#_POSIX_THREAD_KEYS_MAX
+ 128
+
+	)
+
+64 
+	#PTHREAD_KEYS_MAX
+ 1024
+
+	)
+
+67 
+	#_POSIX_THREAD_DESTRUCTOR_ITERATIONS
+ 4
+
+	)
+
+69 
+	#PTHREAD_DESTRUCTOR_ITERATIONS
+ 
+_POSIX_THREAD_DESTRUCTOR_ITERATIONS
+
+
+	)
+
+72 
+	#_POSIX_THREAD_THREADS_MAX
+ 64
+
+	)
+
+74 #undeà
+PTHREAD_THREADS_MAX
+
+
+78 
+	#AIO_PRIO_DELTA_MAX
+ 20
+
+	)
+
+81 
+	#PTHREAD_STACK_MIN
+ 16384
+
+	)
+
+84 
+	#DELAYTIMER_MAX
+ 2147483647
+
+	)
+
+87 
+	#TTY_NAME_MAX
+ 32
+
+	)
+
+90 
+	#LOGIN_NAME_MAX
+ 256
+
+	)
+
+93 
+	#HOST_NAME_MAX
+ 64
+
+	)
+
+96 
+	#MQ_PRIO_MAX
+ 32768
+
+	)
+
+99 
+	#SEM_VALUE_MAX
+ (2147483647)
+
+	)
+
+	@/usr/include/bits/strings_fortified.h
+
+19 #iâdeà
+__STRINGS_FORTIFIED
+
+
+20 
+	#__STRINGS_FORTIFIED
+ 1
+
+	)
+
+22 
+__fÜtify_funùiÚ
+ 
+
+23 
+__NTH
+ (
+	$bcİy
+ (cÚ¡ *
+__¤c
+, *
+__de¡
+, 
+size_t
+ 
+__Ën
+))
+
+25 (è
+	`__butš___memmove_chk
+ (
+__de¡
+, 
+__¤c
+, 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+26 
+	}
+}
+
+28 
+__fÜtify_funùiÚ
+ 
+
+29 
+__NTH
+ (
+	$bz”o
+ (*
+__de¡
+, 
+size_t
+ 
+__Ën
+))
+
+31 (è
+	`__butš___mem£t_chk
+ (
+__de¡
+, '\0', 
+__Ën
+, 
+	`__bos0
+ (__dest));
+
+32 
+	}
+}
+
+	@/usr/include/bits/types/__locale_t.h
+
+20 #iâdeà
+_BITS_TYPES___LOCALE_T_H
+
+
+21 
+	#_BITS_TYPES___LOCALE_T_H
+ 1
+
+	)
+
+28 
+	s__loÿË_¡ruù
+
+
+31 
+__loÿË_d©a
+ *
+	m__loÿËs
+[13];
+
+34 cÚ¡ *
+	m__ùy³_b
+;
+
+35 cÚ¡ *
+	m__ùy³_tŞow”
+;
+
+36 cÚ¡ *
+	m__ùy³_touµ”
+;
+
+39 cÚ¡ *
+	m__Çmes
+[13];
+
+42 
+__loÿË_¡ruù
+ *
+	t__loÿË_t
+;
+
+	@/usr/include/bits/typesizes.h
+
+19 #iâdeà
+_BITS_TYPES_H
+
+
+23 #iâdef 
+_BITS_TYPESIZES_H
+
+
+24 
+	#_BITS_TYPESIZES_H
+ 1
+
+	)
+
+30 #ià
+defšed
+ 
+__x86_64__
+ && defšed 
+__ILP32__
+
+
+31 
+	#__SYSCALL_SLONG_TYPE
+ 
+__SQUAD_TYPE
+
+
+	)
+
+32 
+	#__SYSCALL_ULONG_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+34 
+	#__SYSCALL_SLONG_TYPE
+ 
+__SLONGWORD_TYPE
+
+
+	)
+
+35 
+	#__SYSCALL_ULONG_TYPE
+ 
+__ULONGWORD_TYPE
+
+
+	)
+
+38 
+	#__DEV_T_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+39 
+	#__UID_T_TYPE
+ 
+__U32_TYPE
+
+
+	)
+
+40 
+	#__GID_T_TYPE
+ 
+__U32_TYPE
+
+
+	)
+
+41 
+	#__INO_T_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+42 
+	#__INO64_T_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+43 
+	#__MODE_T_TYPE
+ 
+__U32_TYPE
+
+
+	)
+
+44 #ifdeà
+__x86_64__
+
+
+45 
+	#__NLINK_T_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+46 
+	#__FSWORD_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+48 
+	#__NLINK_T_TYPE
+ 
+__UWORD_TYPE
+
+
+	)
+
+49 
+	#__FSWORD_T_TYPE
+ 
+__SWORD_TYPE
+
+
+	)
+
+51 
+	#__OFF_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+52 
+	#__OFF64_T_TYPE
+ 
+__SQUAD_TYPE
+
+
+	)
+
+53 
+	#__PID_T_TYPE
+ 
+__S32_TYPE
+
+
+	)
+
+54 
+	#__RLIM_T_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+55 
+	#__RLIM64_T_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+56 
+	#__BLKCNT_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+57 
+	#__BLKCNT64_T_TYPE
+ 
+__SQUAD_TYPE
+
+
+	)
+
+58 
+	#__FSBLKCNT_T_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+59 
+	#__FSBLKCNT64_T_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+60 
+	#__FSFILCNT_T_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+61 
+	#__FSFILCNT64_T_TYPE
+ 
+__UQUAD_TYPE
+
+
+	)
+
+62 
+	#__ID_T_TYPE
+ 
+__U32_TYPE
+
+
+	)
+
+63 
+	#__CLOCK_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+64 
+	#__TIME_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+65 
+	#__USECONDS_T_TYPE
+ 
+__U32_TYPE
+
+
+	)
+
+66 
+	#__SUSECONDS_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+67 
+	#__DADDR_T_TYPE
+ 
+__S32_TYPE
+
+
+	)
+
+68 
+	#__KEY_T_TYPE
+ 
+__S32_TYPE
+
+
+	)
+
+69 
+	#__CLOCKID_T_TYPE
+ 
+__S32_TYPE
+
+
+	)
+
+70 
+	#__TIMER_T_TYPE
+ *
+
+	)
+
+71 
+	#__BLKSIZE_T_TYPE
+ 
+__SYSCALL_SLONG_TYPE
+
+
+	)
+
+72 
+	#__FSID_T_TYPE
+ sŒuù { 
+__v®
+[2]; }
+
+	)
+
+73 
+	#__SSIZE_T_TYPE
+ 
+__SWORD_TYPE
+
+
+	)
+
+74 
+	#__CPU_MASK_TYPE
+ 
+__SYSCALL_ULONG_TYPE
+
+
+	)
+
+76 #ifdeà
+__x86_64__
+
+
+80 
+	#__OFF_T_MATCHES_OFF64_T
+ 1
+
+	)
+
+83 
+	#__INO_T_MATCHES_INO64_T
+ 1
+
+	)
+
+86 
+	#__RLIM_T_MATCHES_RLIM64_T
+ 1
+
+	)
+
+88 
+	#__RLIM_T_MATCHES_RLIM64_T
+ 0
+
+	)
+
+92 
+	#__FD_SETSIZE
+ 1024
+
+	)
+
+	@/usr/include/bits/uio_lim.h
+
+19 #iâdeà
+_BITS_UIO_LIM_H
+
+
+20 
+	#_BITS_UIO_LIM_H
+ 1
+
+	)
+
+30 
+	#__IOV_MAX
+ 1024
+
+	)
+
+	@/usr/include/features.h
+
+18 #iâdef 
+_FEATURES_H
+
+
+19 
+	#_FEATURES_H
+ 1
+
+	)
+
+119 #undeà
+__USE_ISOC11
+
+
+120 #undeà
+__USE_ISOC99
+
+
+121 #undeà
+__USE_ISOC95
+
+
+122 #undeà
+__USE_ISOCXX11
+
+
+123 #undeà
+__USE_POSIX
+
+
+124 #undeà
+__USE_POSIX2
+
+
+125 #undeà
+__USE_POSIX199309
+
+
+126 #undeà
+__USE_POSIX199506
+
+
+127 #undeà
+__USE_XOPEN
+
+
+128 #undeà
+__USE_XOPEN_EXTENDED
+
+
+129 #undeà
+__USE_UNIX98
+
+
+130 #undeà
+__USE_XOPEN2K
+
+
+131 #undeà
+__USE_XOPEN2KXSI
+
+
+132 #undeà
+__USE_XOPEN2K8
+
+
+133 #undeà
+__USE_XOPEN2K8XSI
+
+
+134 #undeà
+__USE_LARGEFILE
+
+
+135 #undeà
+__USE_LARGEFILE64
+
+
+136 #undeà
+__USE_FILE_OFFSET64
+
+
+137 #undeà
+__USE_MISC
+
+
+138 #undeà
+__USE_ATFILE
+
+
+139 #undeà
+__USE_GNU
+
+
+140 #undeà
+__USE_FORTIFY_LEVEL
+
+
+141 #undeà
+__KERNEL_STRICT_NAMES
+
+
+142 #undeà
+__GLIBC_USE_DEPRECATED_GETS
+
+
+146 #iâdeà
+_LOOSE_KERNEL_NAMES
+
+
+147 
+	#__KERNEL_STRICT_NAMES
+
+
+	)
+
+157 #ià
+defšed
+ 
+__GNUC__
+ && defšed 
+__GNUC_MINOR__
+
+
+158 
+	#__GNUC_PREREQ
+(
+maj
+, 
+mš
+) \
+
+159 ((
+__GNUC__
+ << 16è+ 
+__GNUC_MINOR__
+ >ğ((
+maj
+è<< 16è+ (
+mš
+))
+
+	)
+
+161 
+	#__GNUC_PREREQ
+(
+maj
+, 
+mš
+è0
+
+	)
+
+168 #ià
+defšed
+ 
+__şªg_majÜ__
+ && defšed 
+__şªg_mšÜ__
+
+
+169 
+	#__glibc_şªg_´”eq
+(
+maj
+, 
+mš
+) \
+
+170 ((
+__şªg_majÜ__
+ << 16è+ 
+__şªg_mšÜ__
+ >ğ((
+maj
+è<< 16è+ (
+mš
+))
+
+	)
+
+172 
+	#__glibc_şªg_´”eq
+(
+maj
+, 
+mš
+è0
+
+	)
+
+176 
+	#__GLIBC_USE
+(
+F
+è
+__GLIBC_USE_
+ ## 
+	)
+F
+
+182 #ià(
+defšed
+ 
+_BSD_SOURCE
+ || defšed 
+_SVID_SOURCE
+) \
+
+183 && !
+defšed
+ 
+	g_DEFAULT_SOURCE
+
+
+185 #undeà
+_DEFAULT_SOURCE
+
+
+186 
+	#_DEFAULT_SOURCE
+ 1
+
+	)
+
+190 #ifdeà
+_GNU_SOURCE
+
+
+191 #undeà
+_ISOC95_SOURCE
+
+
+192 
+	#_ISOC95_SOURCE
+ 1
+
+	)
+
+193 #undeà
+_ISOC99_SOURCE
+
+
+194 
+	#_ISOC99_SOURCE
+ 1
+
+	)
+
+195 #undeà
+_ISOC11_SOURCE
+
+
+196 
+	#_ISOC11_SOURCE
+ 1
+
+	)
+
+197 #undeà
+_POSIX_SOURCE
+
+
+198 
+	#_POSIX_SOURCE
+ 1
+
+	)
+
+199 #undeà
+_POSIX_C_SOURCE
+
+
+200 
+	#_POSIX_C_SOURCE
+ 200809L
+
+	)
+
+201 #undeà
+_XOPEN_SOURCE
+
+
+202 
+	#_XOPEN_SOURCE
+ 700
+
+	)
+
+203 #undeà
+_XOPEN_SOURCE_EXTENDED
+
+
+204 
+	#_XOPEN_SOURCE_EXTENDED
+ 1
+
+	)
+
+205 #undeà
+_LARGEFILE64_SOURCE
+
+
+206 
+	#_LARGEFILE64_SOURCE
+ 1
+
+	)
+
+207 #undeà
+_DEFAULT_SOURCE
+
+
+208 
+	#_DEFAULT_SOURCE
+ 1
+
+	)
+
+209 #undeà
+_ATFILE_SOURCE
+
+
+210 
+	#_ATFILE_SOURCE
+ 1
+
+	)
+
+215 #ià(
+defšed
+ 
+_DEFAULT_SOURCE
+ \
+
+216 || (!
+defšed
+ 
+	g__STRICT_ANSI__
+ \
+
+217 && !
+defšed
+ 
+	g_ISOC99_SOURCE
+ \
+
+218 && !
+defšed
+ 
+	g_POSIX_SOURCE
+ && !defšed 
+	g_POSIX_C_SOURCE
+ \
+
+219 && !
+defšed
+ 
+	g_XOPEN_SOURCE
+))
+
+220 #undeà
+_DEFAULT_SOURCE
+
+
+221 
+	#_DEFAULT_SOURCE
+ 1
+
+	)
+
+225 #ià(
+defšed
+ 
+_ISOC11_SOURCE
+ \
+
+226 || (
+defšed
+ 
+	g__STDC_VERSION__
+ && __STDC_VERSION__ >= 201112L))
+
+227 
+	#__USE_ISOC11
+ 1
+
+	)
+
+231 #ià(
+defšed
+ 
+_ISOC99_SOURCE
+ || defšed 
+_ISOC11_SOURCE
+ \
+
+232 || (
+defšed
+ 
+__STDC_VERSION__
+ && __STDC_VERSION__ >= 199901L))
+
+233 
+	#__USE_ISOC99
+ 1
+
+	)
+
+237 #ià(
+defšed
+ 
+_ISOC99_SOURCE
+ || defšed 
+_ISOC11_SOURCE
+ \
+
+238 || (
+defšed
+ 
+__STDC_VERSION__
+ && __STDC_VERSION__ >= 199409L))
+
+239 
+	#__USE_ISOC95
+ 1
+
+	)
+
+242 #ifdeà
+__ılu¥lus
+
+
+244 #ià
+__ılu¥lus
+ >= 201703L
+
+245 
+	#__USE_ISOC11
+ 1
+
+	)
+
+249 #ià
+__ılu¥lus
+ >ğ201103L || 
+defšed
+ 
+__GXX_EXPERIMENTAL_CXX0X__
+
+
+250 
+	#__USE_ISOCXX11
+ 1
+
+	)
+
+251 
+	#__USE_ISOC99
+ 1
+
+	)
+
+258 #ifdeà
+_DEFAULT_SOURCE
+
+
+259 #ià!
+defšed
+ 
+_POSIX_SOURCE
+ && !defšed 
+_POSIX_C_SOURCE
+
+
+260 
+	#__USE_POSIX_IMPLICITLY
+ 1
+
+	)
+
+262 #undeà
+_POSIX_SOURCE
+
+
+263 
+	#_POSIX_SOURCE
+ 1
+
+	)
+
+264 #undeà
+_POSIX_C_SOURCE
+
+
+265 
+	#_POSIX_C_SOURCE
+ 200809L
+
+	)
+
+268 #ià((!
+defšed
+ 
+__STRICT_ANSI__
+ \
+
+269 || (
+defšed
+ 
+_XOPEN_SOURCE
+ && (_XOPEN_SOURCE - 0) >= 500)) \
+
+270 && !
+defšed
+ 
+_POSIX_SOURCE
+ && !defšed 
+_POSIX_C_SOURCE
+)
+
+271 
+	#_POSIX_SOURCE
+ 1
+
+	)
+
+272 #ià
+defšed
+ 
+_XOPEN_SOURCE
+ && (_XOPEN_SOURCE - 0) < 500
+
+273 
+	#_POSIX_C_SOURCE
+ 2
+
+	)
+
+274 #–ià
+defšed
+ 
+_XOPEN_SOURCE
+ && (_XOPEN_SOURCE - 0) < 600
+
+275 
+	#_POSIX_C_SOURCE
+ 199506L
+
+	)
+
+276 #–ià
+defšed
+ 
+_XOPEN_SOURCE
+ && (_XOPEN_SOURCE - 0) < 700
+
+277 
+	#_POSIX_C_SOURCE
+ 200112L
+
+	)
+
+279 
+	#_POSIX_C_SOURCE
+ 200809L
+
+	)
+
+281 
+	#__USE_POSIX_IMPLICITLY
+ 1
+
+	)
+
+290 #ià((!
+defšed
+ 
+_POSIX_C_SOURCE
+ || (_POSIX_C_SOURCE - 0) < 199506L) \
+
+291 && (
+defšed
+ 
+_REENTRANT
+ || defšed 
+_THREAD_SAFE
+))
+
+292 
+	#_POSIX_SOURCE
+ 1
+
+	)
+
+293 #undeà
+_POSIX_C_SOURCE
+
+
+294 
+	#_POSIX_C_SOURCE
+ 199506L
+
+	)
+
+297 #ià(
+defšed
+ 
+_POSIX_SOURCE
+ \
+
+298 || (
+defšed
+ 
+_POSIX_C_SOURCE
+ && _POSIX_C_SOURCE >= 1) \
+
+299 || 
+defšed
+ 
+_XOPEN_SOURCE
+)
+
+300 
+	#__USE_POSIX
+ 1
+
+	)
+
+303 #ià
+defšed
+ 
+_POSIX_C_SOURCE
+ && _POSIX_C_SOURCE >ğ2 || defšed 
+_XOPEN_SOURCE
+
+
+304 
+	#__USE_POSIX2
+ 1
+
+	)
+
+307 #ià
+defšed
+ 
+_POSIX_C_SOURCE
+ && (_POSIX_C_SOURCE - 0) >= 199309L
+
+308 
+	#__USE_POSIX199309
+ 1
+
+	)
+
+311 #ià
+defšed
+ 
+_POSIX_C_SOURCE
+ && (_POSIX_C_SOURCE - 0) >= 199506L
+
+312 
+	#__USE_POSIX199506
+ 1
+
+	)
+
+315 #ià
+defšed
+ 
+_POSIX_C_SOURCE
+ && (_POSIX_C_SOURCE - 0) >= 200112L
+
+316 
+	#__USE_XOPEN2K
+ 1
+
+	)
+
+317 #undeà
+__USE_ISOC95
+
+
+318 
+	#__USE_ISOC95
+ 1
+
+	)
+
+319 #undeà
+__USE_ISOC99
+
+
+320 
+	#__USE_ISOC99
+ 1
+
+	)
+
+323 #ià
+defšed
+ 
+_POSIX_C_SOURCE
+ && (_POSIX_C_SOURCE - 0) >= 200809L
+
+324 
+	#__USE_XOPEN2K8
+ 1
+
+	)
+
+325 #undeà
+_ATFILE_SOURCE
+
+
+326 
+	#_ATFILE_SOURCE
+ 1
+
+	)
+
+329 #ifdef 
+_XOPEN_SOURCE
+
+
+330 
+	#__USE_XOPEN
+ 1
+
+	)
+
+331 #ià(
+_XOPEN_SOURCE
+ - 0) >= 500
+
+332 
+	#__USE_XOPEN_EXTENDED
+ 1
+
+	)
+
+333 
+	#__USE_UNIX98
+ 1
+
+	)
+
+334 #undeà
+_LARGEFILE_SOURCE
+
+
+335 
+	#_LARGEFILE_SOURCE
+ 1
+
+	)
+
+336 #ià(
+_XOPEN_SOURCE
+ - 0) >= 600
+
+337 #ià(
+_XOPEN_SOURCE
+ - 0) >= 700
+
+338 
+	#__USE_XOPEN2K8
+ 1
+
+	)
+
+339 
+	#__USE_XOPEN2K8XSI
+ 1
+
+	)
+
+341 
+	#__USE_XOPEN2K
+ 1
+
+	)
+
+342 
+	#__USE_XOPEN2KXSI
+ 1
+
+	)
+
+343 #undeà
+__USE_ISOC95
+
+
+344 
+	#__USE_ISOC95
+ 1
+
+	)
+
+345 #undeà
+__USE_ISOC99
+
+
+346 
+	#__USE_ISOC99
+ 1
+
+	)
+
+349 #ifdeà
+_XOPEN_SOURCE_EXTENDED
+
+
+350 
+	#__USE_XOPEN_EXTENDED
+ 1
+
+	)
+
+355 #ifdeà
+_LARGEFILE_SOURCE
+
+
+356 
+	#__USE_LARGEFILE
+ 1
+
+	)
+
+359 #ifdeà
+_LARGEFILE64_SOURCE
+
+
+360 
+	#__USE_LARGEFILE64
+ 1
+
+	)
+
+363 #ià
+defšed
+ 
+_FILE_OFFSET_BITS
+ && _FILE_OFFSET_BITS == 64
+
+364 
+	#__USE_FILE_OFFSET64
+ 1
+
+	)
+
+367 #ià
+defšed
+ 
+_DEFAULT_SOURCE
+
+
+368 
+	#__USE_MISC
+ 1
+
+	)
+
+371 #ifdef 
+_ATFILE_SOURCE
+
+
+372 
+	#__USE_ATFILE
+ 1
+
+	)
+
+375 #ifdef 
+_GNU_SOURCE
+
+
+376 
+	#__USE_GNU
+ 1
+
+	)
+
+379 #ià
+defšed
+ 
+_FORTIFY_SOURCE
+ && _FORTIFY_SOURCE > 0 \
+
+380 && 
+__GNUC_PREREQ
+ (4, 1è&& 
+defšed
+ 
+	g__OPTIMIZE__
+ && __OPTIMIZE__ > 0
+
+381 #ià
+_FORTIFY_SOURCE
+ > 1
+
+382 
+	#__USE_FORTIFY_LEVEL
+ 2
+
+	)
+
+384 
+	#__USE_FORTIFY_LEVEL
+ 1
+
+	)
+
+387 
+	#__USE_FORTIFY_LEVEL
+ 0
+
+	)
+
+394 #ià
+defšed
+ 
+__ılu¥lus
+ ? __ılu¥lu >ğ201402L : defšed 
+__USE_ISOC11
+
+
+395 
+	#__GLIBC_USE_DEPRECATED_GETS
+ 0
+
+	)
+
+397 
+	#__GLIBC_USE_DEPRECATED_GETS
+ 1
+
+	)
+
+402 
+	~<¡dc-´edef.h
+>
+
+410 #undeà
+__GNU_LIBRARY__
+
+
+411 
+	#__GNU_LIBRARY__
+ 6
+
+	)
+
+415 
+	#__GLIBC__
+ 2
+
+	)
+
+416 
+	#__GLIBC_MINOR__
+ 27
+
+	)
+
+418 
+	#__GLIBC_PREREQ
+(
+maj
+, 
+mš
+) \
+
+419 ((
+__GLIBC__
+ << 16è+ 
+__GLIBC_MINOR__
+ >ğ((
+maj
+è<< 16è+ (
+mš
+))
+
+	)
+
+422 #iâdeà
+__ASSEMBLER__
+
+
+423 #iâdeà
+_SYS_CDEFS_H
+
+
+424 
+	~<sys/cdefs.h
+>
+
+429 #ià
+defšed
+ 
+__USE_FILE_OFFSET64
+ && !defšed 
+__REDIRECT
+
+
+430 
+	#__USE_LARGEFILE
+ 1
+
+	)
+
+431 
+	#__USE_LARGEFILE64
+ 1
+
+	)
+
+437 #ià
+__GNUC_PREREQ
+ (2, 7è&& 
+defšed
+ 
+__OPTIMIZE__
+ \
+
+438 && !
+defšed
+ 
+	g__OPTIMIZE_SIZE__
+ && !defšed 
+	g__NO_INLINE__
+ \
+
+439 && 
+defšed
+ 
+	g__ex‹º_šlše
+
+
+440 
+	#__USE_EXTERN_INLINES
+ 1
+
+	)
+
+448 
+	~<gnu/¡ubs.h
+>
+
+	@/usr/include/gnu/stubs.h
+
+6 #ià!
+defšed
+ 
+__x86_64__
+
+
+7 
+	~<gnu/¡ubs-32.h
+>
+
+9 #ià
+defšed
+ 
+__x86_64__
+ && defšed 
+__LP64__
+
+
+10 
+	~<gnu/¡ubs-64.h
+>
+
+12 #ià
+defšed
+ 
+__x86_64__
+ && defšed 
+__ILP32__
+
+
+13 
+	~<gnu/¡ubs-x32.h
+>
+
+	@/usr/include/linux/limits.h
+
+2 #iâdeà
+_LINUX_LIMITS_H
+
+
+3 
+	#_LINUX_LIMITS_H
+
+
+	)
+
+5 
+	#NR_OPEN
+ 1024
+
+	)
+
+7 
+	#NGROUPS_MAX
+ 65536
+
+	)
+
+8 
+	#ARG_MAX
+ 131072
+
+	)
+
+9 
+	#LINK_MAX
+ 127
+
+	)
+
+10 
+	#MAX_CANON
+ 255
+
+	)
+
+11 
+	#MAX_INPUT
+ 255
+
+	)
+
+12 
+	#NAME_MAX
+ 255
+
+	)
+
+13 
+	#PATH_MAX
+ 4096
+
+	)
+
+14 
+	#PIPE_BUF
+ 4096
+
+	)
+
+15 
+	#XATTR_NAME_MAX
+ 255
+
+	)
+
+16 
+	#XATTR_SIZE_MAX
+ 65536
+
+	)
+
+17 
+	#XATTR_LIST_MAX
+ 65536
+
+	)
+
+19 
+	#RTSIG_MAX
+ 32
+
+	)
+
+	@/usr/include/stdc-predef.h
+
+18 #iâdef 
+_STDC_PREDEF_H
+
+
+19 
+	#_STDC_PREDEF_H
+ 1
+
+	)
+
+36 #ifdeà
+__GCC_IEC_559
+
+
+37 #ià
+__GCC_IEC_559
+ > 0
+
+38 
+	#__STDC_IEC_559__
+ 1
+
+	)
+
+41 
+	#__STDC_IEC_559__
+ 1
+
+	)
+
+44 #ifdeà
+__GCC_IEC_559_COMPLEX
+
+
+45 #ià
+__GCC_IEC_559_COMPLEX
+ > 0
+
+46 
+	#__STDC_IEC_559_COMPLEX__
+ 1
+
+	)
+
+49 
+	#__STDC_IEC_559_COMPLEX__
+ 1
+
+	)
+
+58 
+	#__STDC_ISO_10646__
+ 201706L
+
+	)
+
+61 
+	#__STDC_NO_THREADS__
+ 1
+
+	)
+
+	@/usr/include/sys/cdefs.h
+
+18 #iâdef 
+_SYS_CDEFS_H
+
+
+19 
+	#_SYS_CDEFS_H
+ 1
+
+	)
+
+22 #iâdeà
+_FEATURES_H
+
+
+23 
+	~<ã©u»s.h
+>
+
+29 #ià
+defšed
+ 
+__GNUC__
+ && !defšed 
+__STDC__
+
+
+34 #undeà
+__P
+
+
+35 #undeà
+__PMT
+
+
+37 #ifdeà
+__GNUC__
+
+
+41 #ià
+__GNUC_PREREQ
+ (4, 6è&& !
+defšed
+ 
+_LIBC
+
+
+42 
+	#__LEAF
+ , 
+__Ëaf__
+
+
+	)
+
+43 
+	#__LEAF_ATTR
+ 
+	`__©Œibu‹__
+ ((
+__Ëaf__
+))
+
+	)
+
+45 
+	#__LEAF
+
+
+	)
+
+46 
+	#__LEAF_ATTR
+
+
+	)
+
+54 #ià!
+defšed
+ 
+__ılu¥lus
+ && 
+__GNUC_PREREQ
+ (3, 3)
+
+55 
+	#__THROW
+ 
+	`__©Œibu‹__
+ ((
+__nÙhrow__
+ 
+__LEAF
+))
+
+	)
+
+56 
+	#__THROWNL
+ 
+	`__©Œibu‹__
+ ((
+__nÙhrow__
+))
+
+	)
+
+57 
+	#__NTH
+(
+fù
+è
+	`__©Œibu‹__
+ ((
+__nÙhrow__
+ 
+__LEAF
+)è
+	)
+fct
+
+58 
+	#__NTHNL
+(
+fù
+è
+	`__©Œibu‹__
+ ((
+__nÙhrow__
+)è
+	)
+fct
+
+60 #ià
+defšed
+ 
+__ılu¥lus
+ && 
+__GNUC_PREREQ
+ (2,8)
+
+61 
+	#__THROW
+ 
+	`throw
+ ()
+
+	)
+
+62 
+	#__THROWNL
+ 
+	`throw
+ ()
+
+	)
+
+63 
+	#__NTH
+(
+fù
+è
+__LEAF_ATTR
+ fù 
+	`throw
+ ()
+
+	)
+
+64 
+	#__NTHNL
+(
+fù
+èfù 
+	`throw
+ ()
+
+	)
+
+66 
+	#__THROW
+
+
+	)
+
+67 
+	#__THROWNL
+
+
+	)
+
+68 
+	#__NTH
+(
+fù
+è
+	)
+fct
+
+69 
+	#__NTHNL
+(
+fù
+è
+	)
+fct
+
+75 
+	#__šlše
+
+
+	)
+
+77 
+	#__THROW
+
+
+	)
+
+78 
+	#__THROWNL
+
+
+	)
+
+79 
+	#__NTH
+(
+fù
+è
+	)
+fct
+
+86 #ià
+defšed
+ 
+__şªg__
+ && defšed 
+__has_ex‹nsiÚ
+
+
+87 
+	#__glibc_şªg_has_ex‹nsiÚ
+(
+ext
+è
+	`__has_ex‹nsiÚ
+ (ext)
+
+	)
+
+89 
+	#__glibc_şªg_has_ex‹nsiÚ
+(
+ext
+è0
+
+	)
+
+94 
+	#__P
+(
+¬gs
+è
+	)
+args
+
+95 
+	#__PMT
+(
+¬gs
+è
+	)
+args
+
+100 
+	#__CONCAT
+(
+x
+,
+y
+èx ## 
+	)
+y
+
+101 
+	#__STRING
+(
+x
+è#x
+
+	)
+
+104 
+	#__±r_t
+ *
+
+	)
+
+108 #ifdef 
+__ılu¥lus
+
+
+109 
+	#__BEGIN_DECLS
+ "C" {
+
+	)
+
+110 
+	#__END_DECLS
+ }
+
+	)
+
+112 
+	#__BEGIN_DECLS
+
+
+	)
+
+113 
+	#__END_DECLS
+
+
+	)
+
+118 
+	#__bos
+(
+±r
+è
+	`__butš_objeù_size
+ (±r, 
+__USE_FORTIFY_LEVEL
+ > 1)
+
+	)
+
+119 
+	#__bos0
+(
+±r
+è
+	`__butš_objeù_size
+ (±r, 0)
+
+	)
+
+121 #ià
+__GNUC_PREREQ
+ (4,3)
+
+122 
+	#__w¬ndeş
+(
+Çme
+, 
+msg
+) \
+
+123 
+	`Çme
+ (è
+	`__©Œibu‹__
+((
+	`__w¬nšg__
+ (
+msg
+)))
+
+	)
+
+124 
+	#__w¬Ç‰r
+(
+msg
+è
+	`__©Œibu‹__
+((
+	`__w¬nšg__
+ (msg)))
+
+	)
+
+125 
+	#__”rÜdeş
+(
+Çme
+, 
+msg
+) \
+
+126 
+	`Çme
+ (è
+	`__©Œibu‹__
+((
+	`__”rÜ__
+ (
+msg
+)))
+
+	)
+
+128 
+	#__w¬ndeş
+(
+Çme
+, 
+msg
+è
+	`Çme
+ ()
+
+	)
+
+129 
+	#__w¬Ç‰r
+(
+msg
+)
+
+	)
+
+130 
+	#__”rÜdeş
+(
+Çme
+, 
+msg
+è
+	`Çme
+ ()
+
+	)
+
+137 #ià
+defšed
+ 
+__STDC_VERSION__
+ && __STDC_VERSION__ >= 199901L
+
+138 
+	#__æex¬r
+ []
+
+	)
+
+139 
+	#__glibc_c99_æex¬r_avaabË
+ 1
+
+	)
+
+140 #–ià
+__GNUC_PREREQ
+ (2,97)
+
+143 
+	#__æex¬r
+ []
+
+	)
+
+144 
+	#__glibc_c99_æex¬r_avaabË
+ 1
+
+	)
+
+145 #–ià
+defšed
+ 
+__GNUC__
+
+
+148 
+	#__æex¬r
+ [0]
+
+	)
+
+149 
+	#__glibc_c99_æex¬r_avaabË
+ 1
+
+	)
+
+152 
+	#__æex¬r
+ [1]
+
+	)
+
+153 
+	#__glibc_c99_æex¬r_avaabË
+ 0
+
+	)
+
+167 #ià
+defšed
+ 
+__GNUC__
+ && __GNUC__ >= 2
+
+169 
+	#__REDIRECT
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+èÇm´ÙØ
+	`__asm__
+ (
+	`__ASMNAME
+ (#®Ÿs))
+
+	)
+
+170 #ifdeà
+__ılu¥lus
+
+
+171 
+	#__REDIRECT_NTH
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+172 
+Çme
+ 
+´Ùo
+ 
+__THROW
+ 
+	`__asm__
+ (
+	`__ASMNAME
+ (#®Ÿs))
+
+	)
+
+173 
+	#__REDIRECT_NTHNL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+174 
+Çme
+ 
+´Ùo
+ 
+__THROWNL
+ 
+	`__asm__
+ (
+	`__ASMNAME
+ (#®Ÿs))
+
+	)
+
+176 
+	#__REDIRECT_NTH
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+177 
+Çme
+ 
+´Ùo
+ 
+	`__asm__
+ (
+	`__ASMNAME
+ (#®Ÿs)è
+__THROW
+
+
+	)
+
+178 
+	#__REDIRECT_NTHNL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+179 
+Çme
+ 
+´Ùo
+ 
+	`__asm__
+ (
+	`__ASMNAME
+ (#®Ÿs)è
+__THROWNL
+
+
+	)
+
+181 
+	#__ASMNAME
+(
+úame
+è
+	`__ASMNAME2
+ (
+__USER_LABEL_PREFIX__
+, cÇme)
+
+	)
+
+182 
+	#__ASMNAME2
+(
+´efix
+, 
+úame
+è
+	`__STRING
+ (´efixè
+	)
+cname
+
+195 #ià!
+defšed
+ 
+__GNUC__
+ || __GNUC__ < 2
+
+196 
+	#__©Œibu‹__
+(
+xyz
+è
+
+	)
+
+202 #ià
+__GNUC_PREREQ
+ (2,96)
+
+203 
+	#__©Œibu‹_m®loc__
+ 
+	`__©Œibu‹__
+ ((
+__m®loc__
+))
+
+	)
+
+205 
+	#__©Œibu‹_m®loc__
+
+
+	)
+
+210 #ià
+__GNUC_PREREQ
+ (4, 3)
+
+211 
+	#__©Œibu‹_®loc_size__
+(
+·¿ms
+) \
+
+212 
+	`__©Œibu‹__
+ ((
+__®loc_size__
+ 
+·¿ms
+))
+
+	)
+
+214 
+	#__©Œibu‹_®loc_size__
+(
+·¿ms
+è
+
+	)
+
+220 #ià
+__GNUC_PREREQ
+ (2,96)
+
+221 
+	#__©Œibu‹_pu»__
+ 
+	`__©Œibu‹__
+ ((
+__pu»__
+))
+
+	)
+
+223 
+	#__©Œibu‹_pu»__
+
+
+	)
+
+227 #ià
+__GNUC_PREREQ
+ (2,5)
+
+228 
+	#__©Œibu‹_cÚ¡__
+ 
+	`__©Œibu‹__
+ ((
+__cÚ¡__
+))
+
+	)
+
+230 
+	#__©Œibu‹_cÚ¡__
+
+
+	)
+
+236 #ià
+__GNUC_PREREQ
+ (3,1)
+
+237 
+	#__©Œibu‹_u£d__
+ 
+	`__©Œibu‹__
+ ((
+__u£d__
+))
+
+	)
+
+238 
+	#__©Œibu‹_nošlše__
+ 
+	`__©Œibu‹__
+ ((
+__nošlše__
+))
+
+	)
+
+240 
+	#__©Œibu‹_u£d__
+ 
+	`__©Œibu‹__
+ ((
+__unu£d__
+))
+
+	)
+
+241 
+	#__©Œibu‹_nošlše__
+
+
+	)
+
+245 #ià
+__GNUC_PREREQ
+ (3,2)
+
+246 
+	#__©Œibu‹_d•»ÿ‹d__
+ 
+	`__©Œibu‹__
+ ((
+__d•»ÿ‹d__
+))
+
+	)
+
+248 
+	#__©Œibu‹_d•»ÿ‹d__
+
+
+	)
+
+254 #ià
+__GNUC_PREREQ
+ (4,5) || \
+
+255 
+	$__glibc_şªg_has_ex‹nsiÚ
+ (
+__©Œibu‹_d•»ÿ‹d_w™h_mes§ge__
+)
+
+256 
+	#__©Œibu‹_d•»ÿ‹d_msg__
+(
+msg
+) \
+
+257 
+	`__©Œibu‹__
+ ((
+	`__d•»ÿ‹d__
+ (
+msg
+)))
+
+	)
+
+259 
+	#__©Œibu‹_d•»ÿ‹d_msg__
+(
+msg
+è
+__©Œibu‹_d•»ÿ‹d__
+
+
+	)
+
+268 #ià
+	`__GNUC_PREREQ
+ (2,8)
+
+269 
+	#__©Œibu‹_fÜm©_¬g__
+(
+x
+è
+	`__©Œibu‹__
+ ((
+	`__fÜm©_¬g__
+ (x)))
+
+	)
+
+271 
+	#__©Œibu‹_fÜm©_¬g__
+(
+x
+è
+
+	)
+
+278 #ià
+	`__GNUC_PREREQ
+ (2,97)
+
+279 
+	#__©Œibu‹_fÜm©_¡rfmÚ__
+(
+a
+,
+b
+) \
+
+280 
+	`__©Œibu‹__
+ ((
+	`__fÜm©__
+ (
+__¡rfmÚ__
+, 
+a
+, 
+b
+)))
+
+	)
+
+282 
+	#__©Œibu‹_fÜm©_¡rfmÚ__
+(
+a
+,
+b
+è
+
+	)
+
+287 #ià
+	`__GNUC_PREREQ
+ (3,3)
+
+288 
+	#__nÚnuÎ
+(
+·¿ms
+è
+	`__©Œibu‹__
+ ((
+__nÚnuÎ__
+…¬ams))
+
+	)
+
+290 
+	#__nÚnuÎ
+(
+·¿ms
+)
+
+	)
+
+295 #ià
+	`__GNUC_PREREQ
+ (3,4)
+
+296 
+	#__©Œibu‹_w¬n_unu£d_»suÉ__
+ \
+
+297 
+	`__©Œibu‹__
+ ((
+__w¬n_unu£d_»suÉ__
+))
+
+	)
+
+298 #ià
+__USE_FORTIFY_LEVEL
+ > 0
+
+299 
+	#__wur
+ 
+__©Œibu‹_w¬n_unu£d_»suÉ__
+
+
+	)
+
+302 
+	#__©Œibu‹_w¬n_unu£d_»suÉ__
+
+
+	)
+
+304 #iâdeà
+__wur
+
+
+305 
+	#__wur
+
+
+	)
+
+309 #ià
+	`__GNUC_PREREQ
+ (3,2)
+
+313 #undeà
+__®ways_šlše
+
+
+314 
+	#__®ways_šlše
+ 
+__šlše
+ 
+	`__©Œibu‹__
+ ((
+__®ways_šlše__
+))
+
+	)
+
+316 #undeà
+__®ways_šlše
+
+
+317 
+	#__®ways_šlše
+ 
+__šlše
+
+
+	)
+
+322 #ià
+	`__GNUC_PREREQ
+ (4,3)
+
+323 
+	#__©Œibu‹_¬tificŸl__
+ 
+	`__©Œibu‹__
+ ((
+__¬tificŸl__
+))
+
+	)
+
+325 
+	#__©Œibu‹_¬tificŸl__
+
+
+	)
+
+337 #ià(!
+defšed
+ 
+__ılu¥lus
+ || 
+	`__GNUC_PREREQ
+ (4,3) \
+
+338 || (
+defšed
+ 
+__şªg__
+ && (defšed 
+__GNUC_STDC_INLINE__
+ \
+
+339 || 
+defšed
+ 
+__GNUC_GNU_INLINE__
+)))
+
+340 #ià
+defšed
+ 
+__GNUC_STDC_INLINE__
+ || defšed 
+__ılu¥lus
+
+
+341 
+	#__ex‹º_šlše
+ 
+__šlše
+ 
+	`__©Œibu‹__
+ ((
+__gnu_šlše__
+))
+
+	)
+
+342 
+	#__ex‹º_®ways_šlše
+ \
+
+343 
+__®ways_šlše
+ 
+	`__©Œibu‹__
+ ((
+__gnu_šlše__
+))
+
+	)
+
+345 
+	#__ex‹º_šlše
+ 
+__šlše
+
+
+	)
+
+346 
+	#__ex‹º_®ways_šlše
+ 
+__®ways_šlše
+
+
+	)
+
+350 #ifdeà
+__ex‹º_®ways_šlše
+
+
+351 
+	#__fÜtify_funùiÚ
+ 
+__ex‹º_®ways_šlše
+ 
+__©Œibu‹_¬tificŸl__
+
+
+	)
+
+356 #ià
+	`__GNUC_PREREQ
+ (4,3)
+
+357 
+	#__va_¬g_·ck
+(è
+	`__butš_va_¬g_·ck
+ ()
+
+	)
+
+358 
+	#__va_¬g_·ck_Ën
+(è
+	`__butš_va_¬g_·ck_Ën
+ ()
+
+	)
+
+365 #ià!
+	`__GNUC_PREREQ
+ (2,8)
+
+366 
+	#__ex‹nsiÚ__
+
+
+	)
+
+370 #ià!
+	`__GNUC_PREREQ
+ (2,92)
+
+371 
+	#__»¡riù
+
+
+	)
+
+377 #ià
+	`__GNUC_PREREQ
+ (3,1è&& !
+defšed
+ 
+__GNUG__
+
+
+378 
+	#__»¡riù_¬r
+ 
+__»¡riù
+
+
+	)
+
+380 #ifdeà
+__GNUC__
+
+
+381 
+	#__»¡riù_¬r
+
+
+	)
+
+383 #ià
+defšed
+ 
+__STDC_VERSION__
+ && __STDC_VERSION__ >= 199901L
+
+384 
+	#__»¡riù_¬r
+ 
+»¡riù
+
+
+	)
+
+387 
+	#__»¡riù_¬r
+
+
+	)
+
+392 #ià
+__GNUC__
+ >= 3
+
+393 
+	#__glibc_uÆik–y
+(
+cÚd
+è
+	`__butš_ex³ù
+ ((cÚd), 0)
+
+	)
+
+394 
+	#__glibc_lik–y
+(
+cÚd
+è
+	`__butš_ex³ù
+ ((cÚd), 1)
+
+	)
+
+396 
+	#__glibc_uÆik–y
+(
+cÚd
+è(cÚd)
+
+	)
+
+397 
+	#__glibc_lik–y
+(
+cÚd
+è(cÚd)
+
+	)
+
+400 #ià(!
+defšed
+ 
+_NÜ‘uº
+ \
+
+401 && (
+defšed
+ 
+__STDC_VERSION__
+ ? __STDC_VERSION__ : 0) < 201112 \
+
+402 && !
+	$__GNUC_PREREQ
+ (4,7))
+
+403 #ià
+	`__GNUC_PREREQ
+ (2,8)
+
+404 
+	#_NÜ‘uº
+ 
+	`__©Œibu‹__
+ ((
+__nÜ‘uº__
+))
+
+	)
+
+406 
+	#_NÜ‘uº
+
+
+	)
+
+410 #ià
+	`__GNUC_PREREQ
+ (8, 0)
+
+414 
+	#__©Œibu‹_nÚ¡ršg__
+ 
+	`__©Œibu‹__
+ ((
+__nÚ¡ršg__
+))
+
+	)
+
+416 
+	#__©Œibu‹_nÚ¡ršg__
+
+
+	)
+
+419 #ià(!
+defšed
+ 
+_Stic_as£¹
+ && !defšed 
+__ılu¥lus
+ \
+
+420 && (
+defšed
+ 
+__STDC_VERSION__
+ ? __STDC_VERSION__ : 0) < 201112 \
+
+421 && (!
+	`__GNUC_PREREQ
+ (4, 6è|| 
+defšed
+ 
+__STRICT_ANSI__
+))
+
+422 
+	#_Stic_as£¹
+(
+ex´
+, 
+dŸgno¡ic
+) \
+
+423 (*
+	`__Stic_as£¹_funùiÚ
+ ()) \
+
+424 [!! (¡ruù { 
+__”rÜ_if_Ãg©ive
+: (
+ex´
+è? 2 : -1; })]
+
+	)
+
+427 
+	~<b™s/wÜdsize.h
+>
+
+428 
+	~<b™s/lÚg-doubË.h
+>
+
+430 #ià
+defšed
+ 
+__LONG_DOUBLE_MATH_OPTIONAL
+ && defšed 
+__NO_LONG_DOUBLE_MATH
+
+
+431 
+	#__LDBL_COMPAT
+ 1
+
+	)
+
+432 #ifdeà
+__REDIRECT
+
+
+433 
+	#__LDBL_REDIR1
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+è
+	`__REDIRECT
+ (Çme,…rÙo,‡lŸs)
+
+	)
+
+434 
+	#__LDBL_REDIR
+(
+Çme
+, 
+´Ùo
+) \
+
+435 
+	`__LDBL_REDIR1
+ (
+Çme
+, 
+´Ùo
+, 
+__Ædbl_
+##Çme)
+
+	)
+
+436 
+	#__LDBL_REDIR1_NTH
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+è
+	`__REDIRECT_NTH
+ (Çme,…rÙo,‡lŸs)
+
+	)
+
+437 
+	#__LDBL_REDIR_NTH
+(
+Çme
+, 
+´Ùo
+) \
+
+438 
+	`__LDBL_REDIR1_NTH
+ (
+Çme
+, 
+´Ùo
+, 
+__Ædbl_
+##Çme)
+
+	)
+
+439 
+	#__LDBL_REDIR1_DECL
+(
+Çme
+, 
+®Ÿs
+) \
+
+440 
+	`__ty³of
+ (
+Çme
+èÇm
+	`__asm
+ (
+	`__ASMNAME
+ (#®Ÿs));
+
+	)
+
+441 
+	#__LDBL_REDIR_DECL
+(
+Çme
+) \
+
+442 
+	`__ty³of
+ (
+Çme
+èÇm
+	`__asm
+ (
+	`__ASMNAME
+ ("__Ædbl_" #Çme));
+
+	)
+
+443 
+	#__REDIRECT_LDBL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+444 
+	`__LDBL_REDIR1
+ (
+Çme
+, 
+´Ùo
+, 
+__Ædbl_
+##
+®Ÿs
+)
+
+	)
+
+445 
+	#__REDIRECT_NTH_LDBL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+446 
+	`__LDBL_REDIR1_NTH
+ (
+Çme
+, 
+´Ùo
+, 
+__Ædbl_
+##
+®Ÿs
+)
+
+	)
+
+449 #ià!
+defšed
+ 
+__LDBL_COMPAT
+ || !defšed 
+__REDIRECT
+
+
+450 
+	#__LDBL_REDIR1
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+èÇm
+	)
+proto
+
+451 
+	#__LDBL_REDIR
+(
+Çme
+, 
+´Ùo
+èÇm
+	)
+proto
+
+452 
+	#__LDBL_REDIR1_NTH
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+èÇm´ÙØ
+__THROW
+
+
+	)
+
+453 
+	#__LDBL_REDIR_NTH
+(
+Çme
+, 
+´Ùo
+èÇm´ÙØ
+__THROW
+
+
+	)
+
+454 
+	#__LDBL_REDIR_DECL
+(
+Çme
+)
+
+	)
+
+455 #ifdeà
+__REDIRECT
+
+
+456 
+	#__REDIRECT_LDBL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+è
+	`__REDIRECT
+ (Çme,…rÙo,‡lŸs)
+
+	)
+
+457 
+	#__REDIRECT_NTH_LDBL
+(
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+) \
+
+458 
+	`__REDIRECT_NTH
+ (
+Çme
+, 
+´Ùo
+, 
+®Ÿs
+)
+
+	)
+
+467 #ià
+	`__GNUC_PREREQ
+ (4,8è|| 
+	`__glibc_şªg_´”eq
+ (3,5)
+
+468 
+	#__glibc_maüo_w¬nšg1
+(
+mes§ge
+è
+	`_P¿gma
+ (#mes§ge)
+
+	)
+
+469 
+	#__glibc_maüo_w¬nšg
+(
+mes§ge
+) \
+
+470 
+	`__glibc_maüo_w¬nšg1
+ (
+GCC
+ 
+w¬nšg
+ 
+mes§ge
+)
+
+	)
+
+472 
+	#__glibc_maüo_w¬nšg
+(
+msg
+)
+
+	)
+
+482 #ià!
+defšed
+ 
+__ılu¥lus
+ \
+
+483 && (
+	`__GNUC_PREREQ
+ (4, 9) \
+
+484 || 
+	`__glibc_şªg_has_ex‹nsiÚ
+ (
+c_g’”ic_£ËùiÚs
+) \
+
+485 || (!
+defšed
+ 
+__GNUC__
+ && defšed 
+__STDC_VERSION__
+ \
+
+486 && 
+__STDC_VERSION__
+ >= 201112L))
+
+487 
+	#__HAVE_GENERIC_SELECTION
+ 1
+
+	)
+
+489 
+	#__HAVE_GENERIC_SELECTION
+ 0
+
+	)
+
+	@/usr/include/bits/long-double.h
+
+	@/usr/include/gnu/stubs-32.h
+
+6 #ifdeà
+_LIBC
+
+
+7 #”rÜ 
+AµliÿtiÚs
+ 
+may
+ 
+nÙ
+ 
+defše
+ 
+the
+ 
+maüo
+ 
+_LIBC
+
+
+10 
+	#__¡ub_chæags
+
+
+	)
+
+11 
+	#__¡ub_ç‰ach
+
+
+	)
+
+12 
+	#__¡ub_fchæags
+
+
+	)
+
+13 
+	#__¡ub_fd‘ach
+
+
+	)
+
+14 
+	#__¡ub_g‰y
+
+
+	)
+
+15 
+	#__¡ub_lchmod
+
+
+	)
+
+16 
+	#__¡ub_»voke
+
+
+	)
+
+17 
+	#__¡ub_£ogš
+
+
+	)
+
+18 
+	#__¡ub_sig»tuº
+
+
+	)
+
+19 
+	#__¡ub_s¡k
+
+
+	)
+
+20 
+	#__¡ub_¡ty
+
+
+	)
+
+	@/usr/include/gnu/stubs-64.h
+
+6 #ifdeà
+_LIBC
+
+
+7 #”rÜ 
+AµliÿtiÚs
+ 
+may
+ 
+nÙ
+ 
+defše
+ 
+the
+ 
+maüo
+ 
+_LIBC
+
+
+10 
+	#__¡ub___com·t_bdæush
+
+
+	)
+
+11 
+	#__¡ub_chæags
+
+
+	)
+
+12 
+	#__¡ub_ç‰ach
+
+
+	)
+
+13 
+	#__¡ub_fchæags
+
+
+	)
+
+14 
+	#__¡ub_fd‘ach
+
+
+	)
+
+15 
+	#__¡ub_g‘msg
+
+
+	)
+
+16 
+	#__¡ub_g‰y
+
+
+	)
+
+17 
+	#__¡ub_lchmod
+
+
+	)
+
+18 
+	#__¡ub_putmsg
+
+
+	)
+
+19 
+	#__¡ub_»voke
+
+
+	)
+
+20 
+	#__¡ub_£ogš
+
+
+	)
+
+21 
+	#__¡ub_sig»tuº
+
+
+	)
+
+22 
+	#__¡ub_s¡k
+
+
+	)
+
+23 
+	#__¡ub_¡ty
+
+
+	)
+
+	@/usr/include/gnu/stubs-x32.h
+
+6 #ifdeà
+_LIBC
+
+
+7 #”rÜ 
+AµliÿtiÚs
+ 
+may
+ 
+nÙ
+ 
+defše
+ 
+the
+ 
+maüo
+ 
+_LIBC
+
+
+10 
+	#__¡ub___com·t_bdæush
+
+
+	)
+
+11 
+	#__¡ub___com·t_ü—‹_moduË
+
+
+	)
+
+12 
+	#__¡ub___com·t_g‘_k”Ãl_syms
+
+
+	)
+
+13 
+	#__¡ub___com·t_qu”y_moduË
+
+
+	)
+
+14 
+	#__¡ub___com·t_u£lib
+
+
+	)
+
+15 
+	#__¡ub_chæags
+
+
+	)
+
+16 
+	#__¡ub_ç‰ach
+
+
+	)
+
+17 
+	#__¡ub_fchæags
+
+
+	)
+
+18 
+	#__¡ub_fd‘ach
+
+
+	)
+
+19 
+	#__¡ub_g‘msg
+
+
+	)
+
+20 
+	#__¡ub_g‰y
+
+
+	)
+
+21 
+	#__¡ub_lchmod
+
+
+	)
+
+22 
+	#__¡ub_nfs£rvùl
+
+
+	)
+
+23 
+	#__¡ub_putmsg
+
+
+	)
+
+24 
+	#__¡ub_»voke
+
+
+	)
+
+25 
+	#__¡ub_£ogš
+
+
+	)
+
+26 
+	#__¡ub_sig»tuº
+
+
+	)
+
+27 
+	#__¡ub_s¡k
+
+
+	)
+
+28 
+	#__¡ub_¡ty
+
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+55
+1674
+crypto_message_printer_bin.cc
+quic_client_message_loop_network_helper.cc
+quic_client_message_loop_network_helper.h
+quic_http_proxy_backend.cc
+quic_http_proxy_backend.h
+quic_http_proxy_backend_stream.cc
+quic_http_proxy_backend_stream.h
+quic_http_proxy_backend_stream_test.cc
+quic_http_proxy_backend_test.cc
+quic_simple_client.cc
+quic_simple_client.h
+quic_simple_client_bin.cc
+quic_simple_client_test.cc
+quic_simple_per_connection_packet_writer.cc
+quic_simple_per_connection_packet_writer.h
+quic_simple_server.cc
+quic_simple_server.h
+quic_simple_server_bin.cc
+quic_simple_server_packet_writer.cc
+quic_simple_server_packet_writer.h
+quic_simple_server_session_helper.cc
+quic_simple_server_session_helper.h
+quic_simple_server_session_helper_test.cc
+quic_simple_server_test.cc
+synchronous_host_resolver.cc
+synchronous_host_resolver.h
+/usr/include/limits.h
+/usr/include/stdint.h
+/usr/include/string.h
+/usr/include/bits/libc-header-start.h
+/usr/include/bits/posix1_lim.h
+/usr/include/bits/posix2_lim.h
+/usr/include/bits/stdint-intn.h
+/usr/include/bits/stdint-uintn.h
+/usr/include/bits/string_fortified.h
+/usr/include/bits/types.h
+/usr/include/bits/types/locale_t.h
+/usr/include/bits/wchar.h
+/usr/include/bits/wordsize.h
+/usr/include/bits/xopen_lim.h
+/usr/include/strings.h
+/usr/include/bits/local_lim.h
+/usr/include/bits/strings_fortified.h
+/usr/include/bits/types/__locale_t.h
+/usr/include/bits/typesizes.h
+/usr/include/bits/uio_lim.h
+/usr/include/features.h
+/usr/include/gnu/stubs.h
+/usr/include/linux/limits.h
+/usr/include/stdc-predef.h
+/usr/include/sys/cdefs.h
+/usr/include/bits/long-double.h
+/usr/include/gnu/stubs-32.h
+/usr/include/gnu/stubs-64.h
+/usr/include/gnu/stubs-x32.h
