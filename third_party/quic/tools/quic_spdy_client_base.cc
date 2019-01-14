@@ -94,7 +94,20 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     latest_response_header_block_ = response_headers.Clone();
     latest_response_body_ = client_stream->data();
 
+    fstream log;
+    log.open ("/home/jerry/Desktop/log.txt",fstream::app);
+    if (log.is_open())
+    {  
+        log <<"ok\n"; 
+        log << latest_response_headers_ <<"\n";;
+  	log.close();
+    }
+
+
+    std::cout<<latest_response_headers_<<std::endl; //Jerry
+
     //Jerry for output downloaded files
+/*
     std::string str1 = std::string(latest_response_headers_);
     std::string str2 ("utf-8''");
     std::string str3 (".m4s");
@@ -110,6 +123,7 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     myfile.open(f_out);
     myfile << latest_response_body_;
     myfile.close();
+*/
     //Jerry
 //    std::cout<<str1<<std::endl; //Jerry
 //    std::cout<<latest_response_headers_<<std::endl; //Jerry
@@ -186,18 +200,27 @@ QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
   static int t=0;
   t++;
 //  std::cout<<t<<std::endl;
- 
+
+
+  //smaller number with higher priority 0~7
   spdy::SpdyPriority priority_s;  
-  if (t<=7) priority_s=1;
-  else priority_s=5;
-  
-  std::cout<<"t: "<<t<<"  priority: "<<priority_s<<std::endl; //Jerry
+  if ((t%2)==1) priority_s= (uint8_t) 7;
+  else priority_s= (uint8_t) 0;
+ 
+
+
+//    if (t<=1) QuicStream::kDefaultPriority = (uint8_t) 3;
+//    else QuicStream::kDefaultPriority = (uint8_t) 5;
+
+  std::cout<<"t: "<<t<<"  priority: "<<(int) priority_s<<std::endl; //Jerry
 
   auto* stream = static_cast<QuicSpdyClientStream*>(
       client_session()->CreateOutgoingBidirectionalStream());
   if (stream) {
+
+//    std::cout<<"Priority: "<<(int) QuicStream::kDefaultPriority<<std::endl; //Jerry
 //    stream->SetPriority(QuicStream::kDefaultPriority); // Original In quic_stream.h Jerry
-    stream->SetPriority(5); //net/third_party/quic/core/quic_stream.cc
+    stream->SetPriority(priority_s); //net/third_party/quic/core/quic_stream.cc
 //    std::cout<<"in priority"<<std::endl; //Jerry
    // std::cout<< "Priorioty: "<<QuicStream::kDefaultPriority<<std::endl; //Jerry
     stream->set_visitor(this);

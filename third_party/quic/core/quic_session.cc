@@ -935,7 +935,7 @@ void QuicSession::UnregisterStreamPriority(QuicStreamId id, bool is_static) {
 void QuicSession::UpdateStreamPriority(QuicStreamId id,
                                        SpdyPriority new_priority) {
 
-  std::cout<<"here: "<<new_priority<<std::endl; //Jerry
+//  std::cout<<"here: "<<new_priority<<std::endl; //Jerry
   write_blocked_streams()->UpdateStreamPriority(id, new_priority);
 }
 

@@ -411,7 +411,7 @@ SpdyPriority QuicStream::priority() const {
 }
 
 void QuicStream::SetPriority(SpdyPriority priority) {
-  std::cout<<"update: "<<priority<<std::endl; //Jerry
+//  std::cout<<"update: "<<priority<<std::endl; //Jerry
   priority_ = priority;
   session_->UpdateStreamPriority(id(), priority); //net/third_party/quic/core/quic_session.cc
 }

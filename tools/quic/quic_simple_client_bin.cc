@@ -89,11 +89,19 @@ using quic::QuicClientBase;
 using quic::QuicString;
 
 
+
+
+
 //using namespace quic; //Jerry
 
 
 //using std::type_info;
 using namespace std;
+#include <chrono>
+#include <thread>
+using namespace std::this_thread; // sleep_for, sleep_until
+using namespace std::chrono; // nanoseconds, system_clock, seconds
+//Jerry
 
 // The IP or hostname the quic client will connect to.
 string FLAGS_host = "";
@@ -360,59 +368,75 @@ int main(int argc, char* argv[]) {
 
 
 
-
   std::vector<QuicString> url_list;  
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/15.m4s");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_1.m4s?");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_2.m4s?");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_3.m4s?");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_4.m4s?");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_5.m4s?");
-  url_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_6.m4s?");
-  std::vector<QuicString> mp4_list;
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/16.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_7.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_8.m4s?");  
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_9.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_10.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_11.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_12.m4s?");
-  mp4_list.push_back("https://capoo.cs.nthu.edu.tw/api/download/high_dash_track2_13.m4s?");
-  
+
+/*
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track51_9.m4s");
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track52_9.m4s");
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track53_9.m4s");
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track54_9.m4s");
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track55_9.m4s");
+  url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track56_9.m4s");
+*/
+
+//  std::vector<QuicString> mp4_list;
+//  mp4_list.push_back("https://www.example.org/aa.txt");  
+//  mp4_list.push_back("https://www.example.org/aa.txt");
+//  mp4_list.push_back("https://www.example.org/aa.txt");
+
 
   // Make sure to store the response, for later output.
   client.set_store_response(true);
 
   // Send the request.
-//  client.SendRequestAndWaitForResponse(header_block, body, /*fin=*/false);
+//  client.SendRequestAndWaitForResponse(header_block, body, /*fin=*/true); //Oringinal!!!
 
 //Jerry
 //  client.SendRequest(header_block, body, /*fin=*/true);
-  client.SendRequestsAndWaitForResponse(url_list);
-  client.SendRequestsAndWaitForResponse(mp4_list); 
+//  client.SendRequestsAndWaitForResponse(url_list);
 
-/*
-    std::string c;
-
-    std::ifstream inFile("/home/jerry/Desktop/test.txt");
+//  sleep_for(2s);
+//  client.SendRequestsAndWaitForResponse(mp4_list); 
 
 
-    int co=0;
+//    std::string c;
 
+//    std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
+
+
+    int current_number=1;
+    int last_number=1;
+    string file_name;
+    
     while(1){
-    std::ifstream inFile("/home/jerry/Desktop/test.txt");    
-    co=std::count(std::istreambuf_iterator<char>(inFile), 
+    std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");    
+    current_number=std::count(std::istreambuf_iterator<char>(inFile), 
              std::istreambuf_iterator<char>(), '\n');
-    std::cout<<co<<std::endl;
+    inFile.close();
+
+    if (current_number != last_number && current_number!=0){
+    url_list.clear();
+    std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
+
+    for (int lineno = 0; lineno < current_number; lineno++){
+      getline (inFile,file_name);
+      if ((lineno >= last_number)||(lineno>= last_number-1 && last_number==1 )){
+          cout << file_name<< endl;
+         url_list.push_back(file_name);
+      }
+    }
+    client.SendRequestsAndWaitForResponse(url_list); //request_file
+    while(client.WaitForEvents()){}
+    last_number = current_number;
+    }
+
     inFile.close();
     }
-*/
 
 
-//  header_block[":path"] = "/api/download/packagelist.txt";
-//  client.SendRequest(header_block, body, /*fin=*/true); //Jerry
 
-   while(client.WaitForEvents()){ }
+
+   while(client.WaitForEvents()){ } //Jerry
 
 // Jerry
 
