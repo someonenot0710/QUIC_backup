@@ -553,6 +553,9 @@ bool QuicSession::WriteControlFrame(const QuicFrame& frame) {
 void QuicSession::SendRstStream(QuicStreamId id,
                                 QuicRstStreamErrorCode error,
                                 QuicStreamOffset bytes_written) {
+
+   std::cout<<"track_back1"<<std::endl; //Jerry
+
   if (QuicContainsKey(static_stream_map_, id)) {
     QUIC_BUG << "Cannot send RST for a static stream with ID " << id;
     return;
@@ -613,6 +616,11 @@ void QuicSession::InsertLocallyClosedStreamsHighestOffset(
 }
 
 void QuicSession::CloseStreamInner(QuicStreamId stream_id, bool locally_reset) {
+
+
+  std::cout<<"I think is here?" <<std::endl; //Jerry
+
+
   QUIC_DVLOG(1) << ENDPOINT << "Closing stream " << stream_id;
 
   DynamicStreamMap::iterator it = dynamic_stream_map_.find(stream_id);
@@ -989,6 +997,9 @@ bool QuicSession::CanOpenNextOutgoingUnidirectionalStream() {
 }
 
 QuicStream* QuicSession::GetOrCreateStream(const QuicStreamId stream_id) {
+
+  std::cout<<"track 2"<<std::endl; //Jerry
+
   StaticStreamMap::iterator it = static_stream_map_.find(stream_id);
   if (it != static_stream_map_.end()) {
     return it->second;

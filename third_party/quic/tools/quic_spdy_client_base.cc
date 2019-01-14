@@ -70,6 +70,10 @@ void QuicSpdyClientBase::InitializeSession() {
 }
 
 void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
+
+
+//  cout<<"will be here?"<<endl; //Jerry
+
   DCHECK(stream != nullptr);
   QuicSpdyClientStream* client_stream =
       static_cast<QuicSpdyClientStream*>(stream);
@@ -186,10 +190,11 @@ void QuicSpdyClientBase::SendRequestsAndWaitForResponse(
     SendRequest(headers, "", true);
   }
   //Jerry
-  /*
+    
   while (WaitForEvents()) {
   }
-  */
+  
+  
 }
 
 QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {

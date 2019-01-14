@@ -70,6 +70,9 @@
 #include <string> //Jerry
 #include <fstream> //Jerry
 #include <algorithm> //Jerry
+#include <thread> //Jerry
+#include "base/threading/simple_thread.h" //Jerry
+
 
 using net::CertVerifier;
 using net::CTVerifier;
@@ -425,9 +428,13 @@ int main(int argc, char* argv[]) {
          url_list.push_back(file_name);
       }
     }
-    client.SendRequestsAndWaitForResponse(url_list); //request_file
-    while(client.WaitForEvents()){}
+//    base::DelegateSimpleThread thread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client,ref(url_list));
+//    client.SendRequestsAndWaitForResponse(url_list); //request_file
+//    thread mThread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client,ref(url_list));
+//    thread mThread(while(client.WaitForEvents()){});
+//    while(client.WaitForEvents()){}
     last_number = current_number;
+   
     }
 
     inFile.close();
@@ -436,7 +443,7 @@ int main(int argc, char* argv[]) {
 
 
 
-   while(client.WaitForEvents()){ } //Jerry
+//   while(client.WaitForEvents()){ } //Jerry
 
 // Jerry
 
