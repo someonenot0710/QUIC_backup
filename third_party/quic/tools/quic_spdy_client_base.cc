@@ -98,38 +98,27 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     latest_response_header_block_ = response_headers.Clone();
     latest_response_body_ = client_stream->data();
 
-    fstream log;
-    log.open ("/home/jerry/Desktop/log.txt",fstream::app);
-    if (log.is_open())
-    {  
-        log <<"ok\n"; 
-        log << latest_response_headers_ <<"\n";;
-  	log.close();
-    }
-
-
-    std::cout<<latest_response_headers_<<std::endl; //Jerry
-
     //Jerry for output downloaded files
-/*
+
     std::string str1 = std::string(latest_response_headers_);
-    std::string str2 ("utf-8''");
+    std::string str2 ("org/");
     std::string str3 (".m4s");
     std::size_t found1 = str1.find(str2);
     std::size_t found2 = str1.find(str3);
-//    std::cout <<"location1:" <<found1 <<"  location2: "<<found2<< std::endl;
-//    std::cout<< found2-found1+5<<std::endl;
-
-    std::string filename = str1.substr(found1+7,found2-(found1+7)+4);
+    std::string filename = str1.substr(found1+4,found2-found1);
     std::cout<<"filename: "<<filename<<std::endl;
-    std::string f_out = "/home/jerry/Desktop/"+filename;
-    std::ofstream myfile;
-    myfile.open(f_out);
-    myfile << latest_response_body_;
-    myfile.close();
-*/
-    //Jerry
-//    std::cout<<str1<<std::endl; //Jerry
+
+    fstream log;
+    log.open ("/home/jerry/Desktop/log.txt",fstream::app);
+    if (log.is_open())
+    {
+	log <<filename<<"\n";
+//        log << latest_response_headers_ <<"\n";
+        log.close();
+    }
+
+
+
 //    std::cout<<latest_response_headers_<<std::endl; //Jerry
 //    std::cout<<latest_response_body_<<std::endl; //Jerry
 
@@ -214,7 +203,8 @@ QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
 
   //smaller number with higher priority 0~7
   spdy::SpdyPriority priority_s;  
-  if ((t%2)==1) priority_s= (uint8_t) 7;
+
+  if (t>5) priority_s= (uint8_t) 7;
   else priority_s= (uint8_t) 0;
  
 
@@ -222,7 +212,7 @@ QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
 //    if (t<=1) QuicStream::kDefaultPriority = (uint8_t) 3;
 //    else QuicStream::kDefaultPriority = (uint8_t) 5;
 
-  std::cout<<"t: "<<t<<"  priority: "<<(int) priority_s<<std::endl; //Jerry
+  std::cout<<"number: "<<t<<"  priority: "<<(int) priority_s<<std::endl; //Jerry
 
   auto* stream = static_cast<QuicSpdyClientStream*>(
       client_session()->CreateOutgoingBidirectionalStream());

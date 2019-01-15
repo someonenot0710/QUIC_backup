@@ -417,9 +417,7 @@ int main(int argc, char* argv[]) {
 //  client.SendRequestsAndWaitForResponse(mp4_list); 
 
 
-//    std::string c;
 
-//    std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
 
 
     int current_number=1;
@@ -434,9 +432,8 @@ int main(int argc, char* argv[]) {
     inFile.close();
 
     if (current_number != last_number && current_number!=0){
-//    thread mThread(just_test,10);
-    url_list.clear();
-    std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
+      url_list.clear();
+      std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
 
     for (int lineno = 0; lineno < current_number; lineno++){
       getline (inFile,file_name);
@@ -446,16 +443,8 @@ int main(int argc, char* argv[]) {
       }
     }
 
-//    base::DelegateSimpleThread thread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client,ref(url_list));
      client.SendRequestsAndWaitForResponse(url_list); //request_file
-//   thread mThread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client);
-//    while(net::QuicSimpleClient::WaitForEvents()){}
      last_number = current_number;
-//     client.WaitForEvents();
-//    while(client.WaitForEvents()){}  //net/third_party/quic/tools/quic_client_base.cc
-//  thread mThread(just_test,&client);
-//    just_test(&client);
-//    mThread.join();   
     }
 
     inFile.close();
