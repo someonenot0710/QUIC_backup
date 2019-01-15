@@ -618,7 +618,7 @@ void QuicSession::InsertLocallyClosedStreamsHighestOffset(
 void QuicSession::CloseStreamInner(QuicStreamId stream_id, bool locally_reset) {
 
 
-  std::cout<<"I think is here?" <<std::endl; //Jerry
+  //std::cout<<"I think is here?" <<std::endl; //Jerry
 
 
   QUIC_DVLOG(1) << ENDPOINT << "Closing stream " << stream_id;
@@ -998,7 +998,7 @@ bool QuicSession::CanOpenNextOutgoingUnidirectionalStream() {
 
 QuicStream* QuicSession::GetOrCreateStream(const QuicStreamId stream_id) {
 
-  std::cout<<"track 2"<<std::endl; //Jerry
+  //std::cout<<"track 2"<<std::endl; //Jerry
 
   StaticStreamMap::iterator it = static_stream_map_.find(stream_id);
   if (it != static_stream_map_.end()) {

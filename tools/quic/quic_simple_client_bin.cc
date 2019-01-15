@@ -70,9 +70,9 @@
 #include <string> //Jerry
 #include <fstream> //Jerry
 #include <algorithm> //Jerry
-#include <thread> //Jerry
+//#include <thread> //Jerry
 #include "base/threading/simple_thread.h" //Jerry
-
+#include "buildtools/third_party/libc++/trunk/include/thread"
 
 using net::CertVerifier;
 using net::CTVerifier;
@@ -163,6 +163,21 @@ class FakeProofVerifier : public quic::ProofVerifier {
     return nullptr;
   }
 };
+
+
+
+void just_test(net::QuicSimpleClient* client){
+
+std::vector<QuicString> url_list;
+
+url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track51_9.m4s");
+url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track52_9.m4s");
+client->SendRequestsAndWaitForResponse(url_list);
+
+//while(client->WaitForEvents()){}
+//cout<<"in here: "<<mm<<endl;
+
+}
 
 int main(int argc, char* argv[]) {
   
@@ -412,12 +427,14 @@ int main(int argc, char* argv[]) {
     string file_name;
     
     while(1){
+    client.WaitForEvents(); // important!!! check if there is new response every loop
     std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");    
     current_number=std::count(std::istreambuf_iterator<char>(inFile), 
              std::istreambuf_iterator<char>(), '\n');
     inFile.close();
 
     if (current_number != last_number && current_number!=0){
+//    thread mThread(just_test,10);
     url_list.clear();
     std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
 
@@ -428,13 +445,17 @@ int main(int argc, char* argv[]) {
          url_list.push_back(file_name);
       }
     }
+
 //    base::DelegateSimpleThread thread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client,ref(url_list));
-//    client.SendRequestsAndWaitForResponse(url_list); //request_file
-//    thread mThread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client,ref(url_list));
-//    thread mThread(while(client.WaitForEvents()){});
-//    while(client.WaitForEvents()){}
-    last_number = current_number;
-   
+     client.SendRequestsAndWaitForResponse(url_list); //request_file
+//   thread mThread(&net::QuicSimpleClient::SendRequestsAndWaitForResponse,client);
+//    while(net::QuicSimpleClient::WaitForEvents()){}
+     last_number = current_number;
+//     client.WaitForEvents();
+//    while(client.WaitForEvents()){}  //net/third_party/quic/tools/quic_client_base.cc
+//  thread mThread(just_test,&client);
+//    just_test(&client);
+//    mThread.join();   
     }
 
     inFile.close();

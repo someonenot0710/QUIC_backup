@@ -14,12 +14,12 @@
 
 #include <string>
 #include <fstream>
+#include <thread>
 using base::StringToInt;
 
 
 //spdy::SpdyPriority priority_s; 
 using namespace std;
-
 
 namespace quic {
 
@@ -51,8 +51,8 @@ QuicSpdyClientBase::QuicSpdyClientBase(
                      alarm_factory,
                      std::move(network_helper),
                      std::move(proof_verifier)),
-      store_response_(false),
-      latest_response_code_(-1) {}
+      store_response_(false), //false
+      latest_response_code_(1) {} //-1
 
 QuicSpdyClientBase::~QuicSpdyClientBase() {
   // We own the push promise index. We need to explicitly kill
@@ -189,11 +189,16 @@ void QuicSpdyClientBase::SendRequestsAndWaitForResponse(
     }
     SendRequest(headers, "", true);
   }
+  
+//  thread mThread (&QuicSpdyClientBase::Wrequest,this);
+//  mThread.join();
+
+//  Wrequest();
   //Jerry
-    
+  /*    
   while (WaitForEvents()) {
   }
-  
+  */
   
 }
 
