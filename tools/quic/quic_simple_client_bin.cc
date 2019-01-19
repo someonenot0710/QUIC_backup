@@ -165,7 +165,7 @@ class FakeProofVerifier : public quic::ProofVerifier {
 };
 
 
-
+/*
 void just_test(net::QuicSimpleClient* client){
 
 std::vector<QuicString> url_list;
@@ -178,6 +178,7 @@ client->SendRequestsAndWaitForResponse(url_list);
 //cout<<"in here: "<<mm<<endl;
 
 }
+*/
 
 int main(int argc, char* argv[]) {
   
@@ -397,7 +398,7 @@ int main(int argc, char* argv[]) {
   url_list.push_back("https://www.example.org/coaster_10x10_qp32_tile_dash_track56_9.m4s");
 */
 
-//  std::vector<QuicString> mp4_list;
+  std::vector<QuicString> url_patch_list;
 //  mp4_list.push_back("https://www.example.org/aa.txt");  
 //  mp4_list.push_back("https://www.example.org/aa.txt");
 //  mp4_list.push_back("https://www.example.org/aa.txt");
@@ -424,13 +425,26 @@ int main(int argc, char* argv[]) {
     int last_number=1;
     string file_name;
     
+    int current_patch_number=1;
+    int last_patch_number=1;
+
     while(1){
     client.WaitForEvents(); // important!!! check if there is new response every loop
+    // for regular
     std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");    
     current_number=std::count(std::istreambuf_iterator<char>(inFile), 
              std::istreambuf_iterator<char>(), '\n');
     inFile.close();
+    
+    
+    // for patch
+    std::ifstream inFile_patch("/home/jerry/Desktop/for_quic/quic_patch.txt");
+    current_patch_number=std::count(std::istreambuf_iterator<char>(inFile_patch),
+    std::istreambuf_iterator<char>(), '\n');
+    inFile_patch.close();
+    
 
+    // for regular
     if (current_number != last_number && current_number!=0){
       url_list.clear();
       std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
@@ -443,11 +457,31 @@ int main(int argc, char* argv[]) {
       }
     }
 
-     client.SendRequestsAndWaitForResponse(url_list); //request_file
+     client.SendRequestsAndWaitForResponse(url_list,7); //request_file
      last_number = current_number;
+     inFile.close();
+    }
+    
+     
+    // for patch
+    if (current_patch_number != last_patch_number && current_patch_number!=0){
+      url_patch_list.clear();
+      std::ifstream inFile("/home/jerry/Desktop/for_quic/quic_patch.txt");
+
+    for (int lineno = 0; lineno < current_patch_number; lineno++){
+      getline (inFile_patch,file_name);
+      if ((lineno >= last_patch_number)||(lineno>= last_patch_number-1 && last_patch_number==1 )){
+          cout << file_name<< endl;
+         url_patch_list.push_back(file_name);
+      }
     }
 
-    inFile.close();
+     client.SendRequestsAndWaitForResponse(url_patch_list,0); //request_file
+     last_patch_number = current_patch_number;
+     inFile_patch.close();
+    }
+    
+    
     }
 
 

@@ -24,7 +24,7 @@ using namespace std;
 namespace quic {
 
 void QuicSpdyClientBase::ClientQuicDataToResend::Resend() {
-  client_->SendRequest(*headers_, body_, fin_);
+  client_->SendRequest(*headers_, body_, fin_,5); // original no 3
   headers_ = nullptr;
 }
 
@@ -109,7 +109,7 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     std::cout<<"filename: "<<filename<<std::endl;
 
     fstream log;
-    log.open ("/home/jerry/Desktop/log.txt",fstream::app);
+    log.open ("/home/jerry/Desktop/for_quic/log.txt",fstream::app);
     if (log.is_open())
     {
 	log <<filename<<"\n";
@@ -137,7 +137,7 @@ std::unique_ptr<QuicSession> QuicSpdyClientBase::CreateQuicClientSession(
 
 void QuicSpdyClientBase::SendRequest(const spdy::SpdyHeaderBlock& headers,
                                      QuicStringPiece body,
-                                     bool fin) {
+                                     bool fin, spdy::SpdyPriority prior) {
   QuicClientPushPromiseIndex::TryHandle* handle;
   QuicAsyncStatus rv = push_promise_index()->Try(headers, this, &handle);
   if (rv == QUIC_SUCCESS)
@@ -149,7 +149,7 @@ void QuicSpdyClientBase::SendRequest(const spdy::SpdyHeaderBlock& headers,
     return;
   }
 
-  QuicSpdyClientStream* stream = CreateClientStream();
+  QuicSpdyClientStream* stream = CreateClientStream(prior);
   if (stream == nullptr) {
     QUIC_BUG << "stream creation failed!";
     return;
@@ -163,20 +163,20 @@ void QuicSpdyClientBase::SendRequestAndWaitForResponse(
     const spdy::SpdyHeaderBlock& headers,
     QuicStringPiece body,
     bool fin) {
-  SendRequest(headers, body, fin);
+  SendRequest(headers, body, fin,0);
   while (WaitForEvents()) {
   }
 }
 
 void QuicSpdyClientBase::SendRequestsAndWaitForResponse(
-    const std::vector<QuicString>& url_list) {
+    const std::vector<QuicString>& url_list, spdy::SpdyPriority prior) {
   for (size_t i = 0; i < url_list.size(); ++i) {
     spdy::SpdyHeaderBlock headers;
     if (!SpdyUtils::PopulateHeaderBlockFromUrl(url_list[i], &headers)) {
       QUIC_BUG << "Unable to create request";
       continue;
     }
-    SendRequest(headers, "", true);
+    SendRequest(headers, "", true,prior);
   }
   
 //  thread mThread (&QuicSpdyClientBase::Wrequest,this);
@@ -191,7 +191,7 @@ void QuicSpdyClientBase::SendRequestsAndWaitForResponse(
   
 }
 
-QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
+QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream(spdy::SpdyPriority prior) {
   if (!connected()) {
     return nullptr;
   }
@@ -212,7 +212,7 @@ QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
 //    if (t<=1) QuicStream::kDefaultPriority = (uint8_t) 3;
 //    else QuicStream::kDefaultPriority = (uint8_t) 5;
 
-  std::cout<<"number: "<<t<<"  priority: "<<(int) priority_s<<std::endl; //Jerry
+//  std::cout<<"number: "<<t<<"  priority: "<<(int) priority_s<<std::endl; //Jerry
 
   auto* stream = static_cast<QuicSpdyClientStream*>(
       client_session()->CreateOutgoingBidirectionalStream());
@@ -220,7 +220,7 @@ QuicSpdyClientStream* QuicSpdyClientBase::CreateClientStream() {
 
 //    std::cout<<"Priority: "<<(int) QuicStream::kDefaultPriority<<std::endl; //Jerry
 //    stream->SetPriority(QuicStream::kDefaultPriority); // Original In quic_stream.h Jerry
-    stream->SetPriority(priority_s); //net/third_party/quic/core/quic_stream.cc
+    stream->SetPriority(prior); //priority_s //net/third_party/quic/core/quic_stream.cc
 //    std::cout<<"in priority"<<std::endl; //Jerry
    // std::cout<< "Priorioty: "<<QuicStream::kDefaultPriority<<std::endl; //Jerry
     stream->set_visitor(this);

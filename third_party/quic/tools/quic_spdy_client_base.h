@@ -90,7 +90,7 @@ class QuicSpdyClientBase : public QuicClientBase,
   // Sends an HTTP request and does not wait for response before returning.
   void SendRequest(const spdy::SpdyHeaderBlock& headers,
                    QuicStringPiece body,
-                   bool fin);
+                   bool fin, spdy::SpdyPriority prior);
 
   // Sends an HTTP request and waits for response before returning.
   void SendRequestAndWaitForResponse(const spdy::SpdyHeaderBlock& headers,
@@ -99,13 +99,13 @@ class QuicSpdyClientBase : public QuicClientBase,
 
   // Sends a request simple GET for each URL in |url_list|, and then waits for
   // each to complete.
-  void SendRequestsAndWaitForResponse(const std::vector<QuicString>& url_list);
+  void SendRequestsAndWaitForResponse(const std::vector<QuicString>& url_list, spdy::SpdyPriority prior); // add priority
 
 
   void Wrequest(); //Jerry 
 
   // Returns a newly created QuicSpdyClientStream.
-  QuicSpdyClientStream* CreateClientStream();
+  QuicSpdyClientStream* CreateClientStream(spdy::SpdyPriority prior);
 
   // Returns a the session used for this client downcasted to a
   // QuicSpdyClientSession.
