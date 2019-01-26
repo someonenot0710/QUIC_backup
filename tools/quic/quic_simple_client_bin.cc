@@ -71,9 +71,20 @@
 #include <fstream> //Jerry
 #include <algorithm> //Jerry
 //#include <thread> //Jerry
-#include "base/threading/simple_thread.h" //Jerry
-#include "buildtools/third_party/libc++/trunk/include/thread"
-
+//#include "base/threading/simple_thread.h" //Jerry
+//#include "buildtools/third_party/libc++/trunk/include/thread"
+//#include "/home/jerry/Desktop/cppzmq/zmq.hpp"
+//#include "net/third_party/zmq/zmq.hpp"
+//#include <zmq.h>
+//#include <unistd.h>
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <string.h>
+//#include <unistd.h>
+//#include <sys/types.h>
+//#include <sys/socket.h>
+//#include <netinet/in.h>
+//#include <arpa/inet.h>
 using net::CertVerifier;
 using net::CTVerifier;
 using net::MultiLogCTVerifier;
@@ -181,6 +192,7 @@ client->SendRequestsAndWaitForResponse(url_list);
 */
 
 int main(int argc, char* argv[]) {
+
   
   std::cout<<"please!!!!!!!!---------------------"<<std::endl; //Jerry
 
@@ -419,8 +431,6 @@ int main(int argc, char* argv[]) {
 
 
 
-
-
     int current_number=1;
     int last_number=1;
     string file_name;
@@ -446,13 +456,14 @@ int main(int argc, char* argv[]) {
 
     // for regular
     if (current_number != last_number && current_number!=0){
+      cout<<"regular"<<endl;
       url_list.clear();
       std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
 
     for (int lineno = 0; lineno < current_number; lineno++){
       getline (inFile,file_name);
       if ((lineno >= last_number)||(lineno>= last_number-1 && last_number==1 )){
-          cout << file_name<< endl;
+//          cout << file_name<< endl;
          url_list.push_back(file_name);
       }
     }
@@ -465,13 +476,14 @@ int main(int argc, char* argv[]) {
      
     // for patch
     if (current_patch_number != last_patch_number && current_patch_number!=0){
+      cout<<"patch"<<endl; 
       url_patch_list.clear();
-      std::ifstream inFile("/home/jerry/Desktop/for_quic/quic_patch.txt");
+      std::ifstream inFile_patch("/home/jerry/Desktop/for_quic/quic_patch.txt");
 
     for (int lineno = 0; lineno < current_patch_number; lineno++){
       getline (inFile_patch,file_name);
       if ((lineno >= last_patch_number)||(lineno>= last_patch_number-1 && last_patch_number==1 )){
-          cout << file_name<< endl;
+//          cout << file_name<< endl;
          url_patch_list.push_back(file_name);
       }
     }

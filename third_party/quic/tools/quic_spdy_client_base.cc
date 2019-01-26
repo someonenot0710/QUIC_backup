@@ -106,7 +106,7 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     std::size_t found1 = str1.find(str2);
     std::size_t found2 = str1.find(str3);
     std::string filename = str1.substr(found1+4,found2-found1);
-    std::cout<<"filename: "<<filename<<std::endl;
+//    std::cout<<"filename: "<<filename<<std::endl;
 
     fstream log;
     log.open ("/home/jerry/Desktop/for_quic/log.txt",fstream::app);
