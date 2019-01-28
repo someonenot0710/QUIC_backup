@@ -453,7 +453,7 @@ int main(int argc, char* argv[]) {
     std::istreambuf_iterator<char>(), '\n');
     inFile_patch.close();
     
-
+/*
     // for regular
     if (current_number != last_number && current_number!=0){
       cout<<"regular"<<endl;
@@ -473,7 +473,7 @@ int main(int argc, char* argv[]) {
      inFile.close();
     }
     
-     
+  */   
     // for patch
     if (current_patch_number != last_patch_number && current_patch_number!=0){
       cout<<"patch"<<endl; 
@@ -488,10 +488,31 @@ int main(int argc, char* argv[]) {
       }
     }
 
-     client.SendRequestsAndWaitForResponse(url_patch_list,0); //request_file
+     client.SendRequestsAndWaitForResponse(url_patch_list,1); //request_file
      last_patch_number = current_patch_number;
      inFile_patch.close();
     }
+
+
+    // for regular
+    if (current_number != last_number && current_number!=0){
+      cout<<"regular"<<endl;
+      url_list.clear();
+      std::ifstream inFile("/home/jerry/Desktop/for_quic/quic.txt");
+
+    for (int lineno = 0; lineno < current_number; lineno++){
+      getline (inFile,file_name);
+      if ((lineno >= last_number)||(lineno>= last_number-1 && last_number==1 )){
+//          cout << file_name<< endl;
+         url_list.push_back(file_name);
+      }
+    }
+
+     client.SendRequestsAndWaitForResponse(url_list,7); //request_file
+     last_number = current_number;
+     inFile.close();
+    }
+
     
     
     }

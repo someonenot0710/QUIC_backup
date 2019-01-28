@@ -103,15 +103,25 @@ void QuicSpdyClientBase::OnClose(QuicSpdyStream* stream) {
     std::string str1 = std::string(latest_response_headers_);
     std::string str2 ("org/");
     std::string str3 (".m4s");
+    std::string str4 ("_");
     std::size_t found1 = str1.find(str2);
     std::size_t found2 = str1.find(str3);
+    std::size_t found3 = str1.find_last_of(str4);
     std::string filename = str1.substr(found1+4,found2-found1);
-//    std::cout<<"filename: "<<filename<<std::endl;
+    std::string f = str1.substr(found3+1,found2-found3-1);
+//    std::cout<<"for file:" <<f<<std::endl;
 
+//    std::cout<<"filename: "<<filename<<std::endl;
+    std::string dir = ("/home/jerry/Desktop/for_quic/");    
     fstream log;
+    fstream log2;
     log.open ("/home/jerry/Desktop/for_quic/log.txt",fstream::app);
+    log2.open(dir+f,fstream::app);
     if (log.is_open())
     {
+        log2 <<filename<<"\n";
+        log2.close();
+
 	log <<filename<<"\n";
 //        log << latest_response_headers_ <<"\n";
         log.close();
